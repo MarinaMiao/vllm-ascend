@@ -23,6 +23,7 @@ import torch
 import torch_npu
 from vllm.config import get_current_vllm_config
 from vllm.distributed import get_ep_group
+from vllm.logger import init_logger
 
 from vllm_ascend.ascend_config import get_ascend_config
 from vllm_ascend.ascend_forward_context import _EXTRA_CTX
@@ -33,6 +34,8 @@ from vllm_ascend.utils import COMPRESSED_TENSORS_METHOD, maybe_trans_nz
 
 from .base import AscendLinearScheme, AscendMoEScheme, QuantType, get_moe_num_logical_experts
 from .registry import register_scheme
+
+logger = init_logger(__name__)
 
 
 @register_scheme("W4A8_DYNAMIC", "linear")
@@ -514,8 +517,23 @@ class AscendW4A8DynamicFusedMoEMethod(AscendMoEScheme):
         # Accuracy problem in nz format
         # layer.w13_weight.data = maybe_trans_nz(layer.w13_weight.data)
         # layer.w2_weight.data = maybe_trans_nz(layer.w2_weight.data)
+        # DEBUG: log weight state for compressed_tensors path (maybe_trans_nz already skipped)
+        logger.warning(
+            f"[W4A8 DEBUG] compressed_tensors path: "
+            f"w13_weight shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
+            f"npu_format={layer.w13_weight.data.npu_format}, "
+            f"w2_weight shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
+            f"npu_format={layer.w2_weight.data.npu_format}"
+        )
         layer.w13_weight.data = self.pack_to_int32(layer.w13_weight.data)
         layer.w2_weight.data = self.pack_to_int32(layer.w2_weight.data)
+        logger.warning(
+            f"[W4A8 DEBUG] compressed_tensors AFTER pack_to_int32: "
+            f"w13_weight shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
+            f"npu_format={layer.w13_weight.data.npu_format}, "
+            f"w2_weight shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
+            f"npu_format={layer.w2_weight.data.npu_format}"
+        )
 
     def process_weights_after_loading_modelslim(self, layer):
         layer.w13_weight.data = layer.w13_weight.data.transpose(1, 2).contiguous()
@@ -540,7 +558,36 @@ class AscendW4A8DynamicFusedMoEMethod(AscendMoEScheme):
 
         self.update_bias(layer, w13_bias, w2_bias)
 
+        # DEBUG: log weight state BEFORE maybe_trans_nz
+        logger.warning(
+            f"[W4A8 DEBUG] BEFORE maybe_trans_nz: "
+            f"w13_weight shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
+            f"npu_format={layer.w13_weight.data.npu_format}, "
+            f"w2_weight shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
+            f"npu_format={layer.w2_weight.data.npu_format}, "
+            f"new_quant_version={self.new_quant_version}"
+        )
+
         layer.w13_weight.data = maybe_trans_nz(layer.w13_weight.data)
         layer.w2_weight.data = maybe_trans_nz(layer.w2_weight.data)
+
+        # DEBUG: log weight state AFTER maybe_trans_nz, BEFORE pack_to_int32
+        logger.warning(
+            f"[W4A8 DEBUG] AFTER maybe_trans_nz / BEFORE pack_to_int32: "
+            f"w13_weight shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
+            f"npu_format={layer.w13_weight.data.npu_format}, "
+            f"w2_weight shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
+            f"npu_format={layer.w2_weight.data.npu_format}"
+        )
+
         layer.w13_weight.data = self.pack_to_int32(layer.w13_weight.data)
         layer.w2_weight.data = self.pack_to_int32(layer.w2_weight.data)
+
+        # DEBUG: log weight state AFTER pack_to_int32
+        logger.warning(
+            f"[W4A8 DEBUG] AFTER pack_to_int32: "
+            f"w13_weight shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
+            f"npu_format={layer.w13_weight.data.npu_format}, "
+            f"w2_weight shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
+            f"npu_format={layer.w2_weight.data.npu_format}"
+        )
