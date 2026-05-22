@@ -517,23 +517,8 @@ class AscendW4A8DynamicFusedMoEMethod(AscendMoEScheme):
         # Accuracy problem in nz format
         # layer.w13_weight.data = maybe_trans_nz(layer.w13_weight.data)
         # layer.w2_weight.data = maybe_trans_nz(layer.w2_weight.data)
-        # DEBUG: log weight state for compressed_tensors path (maybe_trans_nz already skipped)
-        logger.warning(
-            f"[W4A8 DEBUG] compressed_tensors path: "
-            f"w13_weight shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
-            f"npu_format={layer.w13_weight.data.npu_format}, "
-            f"w2_weight shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
-            f"npu_format={layer.w2_weight.data.npu_format}"
-        )
         layer.w13_weight.data = self.pack_to_int32(layer.w13_weight.data)
         layer.w2_weight.data = self.pack_to_int32(layer.w2_weight.data)
-        logger.warning(
-            f"[W4A8 DEBUG] compressed_tensors AFTER pack_to_int32: "
-            f"w13_weight shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
-            f"npu_format={layer.w13_weight.data.npu_format}, "
-            f"w2_weight shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
-            f"npu_format={layer.w2_weight.data.npu_format}"
-        )
 
     def process_weights_after_loading_modelslim(self, layer):
         layer.w13_weight.data = layer.w13_weight.data.transpose(1, 2).contiguous()
@@ -558,36 +543,23 @@ class AscendW4A8DynamicFusedMoEMethod(AscendMoEScheme):
 
         self.update_bias(layer, w13_bias, w2_bias)
 
-        # DEBUG: log weight state BEFORE maybe_trans_nz
-        logger.warning(
-            f"[W4A8 DEBUG] BEFORE maybe_trans_nz: "
-            f"w13_weight shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
-            f"npu_format={layer.w13_weight.data.npu_format}, "
-            f"w2_weight shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
-            f"npu_format={layer.w2_weight.data.npu_format}, "
-            f"new_quant_version={self.new_quant_version}"
-        )
-
         layer.w13_weight.data = maybe_trans_nz(layer.w13_weight.data)
         layer.w2_weight.data = maybe_trans_nz(layer.w2_weight.data)
 
-        # DEBUG: log weight state AFTER maybe_trans_nz, BEFORE pack_to_int32
+        # pack_to_int32() calls .view(torch.int32).contiguous() which destroys
+        # the FRACTAL_NZ physical layout while leaving npu_format marker as NZ,
+        # causing format mismatch. Use .view(torch.int32) alone to preserve NZ.
+        _w13_ptr_before = layer.w13_weight.data.data_ptr()
+        _w2_ptr_before = layer.w2_weight.data.data_ptr()
+        layer.w13_weight.data = layer.w13_weight.data.view(torch.int32)
+        layer.w2_weight.data = layer.w2_weight.data.view(torch.int32)
         logger.warning(
-            f"[W4A8 DEBUG] AFTER maybe_trans_nz / BEFORE pack_to_int32: "
-            f"w13_weight shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
-            f"npu_format={layer.w13_weight.data.npu_format}, "
-            f"w2_weight shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
-            f"npu_format={layer.w2_weight.data.npu_format}"
-        )
-
-        layer.w13_weight.data = self.pack_to_int32(layer.w13_weight.data)
-        layer.w2_weight.data = self.pack_to_int32(layer.w2_weight.data)
-
-        # DEBUG: log weight state AFTER pack_to_int32
-        logger.warning(
-            f"[W4A8 DEBUG] AFTER pack_to_int32: "
-            f"w13_weight shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
-            f"npu_format={layer.w13_weight.data.npu_format}, "
-            f"w2_weight shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
-            f"npu_format={layer.w2_weight.data.npu_format}"
+            f"[W4A8] modelslim weight packing: "
+            f"w13 shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
+            f"npu_format={torch_npu.get_npu_format(layer.w13_weight.data)} "
+            f"data_ptr_same={_w13_ptr_before == layer.w13_weight.data.data_ptr()}, "
+            f"w2 shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
+            f"npu_format={torch_npu.get_npu_format(layer.w2_weight.data)} "
+            f"data_ptr_same={_w2_ptr_before == layer.w2_weight.data.data_ptr()}, "
+            f"w13_first8={layer.w13_weight.data.flatten()[:8].tolist()}"
         )
