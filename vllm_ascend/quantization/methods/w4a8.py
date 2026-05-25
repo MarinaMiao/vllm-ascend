@@ -23,7 +23,6 @@ import torch
 import torch_npu
 from vllm.config import get_current_vllm_config
 from vllm.distributed import get_ep_group
-from vllm.logger import init_logger
 
 from vllm_ascend.ascend_config import get_ascend_config
 from vllm_ascend.ascend_forward_context import _EXTRA_CTX
@@ -34,8 +33,6 @@ from vllm_ascend.utils import COMPRESSED_TENSORS_METHOD, maybe_trans_nz
 
 from .base import AscendLinearScheme, AscendMoEScheme, QuantType, get_moe_num_logical_experts
 from .registry import register_scheme
-
-logger = init_logger(__name__)
 
 
 @register_scheme("W4A8_DYNAMIC", "linear")
@@ -543,23 +540,10 @@ class AscendW4A8DynamicFusedMoEMethod(AscendMoEScheme):
 
         self.update_bias(layer, w13_bias, w2_bias)
 
+        # Pack int8→int32 FIRST (while still in ND), THEN NZ.
+        # Interleave pack+NZ per weight to reduce peak memory
+        # (only one ND+NZ pair lives at a time).
+        layer.w13_weight.data = self.pack_to_int32(layer.w13_weight.data)
         layer.w13_weight.data = maybe_trans_nz(layer.w13_weight.data)
+        layer.w2_weight.data = self.pack_to_int32(layer.w2_weight.data)
         layer.w2_weight.data = maybe_trans_nz(layer.w2_weight.data)
-
-        # pack_to_int32() calls .view(torch.int32).contiguous() which destroys
-        # the FRACTAL_NZ physical layout while leaving npu_format marker as NZ,
-        # causing format mismatch. Use .view(torch.int32) alone to preserve NZ.
-        _w13_ptr_before = layer.w13_weight.data.data_ptr()
-        _w2_ptr_before = layer.w2_weight.data.data_ptr()
-        layer.w13_weight.data = layer.w13_weight.data.view(torch.int32)
-        layer.w2_weight.data = layer.w2_weight.data.view(torch.int32)
-        logger.warning(
-            f"[W4A8] modelslim weight packing: "
-            f"w13 shape={layer.w13_weight.shape} dtype={layer.w13_weight.dtype} "
-            f"npu_format={torch_npu.get_npu_format(layer.w13_weight.data)} "
-            f"data_ptr_same={_w13_ptr_before == layer.w13_weight.data.data_ptr()}, "
-            f"w2 shape={layer.w2_weight.shape} dtype={layer.w2_weight.dtype} "
-            f"npu_format={torch_npu.get_npu_format(layer.w2_weight.data)} "
-            f"data_ptr_same={_w2_ptr_before == layer.w2_weight.data.data_ptr()}, "
-            f"w13_first8={layer.w13_weight.data.flatten()[:8].tolist()}"
-        )
