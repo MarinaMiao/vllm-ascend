@@ -286,6 +286,15 @@ class FusedMC2CommImpl(MoECommMethod):
         if fused_experts_input.routing.log2phy is not None:
             topk_ids = fused_experts_input.routing.log2phy[topk_ids]
 
+        # # mrl
+        # import logging
+        # logger = logging.getLogger(__name__)
+        # logger.warning(
+        #     "==============================================================="
+        #     "type of .weights.w1_scale_bias: %s",
+        #     type(fused_experts_input.weights.w1_scale_bias)
+        # )
+        
         expert_tokens = None
         if envs_ascend.VLLM_ASCEND_ENABLE_FUSED_MC2 == 1:
             out = torch.empty_like(fused_experts_input.hidden_states)
@@ -296,8 +305,8 @@ class FusedMC2CommImpl(MoECommMethod):
                 expert_idx=topk_ids,
                 scale1=fused_experts_input.weights.w1_scale,
                 scale2=fused_experts_input.weights.w2_scale,
-                bias1=fused_experts_input.weights.w1_scale_bias,
-                bias2=fused_experts_input.weights.w2_scale_bias,
+                bias1=[fused_experts_input.weights.w1_scale_bias.data] if fused_experts_input.weights.w1_scale_bias is not None else [],
+                bias2=[fused_experts_input.weights.w2_scale_bias.data] if fused_experts_input.weights.w2_scale_bias is not None else [],
                 probs=fused_experts_input.topk_weights.to(torch.float32),
                 group=self.token_dispatcher.moe_all_to_all_group_name,
                 max_output_size=65536,

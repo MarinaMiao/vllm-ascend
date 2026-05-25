@@ -540,7 +540,10 @@ class AscendW4A8DynamicFusedMoEMethod(AscendMoEScheme):
 
         self.update_bias(layer, w13_bias, w2_bias)
 
-        layer.w13_weight.data = maybe_trans_nz(layer.w13_weight.data)
-        layer.w2_weight.data = maybe_trans_nz(layer.w2_weight.data)
+        # Pack int8→int32 FIRST (while still in ND), THEN NZ.
+        # Interleave pack+NZ per weight to reduce peak memory
+        # (only one ND+NZ pair lives at a time).
         layer.w13_weight.data = self.pack_to_int32(layer.w13_weight.data)
+        layer.w13_weight.data = maybe_trans_nz(layer.w13_weight.data)
         layer.w2_weight.data = self.pack_to_int32(layer.w2_weight.data)
+        layer.w2_weight.data = maybe_trans_nz(layer.w2_weight.data)
