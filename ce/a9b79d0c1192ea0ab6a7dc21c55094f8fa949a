@@ -139,6 +139,9 @@ vllm_ascend/attention/context_parallel/dsa_v41_cp.py
   s_480f842b4b95f0::t_6405f826afe143 382,384-389
   s_480f842b4b95f0::t_62f3c35bda3f14 5,338-339,359,370-371,375,390-391
   s_480f842b4b95f0::t_e54ba96952ff20 337,340
+  s_480f842b4b95f0::t_2e83dfa2457372 361,365-367
+  s_480f842b4b95f0::t_88af01b5b29ee0 418
+  s_480f842b4b95f0::t_067d97a5d6a04d 377
 vllm_ascend/attention/context_parallel/pcp_owner_kv.py
   s_480f842b4b95f0::t_114672d2f262aa 477-484
   s_480f842b4b95f0::t_52cb92a377f49b 77-100
