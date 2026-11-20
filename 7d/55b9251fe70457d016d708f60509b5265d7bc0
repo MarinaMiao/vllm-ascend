@@ -7,6 +7,8 @@ vllm_ascend/models/deepseek_v41/cache_config.py
   s_480f842b4b95f0::t_3f460f1d9a466f 395-397,399-421,433,437-442,444-448,450-474
   s_480f842b4b95f0::t_b1ce2c1139d94a 10
   s_480f842b4b95f0::t_66137bf333b0da 47-86,88-109
+  s_480f842b4b95f0::t_e52d9379d6f3a4 323-324
+  s_480f842b4b95f0::t_aad5ecbd1d0c0b 382
 vllm_ascend/core/kv_cache_config_builder.py
   s_480f842b4b95f0::t_588d34414ff7e7 111
 vllm_ascend/attention/dsa_v41.py
@@ -42,6 +44,7 @@ vllm_ascend/attention/context_parallel/pcp_owner_kv.py
   s_480f842b4b95f0::t_bb76a1522e796e 1-931
 tests/ut/attention/test_dsa_v41_cp.py
   s_480f842b4b95f0::t_c2da207afae88f 1547-1548,1656-1725
+  s_480f842b4b95f0::t_e73133be642c87 1654-1655
 vllm_ascend/attention/context_parallel/pcp_owner_timing.py
   s_480f842b4b95f0::t_f8ee1bfe543b57 1-76
 vllm_ascend/attention/context_parallel/pcp_owner_stage.py
