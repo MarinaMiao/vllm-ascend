@@ -1,0 +1,2423 @@
+.agents/skills/vllm-ascend-release/references/ref-past-release-notes-highlight.md
+  s_e852a7e57a6823::t_f99c6a7ea3d873 94,189
+.devcontainer/310p/devcontainer.json
+  s_e852a7e57a6823::t_4376beb7f1f181 1-63
+.devcontainer/a2/devcontainer.json
+  s_e852a7e57a6823::t_3fd6022e133b0a 1-64
+.devcontainer/a3/devcontainer.json
+  s_e852a7e57a6823::t_d4d2915a019cb3 1-64
+.devcontainer/a5/devcontainer.json
+  s_e852a7e57a6823::t_28a5d537d65e1d 1-66
+.devcontainer/cpu/devcontainer.json
+  s_e852a7e57a6823::t_fd8b673db058cb 1-58
+.github/CODEOWNERS
+  s_e852a7e57a6823::t_ce02b49e299ca1 36-47,55,64,69-71,97,106,117,120,133,221,237,245,248
+.github/PULL_REQUEST_TEMPLATE.md
+  s_e852a7e57a6823::t_f0b02def66eaed 28-41
+.github/actionlint.yaml
+  s_e852a7e57a6823::t_3fb727518c458c 23,27
+.github/actions/dispatch-daily-issue/action.yml
+  s_e852a7e57a6823::t_8429559408d208 1-65
+.github/agent-review/L1/checklist.md
+  s_e852a7e57a6823::t_8813c7940d762a 1-55
+.github/agent-review/L2/ci/checklist.md
+  s_e852a7e57a6823::t_561d35483b29c7 1-40
+.github/agent-review/L2/model-execution/checklist.md
+  s_e852a7e57a6823::t_d7a436cd30c1b5 1-40
+.github/agent-review/L2/patch/checklist.md
+  s_e852a7e57a6823::t_00315ae43279fb 1-29
+.github/agent-review/L2/release-note/checklist.md
+  s_e852a7e57a6823::t_9119df86fe1288 1-39
+.github/agent-review/L2/speculative-decoding/checklist.md
+  s_e852a7e57a6823::t_9744e5bb3dcfd6 1-119
+.github/agent-review/README.md
+  s_e852a7e57a6823::t_288964c7700919 1-42
+.github/agent-review/allowlist.txt
+  s_e852a7e57a6823::t_7c78b345ce2384 1-19
+.github/agent-review/context/architecture.md
+  s_e852a7e57a6823::t_8a9b3346f4f376 1-50
+.github/agent-review/domains.yaml
+  s_e852a7e57a6823::t_a3b5148e594198 1-53
+.github/agent-review/instructions.md
+  s_e852a7e57a6823::t_845643bd49b651 1-74
+.github/agent-review/prompt_template.md
+  s_e852a7e57a6823::t_145416a601a7a7 1-30
+.github/vllm-release-tag.commit
+  s_e852a7e57a6823::t_d8c71cee666e8c 1
+.github/workflows/_build_csrc_cache.yaml
+  s_e852a7e57a6823::t_2623c924c8375a 71
+.github/workflows/_e2e_nightly_multi_node.yaml
+  s_e852a7e57a6823::t_268a4ecca29259 150-151,273,279-281,592-603
+.github/workflows/_e2e_nightly_single_node.yaml
+  s_e852a7e57a6823::t_c5e8b27bee348b 140-141,178,422-430
+.github/workflows/_e2e_nightly_single_node_560t.yaml
+  s_e852a7e57a6823::t_c8e145ac371a19 140-141,177,415-423
+.github/workflows/_e2e_nightly_single_node_models.yaml
+  s_e852a7e57a6823::t_bbd8f4d65cfdb8 72-73,102,330-338
+.github/workflows/_e2e_profile_parse.yaml
+  s_e852a7e57a6823::t_365e886dafbd2f 36
+.github/workflows/_nightly_image_build.yaml
+  s_e852a7e57a6823::t_ba347ab62aea4c 113
+.github/workflows/_schedule_ai_review_image_build.yaml
+  s_e852a7e57a6823::t_c69ee57711a2c4 1-61
+.github/workflows/_selected_tests.yaml
+  s_e852a7e57a6823::t_71178d2967c0af 22-26,76-77,118,175-200,250,370,393,410-418,429,435-437,442-443,449,452-453,458,465-466,469-474,502-507,645-647,696-699,736-740,779-781
+.github/workflows/_selected_tests_upstream.yaml
+  s_e852a7e57a6823::t_d3d9659337e2a8 81
+.github/workflows/ai_review.yml
+  s_e852a7e57a6823::t_d41b4179b453c9 1-117
+.github/workflows/bot_ci_gate_comment.yaml
+  s_e852a7e57a6823::t_cce029a38a2e59 61,64-69,93,100-105,126-138,196-218,220,223-235,238-240,243-244,299-303
+.github/workflows/bot_ci_gate_refresh.yaml
+  s_e852a7e57a6823::t_d9f9bc0bbc0ca5 59-61,92,111-116,119,134-140,142,154
+.github/workflows/bot_issue_manage.yaml
+  s_e852a7e57a6823::t_ba00256475dac6 12
+.github/workflows/bot_merge_conflict.yaml
+  s_e852a7e57a6823::t_844a3ff1cbfbfd 18
+.github/workflows/configs/nightly_config.yaml
+  s_e852a7e57a6823::t_55fdc72ed20bf8 144-145
+.github/workflows/configs/weekly_config.yaml
+  s_e852a7e57a6823::t_0c13154e60ca64 50-51
+.github/workflows/dockerfiles/Dockerfile.ai-review
+  s_e852a7e57a6823::t_1047113ebc2099 1-65
+.github/workflows/dockerfiles/Dockerfile.buildwheel.310p
+  s_e852a7e57a6823::t_a7825c845c6dc4 34
+.github/workflows/dockerfiles/Dockerfile.buildwheel.a2
+  s_e852a7e57a6823::t_52be41e0ff42f0 34
+.github/workflows/dockerfiles/Dockerfile.buildwheel.a3
+  s_e852a7e57a6823::t_ceba7cc0fdc07a 34
+.github/workflows/dockerfiles/Dockerfile.buildwheel.a5
+  s_e852a7e57a6823::t_d37acbfb6c8cc8 37
+.github/workflows/dockerfiles/Dockerfile.lint
+  s_e852a7e57a6823::t_94c44886c684d3 45-46
+.github/workflows/dockerfiles/Dockerfile.nightly.310p
+  s_e852a7e57a6823::t_81376b8fdaebcf 26-27
+.github/workflows/dockerfiles/Dockerfile.nightly.a2
+  s_e852a7e57a6823::t_d520164ed5ced1 26-27
+.github/workflows/dockerfiles/Dockerfile.nightly.a3
+  s_e852a7e57a6823::t_008b23c78d57ab 26-27
+.github/workflows/dockerfiles/Dockerfile.nightly.a5
+  s_e852a7e57a6823::t_b11603c37b5ac0 26-27
+.github/workflows/issue_wait_feedback_command.yml
+  s_e852a7e57a6823::t_6314f058e62751 13
+.github/workflows/misc/model_dataset_list.json
+  s_e852a7e57a6823::t_1145f5fdb6ed05 332
+.github/workflows/post_fork_coverage_comment.yaml
+  s_e852a7e57a6823::t_13eaa3cc09b335 23-29,60,78,83-85,105-110,112-113
+.github/workflows/pr_cancel_command.yml
+  s_e852a7e57a6823::t_75af2dd523e90f 37
+.github/workflows/pr_cherry_pick_command.yml
+  s_e852a7e57a6823::t_49b6239ad89072 37
+.github/workflows/pr_close_job.yaml
+  s_e852a7e57a6823::t_3b4a54df89e9dd 14,56
+.github/workflows/pr_e2e_command.yml
+  s_e852a7e57a6823::t_61e597ee498616 37,232
+.github/workflows/pr_nightly_command.yml
+  s_e852a7e57a6823::t_ae5d411ab1f003 60,541-542,544-549,551-585,587-595,597-598,601-613,624,627-632,634-720,722,725,727,729-741,745,747,749-758,763-770
+.github/workflows/pr_refresh_ci_gate.yaml
+  s_e852a7e57a6823::t_4f36867eb161ec 22-23,70,81
+.github/workflows/pr_rerun_command.yml
+  s_e852a7e57a6823::t_6a2a7d039a0ff9 37
+.github/workflows/pr_revert_command.yml
+  s_e852a7e57a6823::t_bbadc90c06d6b4 37
+.github/workflows/pr_run_command.yml
+  s_e852a7e57a6823::t_21ced0f6ed5404 26-32,50,216-223,226,232-235,243-247,284,291-312,361,381
+.github/workflows/pr_supplement_new_tests.yaml
+  s_e852a7e57a6823::t_2bd6335f4ee0d9 22
+.github/workflows/pr_test.yaml
+  s_e852a7e57a6823::t_41c3ab8ceccf31 272,840-842,864,874-879,884-885,891-935,937-941,949-952,956-963,966-969,999,1002-1004,1012-1013,1017-1026,1030-1043,1045-1053,1055-1068,1070-1079,1084-1089,1094-1113
+.github/workflows/publish_daily_issue.yaml
+  s_e852a7e57a6823::t_13380f50d5e629 1-63
+.github/workflows/recipes-preview-comment.yml
+  s_e852a7e57a6823::t_2effd815b93369 42,125
+.github/workflows/schedule_daily_test.yaml
+  s_e852a7e57a6823::t_57d69d07388f87 70,152-153,155,245,275,305,335,341
+.github/workflows/schedule_doc_getting_started_test.yaml
+  s_e852a7e57a6823::t_5651ee50181190 64
+.github/workflows/schedule_doc_linkcheck.yaml
+  s_e852a7e57a6823::t_15733f19a8f061 81
+.github/workflows/schedule_doc_translate.yaml
+  s_e852a7e57a6823::t_76a23f3b075881 35-39,47,51-54,113-116,118,183,197-198
+.github/workflows/schedule_e2e_upstream_test.yaml
+  s_e852a7e57a6823::t_44c4cb7302c7d0 37-39,53,86-87,178-183,186,189,191,199,240-241,329-334,337,340,342,467-472,475,478,480,483
+.github/workflows/schedule_image_build_and_push.yaml
+  s_e852a7e57a6823::t_eab5f417d105d9 58
+.github/workflows/schedule_main2main.yaml
+  s_e852a7e57a6823::t_d69e178e3da9d2 27,29,47,322-326,351-353,360,549-551
+.github/workflows/schedule_nightly_image_build_with_base.yaml
+  s_e852a7e57a6823::t_f80a8b69741cd3 82
+.github/workflows/schedule_nightly_test_310p.yaml
+  s_e852a7e57a6823::t_5b102d0e9a1b8d 115,147,355
+.github/workflows/schedule_nightly_test_a2.yaml
+  s_e852a7e57a6823::t_619772a6ce1300 24,332,385,514-515,548-549
+.github/workflows/schedule_nightly_test_a3.yaml
+  s_e852a7e57a6823::t_c2645fbdda7319 25,151,331,388,444,499,634
+.github/workflows/schedule_nightly_test_a3_560t.yaml
+  s_e852a7e57a6823::t_0494dab94eba8f 24,112,141,312,365,431
+.github/workflows/schedule_nightly_test_a5.yaml
+  s_e852a7e57a6823::t_176510059f4727 23,150,331,387
+.github/workflows/schedule_release_code_and_wheel.yml
+  s_e852a7e57a6823::t_9026741fa4a586 43,548-549
+.github/workflows/schedule_stale_manage.yaml
+  s_e852a7e57a6823::t_25b1857c119746 31
+.github/workflows/schedule_test_coverage.yaml
+  s_e852a7e57a6823::t_a5cf645cbd700e 48
+.github/workflows/schedule_weekly_test_310p.yaml
+  s_e852a7e57a6823::t_0b049ce547c550 103,135,300
+.github/workflows/schedule_weekly_test_a3.yaml
+  s_e852a7e57a6823::t_bc79668099ee7b 135,427
+.github/workflows/schedule_weekly_test_a3_560t.yaml
+  s_e852a7e57a6823::t_c74c20743d78f2 96,125,336
+.github/workflows/scripts/ai_review.py
+  s_e852a7e57a6823::t_04d667c0c25425 1-871
+.github/workflows/scripts/codeowner_gate.py
+  s_e852a7e57a6823::t_95d1d413ffaae0 18-19
+.github/workflows/scripts/coverage_comment.py
+  s_e852a7e57a6823::t_ade85b29d6593c 25,27,31-37,39-43,45-46,50,54,57-73,75-77,84-167,175-176,181-183,185-195,197,202
+.github/workflows/scripts/estimated_times.yaml
+  s_e852a7e57a6823::t_97366e99538bc0 82-83,94,107,122-123,149,151,165,175,183,185-186,206-247
+.github/workflows/scripts/po_translate.py
+  s_e852a7e57a6823::t_83753738be00c2 32-36,56,130,133,138,145,151,153-154,157,161-162,164,171-183,222-230,239,594,597-605,623-625,627,630,632-635,637-642
+.github/workflows/scripts/refresh_ci_gate.py
+  s_e852a7e57a6823::t_6fbbd690742260 28-36,40-44,50-62,65-66,80,128-139,144,184,188-194,212-220,222,226,229-242,274,288,298-307,315,317-319,321,324,334-336
+.github/workflows/scripts/run_selected_tests.sh
+  s_e852a7e57a6823::t_3047ec2a0d0475 213-215
+.github/workflows/scripts/test_ai_review.py
+  s_e852a7e57a6823::t_ec9f6cde87fde1 1-304
+.github/workflows/scripts/test_config.yaml
+  s_e852a7e57a6823::t_196c8fcd13a637 90
+.github/workflows/scripts/test_refresh_ci_gate.py
+  s_e852a7e57a6823::t_0f78481f20b3af 142-145,186,192-200,233-259,266,274,283,346-347,366-368,371-374,376-384
+.github/workflows/scripts/update_daily_issue.py
+  s_e852a7e57a6823::t_4e639f71308420 1-199
+.github/workflows/scripts/upstream_config.yaml
+  s_e852a7e57a6823::t_7447842a88c5e9 1769-1923,1958-1969
+.github/workflows/slash_command_dispatch.yml
+  s_e852a7e57a6823::t_a5d9ee691f5c95 27
+AGENTS.md
+  s_e852a7e57a6823::t_7b13f1c35ce352 244-249,272-273
+Dockerfile
+  s_e852a7e57a6823::t_6d6271295af16d 35,70-71
+Dockerfile.310p
+  s_e852a7e57a6823::t_c6782b2e7b850d 33,69-70
+Dockerfile.310p.openEuler
+  s_e852a7e57a6823::t_666a965a562d00 32,67-68
+Dockerfile.a3
+  s_e852a7e57a6823::t_f1123d64febc37 38,74-75
+Dockerfile.a3.openEuler
+  s_e852a7e57a6823::t_0d151bdbd8d3bd 35,70-71
+Dockerfile.a5
+  s_e852a7e57a6823::t_8aac92dd6edf90 38,78-79,88,91,93,101-103,109-111
+Dockerfile.a5.openEuler
+  s_e852a7e57a6823::t_6c34b4c558069c 35,75-76,85-92,97-99,105-107
+Dockerfile.openEuler
+  s_e852a7e57a6823::t_c2a11f3c683b57 35,70-71
+README.md
+  s_e852a7e57a6823::t_f02c822643d9fa 101
+README.zh.md
+  s_e852a7e57a6823::t_1c2134e7cc264c 103
+csrc/attention/quant_lightning_indexer_v2/README.md
+  s_e852a7e57a6823::t_1c64bb7c77e95e 57-58
+csrc/attention/quant_lightning_indexer_v2/docs/aclnnQuantLightningIndexerV2.md
+  s_e852a7e57a6823::t_8f2a8b0c57e49a 46,556,625,638
+csrc/attention/quant_lightning_indexer_v2/op_host/quant_lightning_indexer_v2_infershape.cpp
+  s_e852a7e57a6823::t_21a8cd369093ee 34,112-128,144
+csrc/attention/quant_lightning_indexer_v2/op_host/quant_lightning_indexer_v2_tiling.cpp
+  s_e852a7e57a6823::t_a537f7a6337f1b 244-245,510-569,1928-1937,1944-1975
+csrc/attention/quant_lightning_indexer_v2/op_host/quant_lightning_indexer_v2_tiling.h
+  s_e852a7e57a6823::t_62fdd304977fe6 61-62,66,173
+csrc/attention/quant_lightning_indexer_v2/op_host/vllm_ascend_quant_lightning_indexer_v2_def.cpp
+  s_e852a7e57a6823::t_f7936bd3f2fbde 83-90,101-104
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch22/quant_lightning_indexer_v2_common_arch22.h
+  s_e852a7e57a6823::t_95e5f3c75f743d 25-64,112-115,164,204-207,209-212
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch22/quant_lightning_indexer_v2_kernel_arch22.h
+  s_e852a7e57a6823::t_0aaa4910bcf2bb 59-63,75-76,78-79,106-108,139-147,160-162,217-220,365,374,392-398,472-473,485-490,527-529,544-549,579-590,593-614,621,634-636,643-650,659-660,716-751,764-771,797-798,924-935,973-1051,1069-1074,1082-1089
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch22/quant_lightning_indexer_v2_service_cube_arch22.h
+  s_e852a7e57a6823::t_0726a35e25d116 49-54,115-117,143-155,269-278,293,317-320,491-577,610-611,820-825,830
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch22/quant_lightning_indexer_v2_service_vector_arch22.h
+  s_e852a7e57a6823::t_5fc66b8741b295 53-54,56-57,60-61,64-84,98-99,108-110,112-150,163-191,229,335,355-358,372-386,432-433,438,444-445,451-452,485-488,707-719,721-722,724-725,727,1078-1149,1155-1160,1207-1330,1332-1772,1848,1921,1926,1939,2009-2014,2025-2028,2040-2042,2078-2191,2211-2217,2269-2272,2282-2287,2289-2293,2316-2319,2364-2368
+csrc/attention/quant_lightning_indexer_v2/op_kernel/arch22/quant_lightning_indexer_v2_vector.h
+  s_e852a7e57a6823::t_eea1f1f3d31c75 169-175,201-207,280-294
+csrc/attention/quant_lightning_indexer_v2/op_kernel/quant_lightning_indexer_v2.cpp
+  s_e852a7e57a6823::t_f060986c3a7fd6 37,42-44,53-55
+csrc/attention/quant_lightning_indexer_v2/quant_lightning_indexer_v2_torch_adpt.h
+  s_e852a7e57a6823::t_f57416731b89b8 122,132-133,180,190-191,212,215,218,221,224-226,229,237-239,248-252,254-255
+csrc/attention/quant_lightning_indexer_v2/torch_extension/csrc/quant_lightning_indexer.cpp
+  s_e852a7e57a6823::t_e022ae371d38c4 92,95,97-98,121,130-132,215-218,221-225,232,241-242,257,260,263,266,269-270,273,298-305,310-320,322-323,325-332
+csrc/attention/quant_lightning_indexer_v2/torch_extension/quant_lightning_indexer.py
+  s_e852a7e57a6823::t_03ee0e74705d35 11-12,69,102,195,218-222,229,232-233,265,307,335,362,396,425,559-644,646-668,727,755-756,786-789,817-825,827-846,848,873
+csrc/attention/quant_lightning_indexer_v2_metadata/docs/aclnnQuantLightningIndexerV2Metadata.md
+  s_e852a7e57a6823::t_d9e161b3a3071d 37,322,398,430
+csrc/attention/quant_lightning_indexer_v2_metadata/op_api/quant_lightning_indexer_v2_metadata.cpp
+  s_e852a7e57a6823::t_82f1a189e6fef5 32-35,40-42,52
+csrc/attention/quant_lightning_indexer_v2_metadata/op_api/quant_lightning_indexer_v2_metadata.h
+  s_e852a7e57a6823::t_a096738ba9e66a 20-24
+csrc/attention/quant_lightning_indexer_v2_metadata/op_graph/quant_lightning_indexer_v2_metadata_proto.h
+  s_e852a7e57a6823::t_da5f0624a24905 29-33
+csrc/attention/quant_lightning_indexer_v2_metadata/op_host/op_api/aclnn_quant_lightning_indexer_v2_metadata.cpp
+  s_e852a7e57a6823::t_7de91bc66beb3a 40-44,56-59,118-124,136-139
+csrc/attention/quant_lightning_indexer_v2_metadata/op_host/op_api/aclnn_quant_lightning_indexer_v2_metadata.h
+  s_e852a7e57a6823::t_02d5a06c856bb0 25-29
+csrc/attention/quant_lightning_indexer_v2_metadata/op_host/op_api/quant_lightning_indexer_v2_metadata.cpp
+  s_e852a7e57a6823::t_7a72e9bc784d7c 32-35,40-42,52
+csrc/attention/quant_lightning_indexer_v2_metadata/op_host/op_api/quant_lightning_indexer_v2_metadata.h
+  s_e852a7e57a6823::t_a8716abaa4c3bf 20-24
+csrc/attention/quant_lightning_indexer_v2_metadata/op_kernel_aicpu/quant_lightning_indexer_v2_metadata_aicpu.cpp
+  s_e852a7e57a6823::t_ebfb2d147f9152 38,79-80,107,218-253,449-460
+csrc/attention/quant_lightning_indexer_v2_metadata/op_kernel_aicpu/quant_lightning_indexer_v2_metadata_aicpu.h
+  s_e852a7e57a6823::t_997af0cbb7b339 233,286-289,337-338
+csrc/attention/quant_sparse_lightning_indexer_metadata/CMakeLists.txt
+  s_e852a7e57a6823::t_827ca9f8f250cb 1-17
+csrc/attention/quant_sparse_lightning_indexer_metadata/README.md
+  s_e852a7e57a6823::t_3423d65504e603 1-46
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_api/aclnn_quant_sparse_lightning_indexer_metadata.cpp
+  s_e852a7e57a6823::t_f22829abc892bd 1-144
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_api/aclnn_quant_sparse_lightning_indexer_metadata.h
+  s_e852a7e57a6823::t_9d6560f90ebfaf 1-37
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_api/quant_sparse_lightning_indexer_metadata.cpp
+  s_e852a7e57a6823::t_0a49cd101d9123 1-59
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_api/quant_sparse_lightning_indexer_metadata.h
+  s_e852a7e57a6823::t_b9425b48ce4b8e 1-26
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_graph/quant_sparse_lightning_indexer_metadata_proto.h
+  s_e852a7e57a6823::t_5eff9af75aee8a 1-52
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_host/CMakeLists.txt
+  s_e852a7e57a6823::t_5fac95ced65239 1-12
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_host/op_api/aclnn_quant_sparse_lightning_indexer_metadata.cpp
+  s_e852a7e57a6823::t_b413ca0ae87ef7 1-145
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_host/op_api/aclnn_quant_sparse_lightning_indexer_metadata.h
+  s_e852a7e57a6823::t_3c62f3b09ca141 1-38
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_host/op_api/quant_sparse_lightning_indexer_metadata.cpp
+  s_e852a7e57a6823::t_a6af77295b8504 1-59
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_host/op_api/quant_sparse_lightning_indexer_metadata.h
+  s_e852a7e57a6823::t_913ba95a3bf215 1-26
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_host/quant_sparse_lightning_indexer_metadata_check.h
+  s_e852a7e57a6823::t_085b0a7c53fe96 1-538
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_host/quant_sparse_lightning_indexer_metadata_infershape.cpp
+  s_e852a7e57a6823::t_9fba0b706b3c8e 1-38
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_kernel_aicpu/CMakeLists.txt
+  s_e852a7e57a6823::t_b07495706e3d45 1-29
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_kernel_aicpu/quant_sparse_lightning_indexer_metadata_aicpu.cpp
+  s_e852a7e57a6823::t_6105b0bc9786c4 1-1049
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_kernel_aicpu/quant_sparse_lightning_indexer_metadata_aicpu.h
+  s_e852a7e57a6823::t_83c32ca2de1627 1-344
+csrc/attention/quant_sparse_lightning_indexer_metadata/op_kernel_aicpu/quant_sparse_lightning_indexer_metadata_aicpu.json
+  s_e852a7e57a6823::t_01d75772bfc100 1-15
+csrc/attention/quant_sparse_lightning_indexer_metadata/torch_extension/csrc/quant_sparse_lightning_indexer_metadata.cpp
+  s_e852a7e57a6823::t_47d1737f23d833 1-60
+csrc/attention/sparse_flash_attention/docs/aclnnSparseFlashAttention.md
+  s_e852a7e57a6823::t_86ade7246b820f 27,427,496,514
+csrc/attention/sparse_flash_mla/docs/aclnnSparseFlashMla.md
+  s_e852a7e57a6823::t_b6a7b8ef027f41 98,540,682,717
+csrc/attention/sparse_flash_mla/docs/address_cache_a2a3.md
+  s_e852a7e57a6823::t_84b8421f3153fb 1-44
+csrc/attention/sparse_flash_mla/docs/design.md
+  s_e852a7e57a6823::t_700b6a8aeb6546 33,349,374
+csrc/attention/sparse_flash_mla/op_host/sparse_flash_mla_tiling.cpp
+  s_e852a7e57a6823::t_7a3268f118c5f0 1106-1108,2530-2558
+csrc/attention/sparse_flash_mla/op_host/sparse_flash_mla_tiling.h
+  s_e852a7e57a6823::t_baef9de4aa7270 256
+csrc/attention/sparse_flash_mla/op_kernel/arch22/sparse_flash_mla_common_arch22.h
+  s_e852a7e57a6823::t_92d527b8c37e63 42,53
+csrc/attention/sparse_flash_mla/op_kernel/arch22/sparse_flash_mla_csa_block_vector.h
+  s_e852a7e57a6823::t_744d1f1f3fda0f 70-74,130,147-149,192,211-214,244-252,560-629,727-762,797-823,831-844
+csrc/attention/sparse_flash_mla/op_kernel/sparse_flash_mla.cpp
+  s_e852a7e57a6823::t_c8816bb4a90e85 112,123
+csrc/attention/sparse_flash_mla/op_kernel/sparse_flash_mla_template_tiling_key.h
+  s_e852a7e57a6823::t_6694f27f1cffc8 46-47,49,62,91,104
+csrc/attention/sparse_flash_mla_metadata/docs/aclnnSparseFlashMlaMetadata.md
+  s_e852a7e57a6823::t_0e454c05b9dd7f 77,461,678,747
+csrc/build_aclnn.sh
+  s_e852a7e57a6823::t_ffdb062fb5d7d8 164
+csrc/moe/dequant_situ_quant/docs/aclnnDequantSituQuant.md
+  s_e852a7e57a6823::t_c32de1f348257f 35,82,93
+csrc/moe/hc_post/op_kernel/hc_post.cpp
+  s_e852a7e57a6823::t_26df7e776dc345 20-21,27-28,55-60
+csrc/moe/hc_post/op_kernel/hc_post_d_split.h
+  s_e852a7e57a6823::t_6f7fd47708ea21 13,28-30,52,55,57,64-65,69-76,110-113,130,133-136,139-142,144-148,150-153,156-158,161-162,165-167,170-171,183-185,198-199,204,208,212-214,218,223-224,228-229,231,234-235,239,243-245,249,253,258-259,274-275,281,290-298,303-308,323,325,332-335,340-341,343-344,346-347,349-350,357-363,374-375,378-381,386,393-408,411,413,416,423-424
+csrc/moe/hc_pre/op_host/hc_pre_tiling.cpp
+  s_e852a7e57a6823::t_8d1e8650c1441f 238-243,263-267,270-271,289,315,318,340,345-346,551-552
+csrc/moe/hc_pre/op_kernel/hc_pre_m_k_split_core.h
+  s_e852a7e57a6823::t_c394a2aff2dfd9 265-266,287-317,327,381,733,743-744,783-787,934,946-947,1034-1038,1113
+csrc/moe/moe_gating_top_k_hash/op_host/moe_gating_top_k_hash_def.cpp
+  s_e852a7e57a6823::t_f1db1d26c16e86 97-111
+csrc/moe/moe_gating_top_k_hash/op_host/moe_gating_top_k_hash_proto.cpp
+  s_e852a7e57a6823::t_7acdacf64a05cd 56
+csrc/moe/moe_gating_top_k_hash/op_host/moe_gating_top_k_hash_tiling.cpp
+  s_e852a7e57a6823::t_025727f0227afa 41,261-265,321-332
+csrc/moe/moe_gating_top_k_hash/op_host/moe_gating_top_k_hash_tiling.h
+  s_e852a7e57a6823::t_dbb3f16bfa44a2 55,83
+csrc/moe/moe_gating_top_k_hash/op_host/moe_gating_top_k_hash_tiling_arch35.h
+  s_e852a7e57a6823::t_5d8b7487ff6a57 48,273-277,306-317
+csrc/moe/moe_gating_top_k_hash/op_kernel/moe_gating_top_k_hash.cpp
+  s_e852a7e57a6823::t_cf92c4b3c72f74 39,68,74,80,86,92,106,112,118,124,130
+csrc/moe/moe_gating_top_k_hash/op_kernel/moe_gating_top_k_hash_eplb_map.h
+  s_e852a7e57a6823::t_53459ec51c239c 1-65
+csrc/moe/moe_gating_top_k_hash/op_kernel/moe_gating_top_k_hash_regbase.h
+  s_e852a7e57a6823::t_d941625724b791 21,41,87,1490,1498,1504-1505
+csrc/moe/moe_gating_top_k_hash/op_kernel/moe_gating_top_k_hash_without_group.h
+  s_e852a7e57a6823::t_d6f4dc72744282 18,28,45,322,352,358-359
+csrc/torch_binding.cpp
+  s_e852a7e57a6823::t_d0528c9a65cd5b 945-946,965-975,1039-1041,1048,1369,1493-1531,1564,1574-1575,3212-3221,3251-3253,3377-3378
+csrc/torch_binding_meta.cpp
+  s_e852a7e57a6823::t_d1d34a5436ef5d 741-742,760-770,1040-1059,1934-1935
+docs/hooks/macros_main.py
+  s_e852a7e57a6823::t_8b75d4fa9e7043 72-78
+docs/hooks/nav_titles.py
+  s_e852a7e57a6823::t_f6889b8d9e31df 117-122,196-199
+docs/qwen38_mooncake_basic_pooling.md
+  s_e852a7e57a6823::t_da511fb18c392f 23,85,95-96
+docs/source/_templates/feature_template.md
+  s_e852a7e57a6823::t_ccde8d6bc8fc68 95
+docs/source/_templates/feature_template_zh.md
+  s_e852a7e57a6823::t_16c8c9323ac01b 95
+docs/source/community/ai-review.md
+  s_e852a7e57a6823::t_ed6f985276bbef 1,3,5,7,9-28,30,32-34,36,38,40-44,46,48,50,52-108
+docs/source/community/contributors.md
+  s_e852a7e57a6823::t_7eed6c5dddef87 33,48,341
+docs/source/community/governance.md
+  s_e852a7e57a6823::t_e3ca4245d116f8 27,29,33
+docs/source/community/index.md
+  s_e852a7e57a6823::t_d66a9d772d7986 15
+docs/source/community/slash-commands.md
+  s_e852a7e57a6823::t_3a31945cf15e49 7,41,112,170,194,212,224-235,247,260,283-292,295-297,310-312,325-327
+docs/source/community/user_stories/index.md
+  s_e852a7e57a6823::t_420bdaa35299f3 7,13
+docs/source/community/versioning_policy.md
+  s_e852a7e57a6823::t_5035f368d8918d 24,96-98,100-101,108,171,185
+docs/source/developer_guide/Design_Documents/ACL_Graph.md
+  s_e852a7e57a6823::t_f224661a2fcc0d 14,113
+docs/source/developer_guide/Design_Documents/KV_Cache_Pool_Guide.md
+  s_e852a7e57a6823::t_0ccb97a6dc98a0 13,54,69
+docs/source/developer_guide/Design_Documents/ModelRunner_prepare_inputs.md
+  s_e852a7e57a6823::t_ba8553ce83e904 49,109,137,194,196
+docs/source/developer_guide/Design_Documents/add_custom_aclnn_op.md
+  s_e852a7e57a6823::t_24a2f52206bbd4 22
+docs/source/developer_guide/Design_Documents/balance_schedule_refactor.md
+  s_e852a7e57a6823::t_3df05df2b64bf3 84,121,176,183,224,276,403
+docs/source/developer_guide/Design_Documents/context_parallel.md
+  s_e852a7e57a6823::t_1fb74b1419caee 9,13,15,61,108,110-111,125,181
+docs/source/developer_guide/Design_Documents/cpu_binding.md
+  s_e852a7e57a6823::t_6647f6f719ea72 186,194,265
+docs/source/developer_guide/Design_Documents/disaggregated_prefill.md
+  s_e852a7e57a6823::t_a560ede4e637f0 8,230,234,242
+docs/source/developer_guide/Design_Documents/kvpp.md
+  s_e852a7e57a6823::t_577adde7df7043 5,25,78
+docs/source/developer_guide/Design_Documents/layerwise_and_sparse_kv_cache_offloading.md
+  s_e852a7e57a6823::t_715a4de5ae151b 78,207,213,307
+docs/source/developer_guide/Design_Documents/model_runner_v2_eplb.md
+  s_e852a7e57a6823::t_8dd7059189c1c7 199,202,207
+docs/source/developer_guide/Design_Documents/non_contiguous_kv_cache.md
+  s_e852a7e57a6823::t_f9251c7fc9f23d 14,51,225
+docs/source/developer_guide/Design_Documents/npugraph_ex.md
+  s_e852a7e57a6823::t_966360966c6cc7 7,9,11,26
+docs/source/developer_guide/Design_Documents/patch.md
+  s_e852a7e57a6823::t_b52c13e00c9672 19,38-39,70
+docs/source/developer_guide/Design_Documents/persistent_csrc_build_cache.md
+  s_e852a7e57a6823::t_66326516319b74 277
+docs/source/developer_guide/Design_Documents/quantization.md
+  s_e852a7e57a6823::t_8a81551e6210e1 19,27,53,87
+docs/source/developer_guide/contribution/dependency_version_management.md
+  s_e852a7e57a6823::t_cf42cec3b997f6 13-16,18-19,36-37,50-51
+docs/source/developer_guide/contribution/index.md
+  s_e852a7e57a6823::t_e212080dcb99ac 65-66,68,75,97-108,118
+docs/source/developer_guide/contribution/multi_node_test.md
+  s_e852a7e57a6823::t_4013b292d178da 7,64,162,172,178,342,426,509
+docs/source/developer_guide/contribution/nightly_ci_test.md
+  s_e852a7e57a6823::t_daa6ea57e5f31c 23,147,713,715
+docs/source/developer_guide/contribution/testing.md
+  s_e852a7e57a6823::t_84d013376d5377 9-10,38,70-71,77,96,104,272,299,317,361,410
+docs/source/developer_guide/deepseek_v41_qli_candidate.md
+  s_e852a7e57a6823::t_407ef8934d28b7 17-18,89,96,129
+docs/source/developer_guide/evaluation/using_ais_bench.md
+  s_e852a7e57a6823::t_9a1f7b8dd9c38b 9-11,14-15,21,30,38,42,156-157,220,279
+docs/source/developer_guide/evaluation/using_evalscope.md
+  s_e852a7e57a6823::t_90e5eef1427a2d 7-9,12-13,19,30,169
+docs/source/developer_guide/evaluation/using_lm_eval.md
+  s_e852a7e57a6823::t_031ee52bec18f5 9-11,14-15,21,31,33,132,151-152,158,195
+docs/source/developer_guide/evaluation/using_opencompass.md
+  s_e852a7e57a6823::t_1bd99ca62c14f8 7-9,12-13,19,30,49
+docs/source/developer_guide/performance_and_debug/msprobe_guide.md
+  s_e852a7e57a6823::t_b7907cc216586d 9,17,27,39,77,103,116,293,305,405
+docs/source/developer_guide/performance_and_debug/optimization_and_tuning.md
+  s_e852a7e57a6823::t_99e51f7044bb2f 7-9,12-13,19,84,122,137,143
+docs/source/developer_guide/performance_and_debug/performance_benchmark.md
+  s_e852a7e57a6823::t_e2ea6d54d03d43 3,13-15,18-19,24,94,107,151,189,192,220,266
+docs/source/developer_guide/performance_and_debug/service_profiling_guide.md
+  s_e852a7e57a6823::t_a129db332589bf 28,32,49,143,233,237,264
+docs/source/faqs.md
+  s_e852a7e57a6823::t_6d283605d2608e 77,86,90,220,225,231,236,248,277,279,304,321
+docs/source/getting_started/installation.md
+  s_e852a7e57a6823::t_9c18da6bf66ec7 32-33,38-39,59,80-84,109-139,183,211,358,371-374
+docs/source/getting_started/installation/ascend_docker_runtime.inc.md
+  s_e852a7e57a6823::t_890d715f38cf2c 1
+docs/source/getting_started/installation/cann_image/atlas-200i-pro.inc.md
+  s_e852a7e57a6823::t_71db177e25954f 23,35,65
+docs/source/getting_started/installation/cann_image/atlas-300i-duo.inc.md
+  s_e852a7e57a6823::t_b20bea7afa3e4f 1,31,47
+docs/source/getting_started/installation/cann_image/atlas-950dt.inc.md
+  s_e852a7e57a6823::t_25dffd88b7425b 32,49
+docs/source/getting_started/installation/cann_image/atlas-a2.inc.md
+  s_e852a7e57a6823::t_292836d574b323 33,49
+docs/source/getting_started/installation/cann_image/atlas-a3.inc.md
+  s_e852a7e57a6823::t_7ee4284202dbb4 23,35,51
+docs/source/getting_started/installation/existing_cann_environment.inc.md
+  s_e852a7e57a6823::t_8c38481d27bd41 15-17,19,42
+docs/source/getting_started/installation/install_vllm_ascend.inc.md
+  s_e852a7e57a6823::t_927427ab8fab4d 34,45,51,53,75,82-86,90,92,135-136,156-157,178,182,202,206
+docs/source/getting_started/installation/prebuilt_image.inc.md
+  s_e852a7e57a6823::t_4c1942535b7400 5,19-24,52,94
+docs/source/getting_started/installation/supported_hardware.inc.md
+  s_e852a7e57a6823::t_cbf10463d13955 5-6
+docs/source/getting_started/installation/without_ascend_docker_runtime.inc.md
+  s_e852a7e57a6823::t_02ac21523bcd9b 1-139
+docs/source/getting_started/quick_start.md
+  s_e852a7e57a6823::t_d242fca1243eec 18,26-37,85,102
+docs/source/getting_started/quick_start/ascend_image/atlas-200i-pro.inc.md
+  s_e852a7e57a6823::t_25bfff963fc26a 29,41,71,82
+docs/source/getting_started/quick_start/ascend_image/atlas-300i-duo.inc.md
+  s_e852a7e57a6823::t_73685702908b5d 1,39,55
+docs/source/getting_started/quick_start/ascend_image/atlas-950dt.inc.md
+  s_e852a7e57a6823::t_4fda6699859046 38,55
+docs/source/getting_started/quick_start/ascend_image/atlas-a2.inc.md
+  s_e852a7e57a6823::t_1f544e96d55276 39,55
+docs/source/getting_started/quick_start/ascend_image/atlas-a3.inc.md
+  s_e852a7e57a6823::t_1fb5df967841d0 29,41,57
+docs/source/getting_started/quick_start/ascend_image/image_download_mirror.inc.md
+  s_e852a7e57a6823::t_e6b7fff1eadbd8 7,13,22
+docs/source/getting_started/quick_start/offline/qwen3-0.6b-310p.inc.md
+  s_e852a7e57a6823::t_5d0ba8f3e170c3 1,61,70,77
+docs/source/getting_started/quick_start/offline/qwen3-0.6b.inc.md
+  s_e852a7e57a6823::t_487acdc3acae18 39,48,55
+docs/source/getting_started/quick_start/online/qwen3-0.6b-310p.inc.md
+  s_e852a7e57a6823::t_beea00cf9e86d4 1,20,69
+docs/source/getting_started/quick_start/online/qwen3-0.6b.inc.md
+  s_e852a7e57a6823::t_6a3e4ee40eece5 10,59
+docs/source/locale/zh_CN/LC_MESSAGES/community/slash-commands.po
+  s_e852a7e57a6823::t_92a08b25ee59ba 514-522,528,530-532,535-537,540-550
+docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/Design_Documents/ACL_Graph.po
+  s_e852a7e57a6823::t_eb76c97f7e7b29 319-342
+docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/Design_Documents/context_parallel.po
+  s_e852a7e57a6823::t_335957a2f38153 395-459,473-474,481
+docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/Design_Documents/disaggregated_prefill.po
+  s_e852a7e57a6823::t_2fccddd1aad250 518
+docs/source/locale/zh_CN/LC_MESSAGES/developer_guide/contribution/dependency_version_management.po
+  s_e852a7e57a6823::t_5cd2d574b1124f 51,55,62,67,70,72,74,76,93,101,107,111,170,179
+docs/source/locale/zh_CN/LC_MESSAGES/faqs.po
+  s_e852a7e57a6823::t_8da7e0e47d258d 182-187,189-190,528-588,591-606
+docs/source/locale/zh_CN/LC_MESSAGES/getting_started/installation.po
+  s_e852a7e57a6823::t_eee8db9c7a2af2 557-570
+docs/source/locale/zh_CN/LC_MESSAGES/getting_started/installation/install_vllm_ascend.inc.po
+  s_e852a7e57a6823::t_b61e2a81394f04 59,63,68,70
+docs/source/locale/zh_CN/LC_MESSAGES/getting_started/installation/supported_hardware.inc.po
+  s_e852a7e57a6823::t_4f22eff0b328b9 52-53,55-56
+docs/source/locale/zh_CN/LC_MESSAGES/installation.po
+  s_e852a7e57a6823::t_cd4e5bc7940f56 602,605
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/features/pd_disaggregation_mooncake_multi_node.po
+  s_e852a7e57a6823::t_2e0fad8b7ffd1c 813,817,1016,1029
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/DeepSeek-V4-Flash.po
+  s_e852a7e57a6823::t_1b6cfb5d8db68e 1289-1292,1310-1312,1473,1479,1664-1788
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/DeepSeek-V4-Pro.po
+  s_e852a7e57a6823::t_155a44f1dae7a5 1536-1537,1542-1543,1545-1712
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/DeepSeek-V4.1-Flash.po
+  s_e852a7e57a6823::t_bf54f9ab7b1c29 2057-2096
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Dots3-Note.po
+  s_e852a7e57a6823::t_234d1391ee0a26 10-11,25-26,823-838
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/GLM5.2.po
+  s_e852a7e57a6823::t_998c22aae3639a 2266-2342
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/GLM5.3-Flash.po
+  s_e852a7e57a6823::t_33f2e60c32a8cd 948-960,1877-2053
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Gemma4.po
+  s_e852a7e57a6823::t_da4d537df767f4 563-590
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/HY4-Flash.po
+  s_e852a7e57a6823::t_94f58413c0dc43 1-369
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Hy4-preview.po
+  s_e852a7e57a6823::t_ad783c38223618 348-397
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Hy4.po
+  s_e852a7e57a6823::t_96c4f78c5deb94 1-509
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Kimi-K2.6.po
+  s_e852a7e57a6823::t_3b13619de4d2a8 557-558,562-659
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Kimi-K3.1-Pro.po
+  s_e852a7e57a6823::t_8967e7c00dfbef 240-241,248,1748-1777,1782-1791
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Kimi-K3.po
+  s_e852a7e57a6823::t_b96410161f2681 1349-1441,1443-1455
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/MiniMax-M3.1-Flash.po
+  s_e852a7e57a6823::t_5451a01a7a2d3d 1947-1982
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/MiniMax-M3.po
+  s_e852a7e57a6823::t_b88170b88e2a1d 2345-2399
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Qwen3.5-397B-A17B.po
+  s_e852a7e57a6823::t_11bef4afdf3405 1375-1477,1481-1482,1487-1490
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Qwen3.8-27B.po
+  s_e852a7e57a6823::t_8877046e4c8421 678-695
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Qwen3.8-Flash-Next.po
+  s_e852a7e57a6823::t_4eea63475bec96 1725-1787
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/SigLIP2.po
+  s_e852a7e57a6823::t_4bedcb48216411 513-527,530,534-535,538-540
+docs/source/locale/zh_CN/LC_MESSAGES/tutorials/models/Step-5-Preview.po
+  s_e852a7e57a6823::t_1cf0a5e66e6518 509-537
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/configuration/additional_config.po
+  s_e852a7e57a6823::t_5be6d06f1b4606 1183-1264
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/configuration/device_selection.po
+  s_e852a7e57a6823::t_b596374bbf3005 1-238
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/configuration/runtime_config.po
+  s_e852a7e57a6823::t_d2e0117357b310 382-425
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/deployment_guide/using_mindie_motor.po
+  s_e852a7e57a6823::t_7db4d3ba5c1271 27-28,31,38-48
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/deployment_guide/using_volcano_kthena.po
+  s_e852a7e57a6823::t_e88be51b4a2521 25-28,222-225,230,232,235-240
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/Ai_QoS_introduction_en.po
+  s_e852a7e57a6823::t_55c2547bafd4d9 117,120,140-142,162-207,211-212,215-216,219-221,229-233
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/Fine_grained_TP.po
+  s_e852a7e57a6823::t_d7bb04208540d2 571-640
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/batch_invariance.po
+  s_e852a7e57a6823::t_b397ad8dd365c9 302-308
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/context_parallel.po
+  s_e852a7e57a6823::t_7d45ce60e339bc 323-369,380,391-392,394,399-422,430-431,435-438
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/encoder_cache_cpu_offload.po
+  s_e852a7e57a6823::t_fcc7349a94950f 90,93,95-97,99-109
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/epd_disaggregation.po
+  s_e852a7e57a6823::t_8ff139b7afb7d9 952-1019
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/expert_parallelism_load_balancer.po
+  s_e852a7e57a6823::t_422b0eedb32a8a 599-612
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/graph_mode.po
+  s_e852a7e57a6823::t_967710bedf7995 603,608,611-681
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/hisparse.po
+  s_e852a7e57a6823::t_c345235ea990b6 122-188
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/kv_cache_cpu_offload.po
+  s_e852a7e57a6823::t_56683224b61d89 193-203
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/kv_cache_pool_ascend_store.po
+  s_e852a7e57a6823::t_7b23cfd2bd5c4b 114-115,402-403,405-406,756-757,1493-1494,1496-1497,1499-1500,1523-1525,2133-2282
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/kvpp.po
+  s_e852a7e57a6823::t_5fd4980f61e36b 510-547
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/large_scale_ep.po
+  s_e852a7e57a6823::t_2ad87078830c5a 236-290
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/lmcache_ascend_deployment.po
+  s_e852a7e57a6823::t_82ee1608d94c24 64-65,69-79,82,84
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/mooncake_hybrid_attention.po
+  s_e852a7e57a6823::t_fc2742964351dd 207,214,389-394
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/mooncake_layerwise_adaptation_and_optimization.po
+  s_e852a7e57a6823::t_73e45073e6ea97 81,84,247,252,393-405
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/netloader.po
+  s_e852a7e57a6823::t_9a1511791ced45 186-225,229-231
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/pipeline_parallel.po
+  s_e852a7e57a6823::t_13a9bfe08185d9 835-861
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/quantization.po
+  s_e852a7e57a6823::t_067981ae580a78 197-220
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/rfork.po
+  s_e852a7e57a6823::t_107b21f00ea878 1302-1493
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/rl.po
+  s_e852a7e57a6823::t_c79fa5c36710de 981-990
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/runtime_guard.po
+  s_e852a7e57a6823::t_487ef8d81874c7 294-447
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/sequence_parallelism.po
+  s_e852a7e57a6823::t_5963067f840d7d 185-193
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/shared_engram.po
+  s_e852a7e57a6823::t_b04a0a940d758c 22
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/feature_guide/sleep_mode.po
+  s_e852a7e57a6823::t_7022fd869619a1 185-187
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/release_notes.po
+  s_e852a7e57a6823::t_26884958a11e0e 4828-5151
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/support_matrix/feature_matrix.po
+  s_e852a7e57a6823::t_f38e1283b033b2 122,128,132-137
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/support_matrix/supported_features.po
+  s_e852a7e57a6823::t_bca99f37c56fcb 139-165,168,170-171,174-175,177-276
+docs/source/locale/zh_CN/LC_MESSAGES/user_guide/support_matrix/supported_models.po
+  s_e852a7e57a6823::t_c0ba4fc409ea43 117,121,124-128
+docs/source/tutorials/features/pd_colocated_mooncake_multi_instance.md
+  s_e852a7e57a6823::t_f314642f51efec 79,93
+docs/source/tutorials/features/pd_disaggregation_mooncake_multi_node.md
+  s_e852a7e57a6823::t_13dfcda9356421 206,219,228,238,258,266,327,330,333,398-417,1365,1401
+docs/source/tutorials/features/pd_disaggregation_mooncake_single_node.md
+  s_e852a7e57a6823::t_3269d43d6e5381 50,66,78,138-142,145,148,237,245,250-283,294
+docs/source/tutorials/features/ray.md
+  s_e852a7e57a6823::t_4fa00ea1974924 58,72
+docs/source/tutorials/models/Cohere-Transcribe.md
+  s_e852a7e57a6823::t_218134bb3ecf81 34,44-45,54,101,119,213
+docs/source/tutorials/models/DeepSeek-V3.1.md
+  s_e852a7e57a6823::t_8fe4145c68713c 3
+docs/source/tutorials/models/DeepSeek-V3.2.md
+  s_e852a7e57a6823::t_cac28bbf399add 3
+docs/source/tutorials/models/DeepSeek-V4-Flash.md
+  s_e852a7e57a6823::t_7a40fc41e4a115 52-53,64,83,102,256,296,948-951,963-965,1175,1185,1457,1474-1475,1480,1608,1617,1862,1886,1901-1904,2309,2351,2424,2474,2529
+docs/source/tutorials/models/DeepSeek-V4-Pro.md
+  s_e852a7e57a6823::t_e2ce15694ada81 37,57-58,70,90,108,627,826,833,840,847,856,1056,1287,1305,1448,1714,1772,1776,2178,2191,2491,2558,2595
+docs/source/tutorials/models/DeepSeek-V4.1-Flash.md
+  s_e852a7e57a6823::t_ef4184a247228d 13,99-100,116,137,150-153,164,346-347,751,786,808-809,1484,2260,2334-2338,2595,2816,2819
+docs/source/tutorials/models/Dots3-Note.md
+  s_e852a7e57a6823::t_1d7613f5b7b0aa 7,23,42,54,104-106,133,137,199,202-203,224,377-378,398
+docs/source/tutorials/models/GLM5.2.md
+  s_e852a7e57a6823::t_fbda4a7633aedc 40-46,65-66,81,106,125,201-202,883,960-961,1003,1020,1035,1052,1071-1072,1114,1131,1146,1163,1172-1173,1200,1220-1221,1231,1235,1244-1246,1249,1251-1264,1267,1321-1322,1371-1375,1377,1380-1386,1396-1400,1416,1423-1425,1429-1430,1433,1500,1505-1507,1511-1515,1520,1530,1532,1538-1539,1542,1544-1546,1549,1564-1565,1576,1585,1592,1601,1606-1608,1612-1616,1621,1631,1633,1639-1640,1643,1645-1647,1650,1665-1666,1685,1692,1702,1707-1708,1712-1716,1721,1730,1738-1739,1752,1754-1756,1758,1769-1771,1773,1779,1781,1790,1795-1796,1800-1804,1809,1818,1826-1827,1840,1842-1844,1846,1857-1859,1861,1867,1869,1941-1943,1946-1947,1949,1951-1960,2338-2340,2422,2437-2438,2484-2487,2489-2490,2500-2501,2507-2508,2511,2521-2546,2548-2561,2565-2571,2579-2580,2626-2629,2631-2632,2642-2643,2649-2650,2653,2663-2688,2690-2703,2707-2713,2717,2722-2723,2755,2764-2767,2770-2771,2783-2784,2788,2798-2823,2825-2835,2837-2846,2850-2867,2892,2898,2913-2916,2925-2943,2949-2956,2960-3003,3018,3023-3025,3029-3033,3038,3048,3050,3056-3057,3060,3063-3066,3071,3083-3084,3102-3105,3112-3129,3140,3145-3147,3151-3155,3160,3170,3172,3178-3179,3182,3185-3188,3193,3205-3206,3224-3227,3231,3234-3251,3255,3262,3267-3269,3273-3277,3282,3291,3301,3303-3305,3319-3321,3323,3334-3336,3338,3343,3346-3362,3373,3378-3380,3384-3388,3393,3402,3412-3414,3416,3430-3432,3434,3445-3447,3449,3454,3457-3473,3480-3484,3490-3491,3523,3530,3536,3551,3909,3987-3991,3995,4006-4007,4024,4056-4057,4061-4068,4071-4079,4081,4084,4086-4096,4099-4100,4102,4110-4131,4139-4140,4150,4157,4186-4187,4201,4207,4211-4224,4226-4227,4229,4237-4258,4269,4275,4301,4308-4325,4341,4344-4346,4351-4353,4355-4356,4371,4376-4385,4391-4393,4401,4403-4404,4406,4409-4410,4413,4415-4419,4427,4429,4442,4451,4457-4458,4465,4474,4479-4488,4494-4496,4504,4506-4507,4509,4512-4513,4516-4520,4522,4530,4532,4545,4554,4561,4568,4577,4582-4590,4596-4597,4605-4606,4608,4610,4613-4615,4617,4619-4624,4627,4630,4633-4635,4637-4639,4642-4643,4652,4657,4659,4668,4673-4681,4687-4688,4696-4697,4699,4701,4704-4706,4708,4710-4715,4718,4721,4724-4726,4728-4730,4733-4734,4743,4748,4750,4776,4783,4788,4799-4800,4803,4807,4809,4815,4817,4821-4822,4825,4828-4829,4836,4894-4895,4909,4953,4957-4961,4963-4966,4968,5012-5014,5019
+docs/source/tutorials/models/GLM5.3-Flash.md
+  s_e852a7e57a6823::t_a8d8b802ec1f03 33-39,51-84,109-110,123,148,177,231,296-298,588,607,616,619,623-625,631,655,683,686,689,705,763-764,767-769,777,780-781,783-784,791-793,804,830,836-837,847,851,860,868-869,871,879-881,886,888,897,914,918,920-921,940,946-947,950,952,955-958,966-967,972-973,985-987,993,996,1011-1013,1020-1021,1023-1024,1027,1031-1036,1128,1267,1400,1462-1467,1472-1473,1514,1539,1552,1561-1573,1578-1579,1608,1610,1635,1637-1638,1678-1679,1710-1711,1732,1766,1776,1784,2114,2120-2121,2123-2125,2142
+docs/source/tutorials/models/GLM5.md
+  s_e852a7e57a6823::t_f0ac1044a34c67 48-49,62,89,106,497-498,506,1402
+docs/source/tutorials/models/Gemma4.md
+  s_e852a7e57a6823::t_4cf213173cd98f 28,30,38
+docs/source/tutorials/models/HY4-Flash.md
+  s_e852a7e57a6823::t_7a759ef68d499f 1-572
+docs/source/tutorials/models/Hy4-preview.md
+  s_e852a7e57a6823::t_41379433736b8d 18,31,33,59,61,79-80,97,104,107,152,158,164,210,256,264,288
+docs/source/tutorials/models/Hy4.md
+  s_e852a7e57a6823::t_a09a4cf7bc5a8c 1-506
+docs/source/tutorials/models/Kimi-K2.6.md
+  s_e852a7e57a6823::t_257c2279ce3ed7 45-47,51,56,72,81,85,97,146,169,193,338,401,416,479,494,526,700,708,711,724,733-735,746-748,750,753
+docs/source/tutorials/models/Kimi-K3.1-Pro.md
+  s_e852a7e57a6823::t_e505cf5b9279c2 7,21,27,29,42,46-48,50,65,79,97,111,122,124,130,138,140,150,156,265,370,388,615,679,707-710,777,790,792,800,1012,1222,1234,1238,1242,1264-1268,1294,1333,1343,1369,1409,1660,1910,1992,2007,2017,2019,2063,2074,2080,2082,2086,2114,2116,2120,2126,2136
+docs/source/tutorials/models/Kimi-K3.md
+  s_e852a7e57a6823::t_d8db67b65b45d5 51-52,64,78,98,112,132,146,161,165,169,368,694,708,716,1115,1127,1526,1584,2207,2264
+docs/source/tutorials/models/MiniMax-M3.1-Flash.md
+  s_e852a7e57a6823::t_776c3b44785632 11,15,19,40,47,51-52,69-70,92-93,114-115,167,169,183,193-194,244,252,317,499,512,516-517,536-540,542,548,564,566,580,592,594-597,602,630,641,644,648,663-670,733,740,827,834,1268,1409,1453,1465,1467-1470,1475,1520,1531,1534,1538,1642,1649,1761,1768,2288-2303,2305-2309,2311,2313-2315,2317-2338,2342,2344,2346,2348,2350-2367,2593-2906,2910,2912,2914-2915,2917-2936,2938-2939,2941-2958,2960,2962,2964-2965,2967-2984,2986,2988-2994,2996,2998-3056,3060,3062-3130,3132,3134-3220,3345,3410,3416-3428,3442,3462,3464
+docs/source/tutorials/models/MiniMax-M3.md
+  s_e852a7e57a6823::t_a85663168e0448 48-49,71,89,102,301-309,608,648,654,909,1247,1443,2635,2639,2963
+docs/source/tutorials/models/PaddleOCR-VL.md
+  s_e852a7e57a6823::t_ae3a889c613f55 3
+docs/source/tutorials/models/Qwen-VL-Dense.md
+  s_e852a7e57a6823::t_bd30e1894c978e 5,13,27-28,30,34,40-41,53,77,85,92,138,170,196,217,249,253,257,261,290,331,390,400
+docs/source/tutorials/models/Qwen3-30B-A3B.md
+  s_e852a7e57a6823::t_e25bea8f2e572a 31,33,37,57-58,70,81-82,93,101,110,129,163,218,223,242-244,246-248
+docs/source/tutorials/models/Qwen3-Dense.md
+  s_e852a7e57a6823::t_72f0d623b2fd19 9,41,45-47,55,61-62,83,94-95,104,113,121,135,153,224,367,412,476
+docs/source/tutorials/models/Qwen3-Reranker.md
+  s_e852a7e57a6823::t_5ad96b5257fa9a 3
+docs/source/tutorials/models/Qwen3-VL-235B-A22B-Instruct.md
+  s_e852a7e57a6823::t_6db5e1467d6a39 3
+docs/source/tutorials/models/Qwen3-VL-30B-A3B-Instruct.md
+  s_e852a7e57a6823::t_542dad69ee9b73 7,28,34-36,40,47,63,69,81,87,153,191,227,290,348
+docs/source/tutorials/models/Qwen3.5-27B-Qwen3.6-27B.md
+  s_e852a7e57a6823::t_34504352178d77 15,29-31,35,41,51,53-55,59,64,75,80,89,91,96,106,113,127,131,145,165,274,276,284,286,327,349,352-354,358,419,423,438,547,557
+docs/source/tutorials/models/Qwen3.5-397B-A17B.md
+  s_e852a7e57a6823::t_6e08d47af588a5 51,55,61-62,86,111,130,142,176,330,424,525,636,794,906,945,960,1106,1148-1149,1155-1157,1191,1302,1334,1352,1372
+docs/source/tutorials/models/Qwen3.5-Dense.md
+  s_e852a7e57a6823::t_edb9535edac277 7,9,23-28,32,38-40,44,51,61-63,73,101,112,140,158,253-258,271,318,322,372
+docs/source/tutorials/models/Qwen3.6-35B-A3B.md
+  s_e852a7e57a6823::t_a965abcd3f3ee3 29-30,37,43-44,55,78,96,105,115,135,145,175-177,244,246-247,257,268,293-294,296-298,314,413-414
+docs/source/tutorials/models/Qwen3.8-2.4T-A95B.md
+  s_e852a7e57a6823::t_3cc051aa888a48 11,58,70-72,77,84,95,102,615
+docs/source/tutorials/models/Qwen3.8-27B.md
+  s_e852a7e57a6823::t_7b143da951169c 37,43,49-51,62,85,103,112,121,148,158,219,360,368,407-409,414,528,530,548-549
+docs/source/tutorials/models/Qwen3.8-Flash-Next.md
+  s_e852a7e57a6823::t_d46e6f39b3bf21 41-42,61,79,97,127,189,203,231,253,284,443,1415,2504,2533
+docs/source/tutorials/models/SigLIP2.md
+  s_e852a7e57a6823::t_ee8df15f32446d 9,23,25,37,41-42,59,61,78,84,98,123,131,135,281,296,519,545,549,551
+docs/source/tutorials/models/Step-5-Preview.md
+  s_e852a7e57a6823::t_2d7612bdaefad2 35,59-60,78,213,233,235-236,238-239
+docs/source/user_guide/configuration/additional_config.md
+  s_e852a7e57a6823::t_91e013488816fb 42,46,48,52,55,60,62,69,74,77,83,87-88,132,155,162,167,205,227,242-245
+docs/source/user_guide/configuration/device_selection.md
+  s_e852a7e57a6823::t_1c6f8784501984 44-68
+docs/source/user_guide/configuration/runtime_config.md
+  s_e852a7e57a6823::t_fc917e74098577 41,43,54,76-77,79-80,89,122,124,126-127
+docs/source/user_guide/configuration/unified_output_directory.md
+  s_e852a7e57a6823::t_ad90ab9817b637 1-84
+docs/source/user_guide/deployment_guide/using_mindie_motor.md
+  s_e852a7e57a6823::t_8670b774048613 1,5,9
+docs/source/user_guide/deployment_guide/using_volcano_kthena.md
+  s_e852a7e57a6823::t_ef32261a78f26b 44,46,433
+docs/source/user_guide/feature_guide/Ai_QoS_introduction_en.md
+  s_e852a7e57a6823::t_11568e11d1abf1 9,11,17,19,46,54,60,66-67,81,87-88
+docs/source/user_guide/feature_guide/Fine_grained_TP.md
+  s_e852a7e57a6823::t_a343cde57ad45b 14,96,111,133,209,215,221,252,259,273
+docs/source/user_guide/feature_guide/batch_invariance.md
+  s_e852a7e57a6823::t_953ca2d893366f 196,233
+docs/source/user_guide/feature_guide/context_parallel.md
+  s_e852a7e57a6823::t_148633d93040db 12,14,29-30,43,46,67-73,130,157-158,165,183
+docs/source/user_guide/feature_guide/cpu_binding.md
+  s_e852a7e57a6823::t_acb49e07b59054 118
+docs/source/user_guide/feature_guide/encoder_cache_cpu_offload.md
+  s_e852a7e57a6823::t_9f0190e1ce5a8c 13,41
+docs/source/user_guide/feature_guide/epd_disaggregation.md
+  s_e852a7e57a6823::t_18209ada21c51d 96,471,737,746
+docs/source/user_guide/feature_guide/expert_parallelism_load_balancer.md
+  s_e852a7e57a6823::t_82839fa73dd4e2 214,275-276
+docs/source/user_guide/feature_guide/graph_mode.md
+  s_e852a7e57a6823::t_76875029b1a101 17,36,41,43,71,124,126,128,132,134,139,182-183,222,288
+docs/source/user_guide/feature_guide/hisparse.md
+  s_e852a7e57a6823::t_383bbc709d08b4 36-37,74-86
+docs/source/user_guide/feature_guide/kv_cache_cpu_offload.md
+  s_e852a7e57a6823::t_fcf8a0a94ae225 146
+docs/source/user_guide/feature_guide/kv_cache_pool_ascend_store.md
+  s_e852a7e57a6823::t_f6cb4dabd34fc9 17,30,46,134,152,382,390,392,399,495,497,522,526,529,538,541,616,630,699,702-703,739,791,953,1050,1052,1061,1069,1087,1090,1099,1116,1196,1378,1393,1399,1403-1404,1422,1563,1571,1596-1598,1603-1604,1677,1694,1696,1698,1704,1720-1734
+docs/source/user_guide/feature_guide/kvpp.md
+  s_e852a7e57a6823::t_eabd37e1fdc4ba 190,207,211-216,220
+docs/source/user_guide/feature_guide/large_scale_ep.md
+  s_e852a7e57a6823::t_1eaf8bea19feed 226,292,339,343,360,392,449
+docs/source/user_guide/feature_guide/layerwise_and_sparse_kv_cache_offloading.md
+  s_e852a7e57a6823::t_f1ad9536ef2144 119
+docs/source/user_guide/feature_guide/lmcache_ascend_deployment.md
+  s_e852a7e57a6823::t_96f2cd0be054e3 7,43-49,58
+docs/source/user_guide/feature_guide/lora.md
+  s_e852a7e57a6823::t_5000bd31a9999e 40
+docs/source/user_guide/feature_guide/mooncake_hybrid_attention.md
+  s_e852a7e57a6823::t_5538bc5161a58c 87,143
+docs/source/user_guide/feature_guide/mooncake_layerwise_adaptation_and_optimization.md
+  s_e852a7e57a6823::t_f4e3caf7f4167d 29,113,154,175
+docs/source/user_guide/feature_guide/netloader.md
+  s_e852a7e57a6823::t_9350c363b20057 11-12,27-29,52,82-87,95-96
+docs/source/user_guide/feature_guide/pipeline_parallel.md
+  s_e852a7e57a6823::t_bee8f7940ff220 4,135,145,151
+docs/source/user_guide/feature_guide/preempt_offload_connector.md
+  s_e852a7e57a6823::t_8e43cb30a5fb08 22,94-95,103,155,283
+docs/source/user_guide/feature_guide/quantization.md
+  s_e852a7e57a6823::t_ad6dd42ce4cd33 5,19,23,36,117,172
+docs/source/user_guide/feature_guide/rfork.md
+  s_e852a7e57a6823::t_5e2653c0061363 92,238,369,404,417,430-434,480,484,486,490
+docs/source/user_guide/feature_guide/rl.md
+  s_e852a7e57a6823::t_17b9d6c0409531 174
+docs/source/user_guide/feature_guide/runtime_guard.md
+  s_e852a7e57a6823::t_4398228cf4fc19 58-59,91,128-155,158-159
+docs/source/user_guide/feature_guide/sequence_parallelism.md
+  s_e852a7e57a6823::t_878f058bd1a928 57
+docs/source/user_guide/feature_guide/short_request_first.md
+  s_e852a7e57a6823::t_6c8f7dabb8e0bb 3,53
+docs/source/user_guide/feature_guide/sleep_mode.md
+  s_e852a7e57a6823::t_d6468cc7a84712 75,135,138
+docs/source/user_guide/feature_guide/speculative_decoding.md
+  s_e852a7e57a6823::t_60941a600bc753 212,770-771,988-1046
+docs/source/user_guide/feature_guide/structured_output.md
+  s_e852a7e57a6823::t_c4bb00935dc5d5 11-12,15,17
+docs/source/user_guide/feature_guide/ucm_deployment.md
+  s_e852a7e57a6823::t_0ba3d348e5365d 23,73,77,455,774
+docs/source/user_guide/index.md
+  s_e852a7e57a6823::t_2c37e7a926b065 18
+docs/source/user_guide/release_notes.md
+  s_e852a7e57a6823::t_138b651e246e71 61,97-98,167,171,196,289,331,341,360,365-366,389,469,485,537,539,549,558,560,599,764,990,1056,1065,1096,1244,1303,1357,1386,1449,1569,1649,1789,1827,1829,1845,1876,1914,1939,1975,1983,2027,2075,2083,2098,2135,2260,2262,2304,2307,2322,2328,2331,2351,2358,2484,2505,2512,2516,2521,2547,2595,2617,2642,2724
+docs/source/user_guide/support_matrix/feature_matrix.md
+  s_e852a7e57a6823::t_dcceb2b3b150ff 41,47
+docs/source/user_guide/support_matrix/supported_features.md
+  s_e852a7e57a6823::t_1a88322cefb87b 9-10,13-24,26-27,29-32
+docs/source/user_guide/support_matrix/supported_models.md
+  s_e852a7e57a6823::t_65cb4d6753af7f 5-6,34-35,56,69,73-74,97,101-105,116,118,124,126,142,145,156,160-167
+examples/disaggregated_prefill_v1/load_balance_proxy_layerwise_server_example.py
+  s_e852a7e57a6823::t_56f0d40c214e0e 108-114,541,546-548,557-568,570-609,611
+examples/disaggregated_prefill_v1/load_balance_proxy_server_example.py
+  s_e852a7e57a6823::t_bec1203ddbbbb2 141-147,1159,1172-1174,1193-1204,1206-1234,1236-1266
+examples/disaggregated_prefill_v1/sse_frame_parser.py
+  s_e852a7e57a6823::t_c26ae76cdf1f30 1-3,16-34,37-38,40-41,43-44,47-48,50-52,55-60,62-63,65-66,68-87,89-178
+examples/external_online_dp/README.md
+  s_e852a7e57a6823::t_6c39b6693a491c 5,8-22,30,35-66,70,78,88-104
+examples/external_online_dp/launch_online_dp.py
+  s_e852a7e57a6823::t_8cab84df6ed591 1-3,6,9-11,16,18-26,28-36,39-40,43-67,69-94,97-98
+examples/external_online_dp/run_dp_template.sh
+  s_e852a7e57a6823::t_5b916a88a56a9a 1-4,27-28
+mkdocs.yml
+  s_e852a7e57a6823::t_f1e637cbf3ee0b 175-176,180-181,185-186,195-196,263-264,295,386
+mypy.ini
+  s_e852a7e57a6823::t_ae51c245e2d4f1 62-64
+pyproject.toml
+  s_e852a7e57a6823::t_b9813a16336b1c 30,33-34
+recipes/overlays/MiniMaxAI/MiniMax-M3.1-Flash.yaml
+  s_e852a7e57a6823::t_248898867a6e3d 1-666
+recipes/overlays/Qwen/Qwen3.8-27B.yaml
+  s_e852a7e57a6823::t_f4243fd93dd08f 11-15,35-59,67-92,94,97,168-211
+recipes/overlays/Qwen/Qwen3.8-Flash-Next.yaml
+  s_e852a7e57a6823::t_711903e8d1d951 1-1295
+recipes/overlays/deepseek-ai/DeepSeek-V4.1-Flash.yaml
+  s_e852a7e57a6823::t_870a971df06e03 1-386
+recipes/overlays/zai-org/GLM-5.3-Flash.yaml
+  s_e852a7e57a6823::t_48a9e42f3c569c 6,11-16,32-44,50-114,117-207
+release_notes/README.md
+  s_e852a7e57a6823::t_cf084c6d2348ee 56-84,234-237
+release_notes/fragments/16734.yaml
+  s_e852a7e57a6823::t_0e59e8811dabb8 1-6
+release_notes/fragments/17579.yaml
+  s_e852a7e57a6823::t_e0b0c3d5c34e6b 1-11
+release_notes/fragments/19841.yaml
+  s_e852a7e57a6823::t_2b99a726a2f079 1-4
+release_notes/fragments/20289.yaml
+  s_e852a7e57a6823::t_31bcf3d59dab2b 1-8
+release_notes/fragments/20332.yaml
+  s_e852a7e57a6823::t_3a03149d195d3d 1-6
+release_notes/fragments/20508.yaml
+  s_e852a7e57a6823::t_c92cc011c8750f 1-14
+release_notes/fragments/20538.yaml
+  s_e852a7e57a6823::t_8332dece7dabea 1-7
+release_notes/fragments/20627.yaml
+  s_e852a7e57a6823::t_383c562168f81b 4-6
+release_notes/fragments/21256.yaml
+  s_e852a7e57a6823::t_0ff74167d90dbe 1-9
+release_notes/fragments/21437.yaml
+  s_e852a7e57a6823::t_199472e42b5e15 1-6
+release_notes/fragments/21442.yaml
+  s_e852a7e57a6823::t_8e88a3faf29b2a 1-9
+release_notes/fragments/21452.yaml
+  s_e852a7e57a6823::t_0f203341f529c9 1-6
+release_notes/fragments/21587.yaml
+  s_e852a7e57a6823::t_07a2abdc747012 1-8
+release_notes/fragments/21678.yaml
+  s_e852a7e57a6823::t_181eb69e6df44d 1-10
+release_notes/fragments/21737.yaml
+  s_e852a7e57a6823::t_b779fd2bd896c0 1-10
+release_notes/fragments/21825.yaml
+  s_e852a7e57a6823::t_4df8c7f2a5900b 1-4
+release_notes/fragments/21831.yaml
+  s_e852a7e57a6823::t_0dec2e2e5191e2 1-8
+release_notes/fragments/21892.yaml
+  s_e852a7e57a6823::t_4cb75c5a744660 1-7
+release_notes/fragments/21901.yaml
+  s_e852a7e57a6823::t_1bf2653c0ba311 1-6
+release_notes/fragments/21907.yaml
+  s_e852a7e57a6823::t_d21b42337be94c 1-6
+release_notes/fragments/21921.yaml
+  s_e852a7e57a6823::t_abcbb5cfb77d3f 1-4
+release_notes/fragments/22045.yaml
+  s_e852a7e57a6823::t_478f8225756b06 1-11
+release_notes/fragments/22056.yaml
+  s_e852a7e57a6823::t_a8d2862de2981a 1-10
+release_notes/fragments/22115.yaml
+  s_e852a7e57a6823::t_8fc0af637698ed 1-18
+release_notes/fragments/22128.yaml
+  s_e852a7e57a6823::t_42d28c43352e59 1-10
+release_notes/fragments/22131.yaml
+  s_e852a7e57a6823::t_e5c5c3eb3f9917 1-9
+release_notes/fragments/22157.yaml
+  s_e852a7e57a6823::t_6ff6aa589cac20 1-7
+release_notes/fragments/22167.yaml
+  s_e852a7e57a6823::t_e594a5b9f88ca9 1-4
+release_notes/fragments/22191.yaml
+  s_e852a7e57a6823::t_0d348fedca8018 1-7
+release_notes/fragments/22200.yaml
+  s_e852a7e57a6823::t_b76f5ed9064ef8 1-7
+release_notes/fragments/22206.yaml
+  s_e852a7e57a6823::t_f232f74f4c0302 1-22
+release_notes/fragments/22324.yaml
+  s_e852a7e57a6823::t_cccf7a5db8a73d 1-4
+release_notes/fragments/22336.yaml
+  s_e852a7e57a6823::t_f014c9a67777e7 1-6
+release_notes/fragments/22342.yaml
+  s_e852a7e57a6823::t_521604f4275db2 1-6
+release_notes/fragments/22401.yaml
+  s_e852a7e57a6823::t_b9639119107280 1-5
+release_notes/fragments/22405.yaml
+  s_e852a7e57a6823::t_d5128ee70bf135 1-7
+release_notes/fragments/22482.yaml
+  s_e852a7e57a6823::t_1b66f9485a1dcd 1-8
+release_notes/fragments/22485.yaml
+  s_e852a7e57a6823::t_28300e21237736 1-8
+release_notes/fragments/22494.yaml
+  s_e852a7e57a6823::t_6fbf1649782db5 1-9
+release_notes/fragments/22514.yaml
+  s_e852a7e57a6823::t_0eb6356f576bbb 1-4
+release_notes/fragments/22517.yaml
+  s_e852a7e57a6823::t_1774f444f6fe0d 1-10
+release_notes/fragments/22521.yaml
+  s_e852a7e57a6823::t_2d4aad9af176b1 1-4
+release_notes/fragments/22530.yaml
+  s_e852a7e57a6823::t_78a1b0f99d54d3 1-4
+release_notes/fragments/22592.yaml
+  s_e852a7e57a6823::t_d5a22b863de39e 1-9
+release_notes/fragments/22594.yaml
+  s_e852a7e57a6823::t_de011879481bea 1-4
+release_notes/fragments/22600.yaml
+  s_e852a7e57a6823::t_718445ce8c1fe4 1-8
+release_notes/fragments/22673.yaml
+  s_e852a7e57a6823::t_29591e9ff129d1 1-7
+release_notes/fragments/22713.yaml
+  s_e852a7e57a6823::t_f248d0803ec912 1-7
+release_notes/fragments/22720.yaml
+  s_e852a7e57a6823::t_20d4c807d32a61 1-11
+release_notes/fragments/22787.yaml
+  s_e852a7e57a6823::t_ea453825c1c78a 1-20
+release_notes/fragments/22902.yaml
+  s_e852a7e57a6823::t_4e3ad89bcaadbd 1-9
+requirements.txt
+  s_e852a7e57a6823::t_6312a07cf2ffd6 34-35,40
+tests/SIT/cases/features/context_parallel/Kimi-K2.6-W4A8-PCP-DCP.yaml
+  s_e852a7e57a6823::t_3ee063b3369cbd 54
+tests/SIT/cases/features/kv_pool/DSv4-Flash-Memcache-PD-layerwise.yaml
+  s_e852a7e57a6823::t_8507cc8dacd18c 206
+tests/SIT/cases/features/kv_pool/DeepSeek-V4-Flash-Memcache-PD-acc.yaml
+  s_e852a7e57a6823::t_baa84ad83a3301 153,196
+tests/SIT/cases/features/pp/Qwen3.8-27B-w8a8-PP2-TP2.yaml
+  s_e852a7e57a6823::t_8306daf0503843 22,55
+tests/SIT/cases/models/configs/DeepSeek/DS-V4-flash-w8a8-PD-prefix-weekly.yaml
+  s_e852a7e57a6823::t_92d70fb6d34933 246
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek-V4-Pro-0813-w4a8-1M-PD.yaml
+  s_e852a7e57a6823::t_dd282181c5f13d 1-2,17-18,20,26-29,35-36,38,44-47,53-55,58,61-63,81,96,98,110,113,122,124,126,135,150,152,164,167,176,178,180,189,204,206,208,224,227,233,235-237,246,261,263,265,281,284,290,292-294,297,299,302-304,306,308,310,313,315-318
+tests/SIT/cases/models/configs/DeepSeek/DeepSeek-V4.1-Flash-w4a8-PD-MRV2.yaml
+  s_e852a7e57a6823::t_34b2f6235ce834 1-2,10-11,30,46,58,65,96,112,116,121,143-144,151,153,158,174,192,197,207,210,222,232,240
+tests/SIT/cases/models/configs/GLM/GLM-5.1-W8A8C8-3.5k-1.5k-0-20-PD.yaml
+  s_e852a7e57a6823::t_edcbbb565e5956 62,95-98,100,165-168,170,231-234,242,300-303,311,353
+tests/SIT/cases/models/configs/GLM/GLM-5.1-W8A8C8-64k-1k-90-50-PD.yaml
+  s_e852a7e57a6823::t_971f1a0473b85a 62,97-98,100,166-167,169,237-238,240,305-306,308,361
+tests/SIT/cases/models/configs/GLM/GLM-5.1-W8A8C8-A3_3.5k_1.5k_0_20.yaml
+  s_e852a7e57a6823::t_38cdf6fe096e95 48-49,82-83,95
+tests/SIT/cases/models/configs/GLM/GLM-5.1-W8A8C8-A3_64k_90_50.yaml
+  s_e852a7e57a6823::t_b848d37c6bb416 15,48,50,82,84,96,107
+tests/SIT/cases/models/configs/GLM/GLM-5.1-w8a8c8-MTP-offload-test-perf.yaml
+  s_e852a7e57a6823::t_99009ef0e47b87 16-17
+tests/SIT/cases/models/configs/GLM/GLM-5.2-W4A8C8-1M-PD-DCP.yaml
+  s_e852a7e57a6823::t_fbbb25741f4947 361
+tests/SIT/cases/models/configs/GLM/GLM-5.2-W8A8C8-A3_128k_90_50.yaml
+  s_e852a7e57a6823::t_188ac662d275a3 49-50,84-85
+tests/SIT/cases/models/configs/GLM/GLM-5.2-W8A8C8-A3_64k_90_50.yaml
+  s_e852a7e57a6823::t_cdfeb151cbb1b5 49-50,84-85,97
+tests/SIT/cases/models/configs/GLM/GLM-5.2-W8A8C8-layerwise-PD.yaml
+  s_e852a7e57a6823::t_a096671187676c 222,273
+tests/SIT/cases/models/configs/GLM/GLM-5.3-Flash-W8A8-1M-1P1D.yaml
+  s_e852a7e57a6823::t_5e1b63f4f6d501 18-19,23-24,28-31,33,37-38,43,46,52,57,59,61,63,65,67-69,71-73,76-77,81,85,90,96,100,102-105,107-109,111,115,120,122,124,126,128,130,134-135,139,143,148,154,158-160,165-166,168
+tests/SIT/cases/models/configs/GLM/GLM5_3-W8A8-A3-dual-nodes.yaml
+  s_e852a7e57a6823::t_0bb4675cbd4b1b 45,73
+tests/SIT/cases/models/configs/Kimi/Kimi-K2.6-W4A8-128k-1k-TPOT50-PD.yaml
+  s_e852a7e57a6823::t_408853353d1ab4 144
+tests/SIT/cases/models/configs/Kimi/Kimi-K2.6-w4a8-A3_weekly.yaml
+  s_e852a7e57a6823::t_671d9e4df41f6b 184
+tests/SIT/cases/models/configs/Kimi/Kimi-K2.7-W4A8-128k-1k-TPOT50-PD.yaml
+  s_e852a7e57a6823::t_3eeea30668e3e7 144
+tests/SIT/cases/models/configs/Kimi/Kimi-K2.7-w4a8-A3.yaml
+  s_e852a7e57a6823::t_0fd3abf703d7e6 243
+tests/SIT/cases/models/configs/Kimi/Kimi-K3.1-Pro-W4A8-A3-1M-PD.yaml
+  s_e852a7e57a6823::t_b0996a658d2039 357-368
+tests/SIT/cases/models/configs/Qwen/Prefix-Cache-Qwen3-32B-Int8.yaml
+  s_e852a7e57a6823::t_defec81efcdf4d 30
+tests/SIT/cases/models/configs/Qwen/Qwen-3.5-397B-A17B-W8A8-PD.yaml
+  s_e852a7e57a6823::t_3973c5f1497460 88,146,205,246
+tests/SIT/cases/models/configs/Qwen/Qwen3-235B-A22B-A2.yaml
+  s_e852a7e57a6823::t_cca844322458c0 33,53
+tests/SIT/cases/models/configs/Qwen/Qwen3-235B-A22B-W8A8_piecewise_fullgraph_A3.yaml
+  s_e852a7e57a6823::t_3179b2075c5175 69,82
+tests/SIT/cases/models/configs/Qwen/Qwen3-30B-A3B-W8A8-offload-test-acc.yaml
+  s_e852a7e57a6823::t_16133681ba53ae 21
+tests/SIT/cases/models/configs/Qwen/Qwen3-32B-Int8-A2.yaml
+  s_e852a7e57a6823::t_ed64617bf848a7 63
+tests/SIT/cases/models/configs/Qwen/Qwen3-32B-Int8.yaml
+  s_e852a7e57a6823::t_eb6db10919ef0e 29
+tests/SIT/cases/models/configs/Qwen/Qwen3.5-122B-A10B-W8A8-A3.yaml
+  s_e852a7e57a6823::t_3c4cd25719f876 55
+tests/SIT/cases/models/configs/Qwen/Qwen3.5-122B-A10B-w4a8-A3.yaml
+  s_e852a7e57a6823::t_eed21b87cdac13 150-151
+tests/SIT/cases/models/configs/Qwen/Qwen3.5-397B-A17B-W8A8-mtp-A3.yaml
+  s_e852a7e57a6823::t_f3ca4c1e035b25 55
+tests/SIT/cases/models/configs/Qwen/Qwen3.5-397B-A17B-w8a8-64k-1k-90-50-single.yaml
+  s_e852a7e57a6823::t_a6fc4e8e688930 58
+tests/SIT/cases/models/configs/Qwen/Qwen3.6-35B-A3B-w4a8-A3.yaml
+  s_e852a7e57a6823::t_6d05f46141e91d 76
+tests/SIT/cases/models/configs/Qwen/Qwen3.6-35B-A3B-w8a8-A3-accuracy.yaml
+  s_e852a7e57a6823::t_87f71c31ddbc4a 29,56
+tests/SIT/cases/models/configs/Qwen/Qwen3.6_35B_27B_A3_acceptance_rate.yaml
+  s_e852a7e57a6823::t_29e6969a6cc459 84
+tests/deepseek_v41_utils.py
+  s_e852a7e57a6823::t_bcaca6b3dd701a 322
+tests/e2e/common/multi_node/run.sh
+  s_e852a7e57a6823::t_98011ad66632c5 219-220,293-298
+tests/e2e/common/rlhf/weight_transfer/case.py
+  s_e852a7e57a6823::t_3dc466c0a1e613 11,14-22,44-46,48,50-55,212-233,247-313,326
+tests/e2e/common/rlhf/weight_transfer/checkpoint_adapters.py
+  s_e852a7e57a6823::t_fe271f3cf6021d 4-6,9,84-186
+tests/e2e/common/rlhf/weight_transfer/hccl.py
+  s_e852a7e57a6823::t_5bb5f2429f4fb5 93-95
+tests/e2e/common/rlhf/weight_transfer/npu_ipc.py
+  s_e852a7e57a6823::t_fb83b0ba09cad3 186-188
+tests/e2e/common/rlhf/weight_transfer/reference_check.py
+  s_e852a7e57a6823::t_f4956f0caa2a2e 6,9,11,173-175,181-197,200-212,214,217,227-247,292-294
+tests/e2e/common/rlhf/weight_transfer/weight_source.py
+  s_e852a7e57a6823::t_b543fe332aad73 156,161-163,169,177,181-182,187,190,192-194
+tests/e2e/conftest.py
+  s_e852a7e57a6823::t_18d8c971238504 989-1008,1012,1237-1250,1525-1567
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_add_rms_norm_bias.py
+  s_e852a7e57a6823::t_fbb16f86c871a6 89,91-100,191,193-207
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_copy_and_expand_eagle_inputs.py
+  s_e852a7e57a6823::t_326d4c9c201610 260-263
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_fused_lightning_indexer_manage.py
+  s_e852a7e57a6823::t_1e02dd1100b85c 81-82
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_fused_quant_lightning_indexer_manage.py
+  s_e852a7e57a6823::t_02bb200f856b93 100-109
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_fused_scatter_copy_sparse_flash_attention.py
+  s_e852a7e57a6823::t_af7610efc01e97 597-609,660-662,679,698,834,852,914,920,965,972
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_gdn_recoverssm_context_npu.py
+  s_e852a7e57a6823::t_ae2004c5d54a69 1-272
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_grouped_matmul_swiglu_quant_weight_nz_tensor_list.py
+  s_e852a7e57a6823::t_25b315be954fb9 34-35
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_hc_post.py
+  s_e852a7e57a6823::t_18b16590630c86 1-50
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_hc_pre.py
+  s_e852a7e57a6823::t_2feeca60dd294b 8-9,26,38-46,204-212,214,221,272-286,426,491
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_hisparse_resolve_residency.py
+  s_e852a7e57a6823::t_093db2fc076d94 19,37-38,40
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_inplace_partial_rotary_mul.py
+  s_e852a7e57a6823::t_7a9c11e0da1944 48,51-63,65-75
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_minimax_m3_sparse_attn.py
+  s_e852a7e57a6823::t_d1fd7120b29623 111-117,1414-1420
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_moe_gating_top_k_hash.py
+  s_e852a7e57a6823::t_74f4f521ce29d8 1-4,8-9,27,47,52,62-63,125-182
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_qsfa_native_heads.py
+  s_e852a7e57a6823::t_b0a49e5e1a366b 110-116
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_quant_lightning_indexer_v2.py
+  s_e852a7e57a6823::t_d8f90ee1b166ea 316,340,373-374,421-439,449
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_quant_sparse_lightning_indexer_metadata.py
+  s_e852a7e57a6823::t_c1ffb5c68ac869 41-42,57-79,128
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_qwen4_exp_gbsa.py
+  s_e852a7e57a6823::t_cb3888a7faac39 1-3,5,7,9,12-15,22-35,38,41,64,69,81,89-95,97-106,109-115,118,122,125,127-128,131
+tests/e2e/nightly/single_node/ops/singlecard_ops/test_transpose_kv_cache_by_block.py
+  s_e852a7e57a6823::t_b46adf4a653440 78-91,125
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_batch_invariant_ops.py
+  s_e852a7e57a6823::t_f76e1282a138cc 110,112-118
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_bincount.py
+  s_e852a7e57a6823::t_b8c114a63cc7aa 52-62,250-255
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_categorical_sample.py
+  s_e852a7e57a6823::t_b9c8c73e5c8de0 71,341-349
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_chunk_gated_delta_rule.py
+  s_e852a7e57a6823::t_8096007efcbf87 9
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_compressor_triton.py
+  s_e852a7e57a6823::t_bac2ef9320c0eb 24-28,91-95,178-191
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_compute_slot_mapping.py
+  s_e852a7e57a6823::t_72353e2a8e0719 7,19-22,28,30-37,49,51-52,60,63,65-70,81-84,117-118,120,131,182-235
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_compute_token_logprobs.py
+  s_e852a7e57a6823::t_f6eb9aaada5818 66-67,76-80
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_dcp_a2a.py
+  s_e852a7e57a6823::t_3b00787df19962 3-5,10-11,62-75,315-316,356,363-656
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_dcp_candidates.py
+  s_e852a7e57a6823::t_eb2db35652e5ee 16,18-26
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_dcp_pre_post.py
+  s_e852a7e57a6823::t_69f35ee2444476 66-76,214-225,260-270
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_dflash_candidate_sampler.py
+  s_e852a7e57a6823::t_99a2b31e6dbf26 41-51
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_dspark_swa_indices.py
+  s_e852a7e57a6823::t_c836c6b5114409 12-13,245-324
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_engram_gate.py
+  s_e852a7e57a6823::t_4cd0650cfe5857 3,5-6,9,12,16-96,98-174,176-177,179-184,187-190
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_eplb.py
+  s_e852a7e57a6823::t_4e46ecf4400a16 1-91
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_fill_logprob_token_ids_kernel.py
+  s_e852a7e57a6823::t_39e6ec88155e50 81
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_flash_attention_gate.py
+  s_e852a7e57a6823::t_893b04ce6d0633 14,16-31
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_fused_eh_norm.py
+  s_e852a7e57a6823::t_a62eed56b09ad3 33,35-41
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_fused_qkvzba_split_reshape_cat.py
+  s_e852a7e57a6823::t_154b4422fae524 65,67-70,78
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_gdn_prepare.py
+  s_e852a7e57a6823::t_27b783aaa6dc08 15-16,70-73
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_glm5next_cann_keypool.py
+  s_e852a7e57a6823::t_bcb1311f0092dc 78
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_glm5next_int8_kpool_cache.py
+  s_e852a7e57a6823::t_781f46db1b3c03 1-130
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_glm5next_pool_key_indexer_triton.py
+  s_e852a7e57a6823::t_71153d4bdb2091 59-68
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_hisparse_representatives.py
+  s_e852a7e57a6823::t_dfc14d04b9c906 1-88
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_indexer_quant_cache_int8.py
+  s_e852a7e57a6823::t_07bc56022d0fe2 114-125,131,136-147,160-161,251
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_kda_recoverssm_npu.py
+  s_e852a7e57a6823::t_6029cf36bd5282 16,230-242,327,365-367,375-378,425,433-436,457-461,484-504,595-598,601,605-606,616-617,626,636,638,643-645,652,666-667,686,702,704,760,773,790-793,810-811,813,833-834,838-842,877-879,881-916,1079-1089,1177-1188
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_kimi_kda_fused_norm_gate.py
+  s_e852a7e57a6823::t_5ffd1af6aa9cfb 16-33,69-72,103-115,170,199-208,241-265
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_lightning_attn.py
+  s_e852a7e57a6823::t_0cbb1d45fcb833 351,354
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_lora_linear.py
+  s_e852a7e57a6823::t_c5d95913e2b8f8 28-35,170
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_mamba_state_index.py
+  s_e852a7e57a6823::t_090780498ed5f5 27,29-39
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_mrope_vit_setup.py
+  s_e852a7e57a6823::t_08100a50b96064 28,30-35
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_msa_m3_index_postprocess.py
+  s_e852a7e57a6823::t_618e618c81ba5b 90-103,173-182
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_mxfp_k_scale_scatter.py
+  s_e852a7e57a6823::t_e4b8759311f0b2 35-47
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_num_nans.py
+  s_e852a7e57a6823::t_cc874fd68e0bd0 51
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_pcp_kv_cache.py
+  s_e852a7e57a6823::t_dde73f6c60992d 55-69
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_penality.py
+  s_e852a7e57a6823::t_663fe2777fd745 294-299,319-327,352,390-438,441-454,614
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_ple_decode.py
+  s_e852a7e57a6823::t_0860ef3554d9df 15,17-22
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_ple_quant_lookup.py
+  s_e852a7e57a6823::t_a037240cf17310 53,67,76,89,113,116,119,135,142,162-163,175,180,199-203
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_postprocess_mamba.py
+  s_e852a7e57a6823::t_0c4581dc207856 5,13,17,40-43,45-74,88-91,98-102,105-112,114-117,120-135,137-143,146,149-165,168-170
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_postprocess_temporal_copy.py
+  s_e852a7e57a6823::t_0a5304d04eba12 27-41,84,86-106,191,205-206,209,213,215,227-361
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_precopy.py
+  s_e852a7e57a6823::t_e8c33c97d525ef 16,56-61,81-91,93,96-103,106,112,137-140
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_prepare_dflash_inputs.py
+  s_e852a7e57a6823::t_f81c7d7157777d 6-7,13-14,19-20,137-152,219-221,228,294,298,303,309,409,415,423,439-440,467,482,521,589,628-659,661-671,674-703
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_prepare_indexer_indices.py
+  s_e852a7e57a6823::t_9a02dbe368ab2b 19-32
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_prepare_nonempty_keypool_inputs.py
+  s_e852a7e57a6823::t_96beea8f2c843e 25-36
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_quantize_indexer_query.py
+  s_e852a7e57a6823::t_aff1dffbe905f9 39-51
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_qwen4_exp_hc.py
+  s_e852a7e57a6823::t_6b17c06ba26afd 1-194
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_qwen4_exp_hc_core.py
+  s_e852a7e57a6823::t_d691976f36a8b9 3,7,31,115-121,187-189
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_qwen4_exp_hc_fused.py
+  s_e852a7e57a6823::t_07dbaf8b15add5 1-119
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_rejection_sample_v2.py
+  s_e852a7e57a6823::t_547432fc076a40 11,169-173,558-567
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_resample.py
+  s_e852a7e57a6823::t_0ba48339691287 765-769
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_rms_norm.py
+  s_e852a7e57a6823::t_46e2bd044ffd3c 32,34-38
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_rope.py
+  s_e852a7e57a6823::t_14dca07466027d 13-19,25-32,35-49,51-61,185-188,227-230,347
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_sampling_mask.py
+  s_e852a7e57a6823::t_32273869555dce 143-146
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_sfa_dcp.py
+  s_e852a7e57a6823::t_384b5951617d4d 16-24,214-223
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_sparse_index_remap_triton.py
+  s_e852a7e57a6823::t_0c20a6ec588ee8 37-48
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_split_qkv_rmsnorm_mrope.py
+  s_e852a7e57a6823::t_50d8057b62ba2c 9-20,225-228
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_split_qkv_rmsnorm_rope.py
+  s_e852a7e57a6823::t_dd35d5a9bea5c9 12-18,76-79,150-153
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_split_qkv_rmsnorm_rope_vnorm.py
+  s_e852a7e57a6823::t_b7adf280947df3 12-16,85-88,159-162
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_split_qkv_tp_rmsnorm_rope.py
+  s_e852a7e57a6823::t_ec7a115cd02126 10-17,120
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_step5_fused_add_rms_norm.py
+  s_e852a7e57a6823::t_9c6569ba4f2051 1-150
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_step5_gated_scale.py
+  s_e852a7e57a6823::t_21492a6035f015 1-190
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_step5_indexer_qkz_norm_rope.py
+  s_e852a7e57a6823::t_04a3f2d5c88ca7 1-446
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_triton_ple.py
+  s_e852a7e57a6823::t_dc1229180bb6b0 67-71,101-110,191-201
+tests/e2e/nightly/single_node/ops/singlecard_ops/triton/test_triton_ple_spec.py
+  s_e852a7e57a6823::t_f4f8278f2470ae 28,30-36
+tests/e2e/pull_request/four_card/context_parallel/pool/__init__.py
+  s_e852a7e57a6823::t_44a2f070fbe371 1-2
+tests/e2e/pull_request/four_card/context_parallel/pool/test_deepseek_v4_pool.py
+  s_e852a7e57a6823::t_810fe4a0a043af 1-218
+tests/e2e/pull_request/four_card/context_parallel/test_accuracy_v2.py
+  s_e852a7e57a6823::t_8d98f7e5d9d906 515,525,572,588
+tests/e2e/pull_request/four_card/model_runner_v2/test_spec_pp_accuracy.py
+  s_e852a7e57a6823::t_72a970a592689e 33-34,39-40,43-44,46-55,62-99,139-175,197-200,203-226
+tests/e2e/pull_request/four_card/spec_decode/test_mtp_qwen3_next.py
+  s_e852a7e57a6823::t_f9246a43115525 19,27,32,39-50,53,56,62-65,72-76,78-101,103-108
+tests/e2e/pull_request/four_card/test_deepseek_v4.py
+  s_e852a7e57a6823::t_7c35b61c3560c2 20-22,25-26,28-29,31-36,40-112,133-138,140-141,148-176
+tests/e2e/pull_request/four_card/test_qwen_gdn_recoverssm.py
+  s_e852a7e57a6823::t_34f0126d5f4889 1-43
+tests/e2e/pull_request/kv_pool_watch.py
+  s_e852a7e57a6823::t_28c9745d72a013 1-658
+tests/e2e/pull_request/one_card/aclgraph/test_device_metadata.py
+  s_e852a7e57a6823::t_a7d78e73869648 9-10,80-160
+tests/e2e/pull_request/one_card/rlhf/state_transitions/test_npu_device_synchronize.py
+  s_e852a7e57a6823::t_c26e4a749c83b7 88
+tests/e2e/pull_request/one_card/test_all2allv_dispatch_host_sync.py
+  s_e852a7e57a6823::t_9627768364b2c8 1-92
+tests/e2e/pull_request/one_card/test_dsv41_adaptive_graph.py
+  s_e852a7e57a6823::t_4d93e37f8c8064 14,16,48-58
+tests/e2e/pull_request/one_card/test_gdn_block_packed_states.py
+  s_e852a7e57a6823::t_5cf60e62423778 11
+tests/e2e/pull_request/one_card/test_gdn_checkpoint_states.py
+  s_e852a7e57a6823::t_35e197965d6376 108
+tests/e2e/pull_request/one_card/test_gdn_layerwise_kv.py
+  s_e852a7e57a6823::t_1ea59d079d60eb 28,72-81,87-88
+tests/e2e/pull_request/one_card/test_gdn_stable_argsort.py
+  s_e852a7e57a6823::t_f6776760535b42 11,20
+tests/e2e/pull_request/one_card/test_gumbel_sampling.py
+  s_e852a7e57a6823::t_d6d2a8aa7b50a3 606-609,611-612
+tests/e2e/pull_request/one_card/test_hisparse_attention.py
+  s_e852a7e57a6823::t_cc0e81c83cb35e 360
+tests/e2e/pull_request/one_card/test_hisparse_int8_prolog.py
+  s_e852a7e57a6823::t_739f22a8adf119 14,16,25-27,47-48,84-87,94-99,130-139
+tests/e2e/pull_request/one_card/test_hisparse_integration.py
+  s_e852a7e57a6823::t_637ce1b96cfbd4 9
+tests/e2e/pull_request/one_card/test_hisparse_prefill_staging.py
+  s_e852a7e57a6823::t_92d6db4c437102 6,13,15,25,29-30,79-80
+tests/e2e/pull_request/one_card/test_mla_fp8_decode_layout_a5.py
+  s_e852a7e57a6823::t_b17c52b8b071b4 3,25,84,112,191,208,215,222-223,231-232,252-253,285,309-369
+tests/e2e/pull_request/one_card/test_p2p_offloading_cache_reset.py
+  s_e852a7e57a6823::t_00f2c62778dff8 1-95
+tests/e2e/pull_request/one_card/test_routing_ids_graph_refresh.py
+  s_e852a7e57a6823::t_359183fceec51e 1-84
+tests/e2e/pull_request/two_card/model_runner_v2/test_qwen3_6_mtp.py
+  s_e852a7e57a6823::t_cc2a0b49d75ce8 4,9,19,24,50-103,145,159-167,169-178
+tests/e2e/pull_request/two_card/model_runner_v2/test_qwen3_8b_dspark_batch_sharded.py
+  s_e852a7e57a6823::t_d188a18d9d0d12 1-3,16-18,20-23,25-26,28-29,31,33,35-44,47-74
+tests/e2e/pull_request/two_card/ops/conftest.py
+  s_e852a7e57a6823::t_ee2d22cbb6bfa3 1-40
+tests/e2e/pull_request/two_card/ops/test_attn_res_fwd.py
+  s_e852a7e57a6823::t_3e700d1580164b 1-89
+tests/e2e/pull_request/two_card/ops/test_bgmv_expand.py
+  s_e852a7e57a6823::t_489020481959d6 1-49
+tests/e2e/pull_request/two_card/ops/test_bgmv_shrink.py
+  s_e852a7e57a6823::t_b96d3cd30fa69a 1-49
+tests/e2e/pull_request/two_card/ops/test_chunk_gated_delta_rule_fwd_h_vllm.py
+  s_e852a7e57a6823::t_8bddc9b6585c59 1-334
+tests/e2e/pull_request/two_card/ops/test_copy_and_expand_eagle_inputs.py
+  s_e852a7e57a6823::t_b16edfc7df8f09 1-516
+tests/e2e/pull_request/two_card/ops/test_dequant_swiglu_quant.py
+  s_e852a7e57a6823::t_75b1b0fd133bfc 1-111
+tests/e2e/pull_request/two_card/ops/test_inplace_partial_rotary_mul.py
+  s_e852a7e57a6823::t_7734eda7851388 1-124
+tests/e2e/pull_request/two_card/ops/test_kda_gate_cumsum_vllm.py
+  s_e852a7e57a6823::t_69cd9b77fab00f 1-51
+tests/e2e/pull_request/two_card/ops/test_kda_layout_swap12.py
+  s_e852a7e57a6823::t_7f576e4c0e279a 1-52
+tests/e2e/pull_request/two_card/ops/test_moe_gating_top_k_hash.py
+  s_e852a7e57a6823::t_599c278473c00b 1-115
+tests/e2e/pull_request/two_card/ops/triton/test_bad_words.py
+  s_e852a7e57a6823::t_e1d9dc835c6c00 1-220
+tests/e2e/pull_request/two_card/ops/triton/test_batch_memcpy.py
+  s_e852a7e57a6823::t_263126f7186db0 1-41
+tests/e2e/pull_request/two_card/ops/triton/test_bincount.py
+  s_e852a7e57a6823::t_1031f7319613b5 1-371
+tests/e2e/pull_request/two_card/ops/triton/test_chunk_gated_delta_rule.py
+  s_e852a7e57a6823::t_3aab611d14806c 1-103
+tests/e2e/pull_request/two_card/ops/triton/test_clear_ssm_states.py
+  s_e852a7e57a6823::t_7cb11fd7d1da9b 1-43
+tests/e2e/pull_request/two_card/ops/triton/test_compressor_triton.py
+  s_e852a7e57a6823::t_dfa159a447e753 1-302
+tests/e2e/pull_request/two_card/ops/triton/test_compute_slot_mapping.py
+  s_e852a7e57a6823::t_8d607260727299 1-177
+tests/e2e/pull_request/two_card/ops/triton/test_compute_token_logprobs.py
+  s_e852a7e57a6823::t_393339155c5d1b 1-261
+tests/e2e/pull_request/two_card/ops/triton/test_compute_topk_logprobs.py
+  s_e852a7e57a6823::t_72f88f543ab44b 1-100
+tests/e2e/pull_request/two_card/ops/triton/test_dflash_candidate_sampler.py
+  s_e852a7e57a6823::t_d90141397d1365 1-263
+tests/e2e/pull_request/two_card/ops/triton/test_fused_gdn_gating.py
+  s_e852a7e57a6823::t_9e7a8d12ce843a 1-57
+tests/e2e/pull_request/two_card/ops/triton/test_gdn_prepare.py
+  s_e852a7e57a6823::t_6f33ede1e1df82 1-225
+tests/e2e/pull_request/two_card/ops/triton/test_glm5next_output_writeback.py
+  s_e852a7e57a6823::t_aa47fff597e274 1-78
+tests/e2e/pull_request/two_card/ops/triton/test_glm5next_state_gather_npu.py
+  s_e852a7e57a6823::t_90f6129b67c37d 1-51
+tests/e2e/pull_request/two_card/ops/triton/test_kda_state_copy_triton.py
+  s_e852a7e57a6823::t_76dd9c6e51949d 1-231
+tests/e2e/pull_request/two_card/ops/triton/test_l2norm.py
+  s_e852a7e57a6823::t_a87e2444d5ff25 1-44
+tests/e2e/pull_request/two_card/ops/triton/test_log_softmax.py
+  s_e852a7e57a6823::t_2e79d91fa130a4 1-71
+tests/e2e/pull_request/two_card/ops/triton/test_lora_linear.py
+  s_e852a7e57a6823::t_7faca15cbf80f2 1-218
+tests/e2e/pull_request/two_card/ops/triton/test_mamba_state_index.py
+  s_e852a7e57a6823::t_a6d11d3c4fb94a 3,10-19,23-24,26-57,59-62,64-74,76-86,88-101,103-140,142-143,145-146
+tests/e2e/pull_request/two_card/ops/triton/test_min_p.py
+  s_e852a7e57a6823::t_063acf5def5b88 1-97
+tests/e2e/pull_request/two_card/ops/triton/test_mrope_vit_setup.py
+  s_e852a7e57a6823::t_5b814137c43aa5 1-59
+tests/e2e/pull_request/two_card/ops/triton/test_muls_add.py
+  s_e852a7e57a6823::t_ed4076f9a780ab 1-38
+tests/e2e/pull_request/two_card/ops/triton/test_mxfp_k_scale_scatter.py
+  s_e852a7e57a6823::t_92689876cad1e8 1-368
+tests/e2e/pull_request/two_card/ops/triton/test_penality.py
+  s_e852a7e57a6823::t_701d92a1482d76 1-577
+tests/e2e/pull_request/two_card/ops/triton/test_qsa_rmsnorm_mrope.py
+  s_e852a7e57a6823::t_01fff1205792a3 1-68
+tests/e2e/pull_request/two_card/ops/triton/test_qwen4_exp_qsa.py
+  s_e852a7e57a6823::t_9b00efe40f2099 1-85
+tests/e2e/pull_request/two_card/ops/triton/test_rejection_sample_v2.py
+  s_e852a7e57a6823::t_2410c95b27175e 1-643
+tests/e2e/pull_request/two_card/ops/triton/test_resample.py
+  s_e852a7e57a6823::t_3d23244af50f74 1-1056
+tests/e2e/pull_request/two_card/ops/triton/test_rms_norm.py
+  s_e852a7e57a6823::t_18ca19e3a9a739 1-66
+tests/e2e/pull_request/two_card/ops/triton/test_temperature.py
+  s_e852a7e57a6823::t_57e37f9d997f30 1-87
+tests/e2e/pull_request/two_card/rlhf/weight_transfer/ipc/test_deepseek_vision_ipc.py
+  s_e852a7e57a6823::t_cb4c525fc9d8a0 1-20
+tests/e2e/pull_request/two_card/rlhf/weight_transfer/ipc/test_minimax_ipc.py
+  s_e852a7e57a6823::t_7edc9a9aa590f8 1-24
+tests/e2e/pull_request/two_card/spec_decode/test_spec_decode.py
+  s_e852a7e57a6823::t_3bc6e65d9c0555 122-123
+tests/e2e/pull_request/utils.py
+  s_e852a7e57a6823::t_d36e8e027f32a5 10,360-368
+tests/ut/_310p/ops/test_gdn_310.py
+  s_e852a7e57a6823::t_aeeb791e729ead 24,28,32-33
+tests/ut/_310p/test_model_runner_v2_310p.py
+  s_e852a7e57a6823::t_eaa25c4b3cfffe 7,14,1216-1295
+tests/ut/attention/test_a5_swa_replay_cpu.py
+  s_e852a7e57a6823::t_09e9b720a46826 55-56
+tests/ut/attention/test_attention_c8_mxfp.py
+  s_e852a7e57a6823::t_dbeff56dbe598d 8-68
+tests/ut/attention/test_attention_utils.py
+  s_e852a7e57a6823::t_2e555d23efdf3d 30,95-119,195,201,203
+tests/ut/attention/test_attention_v1.py
+  s_e852a7e57a6823::t_48318cc29f8bb7 39,139,142,145
+tests/ut/attention/test_batch_invariance_support.py
+  s_e852a7e57a6823::t_a8c5d331b15fa3 8-9,19-23
+tests/ut/attention/test_dsa_kv_epilog_cpu.py
+  s_e852a7e57a6823::t_77ebbaad55fd43 1-128
+tests/ut/attention/test_dsa_v1.py
+  s_e852a7e57a6823::t_0d1b03190d1314 43,129-165,1828,1832-1834
+tests/ut/attention/test_dsa_v41_cp.py
+  s_e852a7e57a6823::t_a22b894ddbfb0b 324,1547-1653
+tests/ut/attention/test_dsa_v41_shared_metadata.py
+  s_e852a7e57a6823::t_551c6c75f635ea 154
+tests/ut/attention/test_dspark_c8_contracts.py
+  s_e852a7e57a6823::t_7fbca1094bad89 1-203
+tests/ut/attention/test_flash_attn.py
+  s_e852a7e57a6823::t_dbf5d0f1d3065b 162-166,173,192-196,238-239,242,266-273,291,299,409-411
+tests/ut/attention/test_flashmla_auto_select.py
+  s_e852a7e57a6823::t_db4be6e64ab8e1 20-25,79,97,124-201,203,215,225,239,243
+tests/ut/attention/test_flashmla_dcp.py
+  s_e852a7e57a6823::t_59d0f3e04d3d31 14,147,185-198,204,207,210,214-227,229-234,305,315-328,487,489-494,498,595,605,671,673,675-676,698-772,781-869
+tests/ut/attention/test_flashmla_prolog_v3_cpu.py
+  s_e852a7e57a6823::t_171ccad0458f2f 119,139,284,352
+tests/ut/attention/test_indexer.py
+  s_e852a7e57a6823::t_32466705a4b58f 22-23,36-38,52,57-58,72-76,472,482,501,513,701-797
+tests/ut/attention/test_minimax_dspark_integration.py
+  s_e852a7e57a6823::t_03419a081f8418 32-37,110,115
+tests/ut/attention/test_minimax_fa3.py
+  s_e852a7e57a6823::t_c5cdda3d6d5dd7 23-87,135,140,150-161,253-257,259-261,277,280-281,283,295-296,363-549,724-793
+tests/ut/attention/test_mla_cp.py
+  s_e852a7e57a6823::t_7832192e2a8165 439-451,476,540,542-543,546,603-607,610,638,640-643,648,652,782
+tests/ut/attention/test_mla_cp_workspace_owner.py
+  s_e852a7e57a6823::t_b50662f8248019 5,17,22-25,27-28,31-33,40,96,110-111,113-117
+tests/ut/attention/test_mla_fp8_decode_layout.py
+  s_e852a7e57a6823::t_662ab11aebeb94 70-71,129,131-135,188,199-206,208,210,212,222,234-237
+tests/ut/attention/test_mla_nope_chunked_gather.py
+  s_e852a7e57a6823::t_702cf59516f1e3 29
+tests/ut/attention/test_mla_pcp_dcp.py
+  s_e852a7e57a6823::t_4a5126b96e08f2 19-23,33
+tests/ut/attention/test_mla_prefill_merge.py
+  s_e852a7e57a6823::t_43d65b0a31ee52 68
+tests/ut/attention/test_mla_prolog_v3_route.py
+  s_e852a7e57a6823::t_3f212d7bff12ee 40-41
+tests/ut/attention/test_mla_v1.py
+  s_e852a7e57a6823::t_f123943186e6bb 25,32,36,534,613,1027,1701,2036-2038,2040,2042,2044-2046,2048,2050-2051,2074-2078,2082-2083,2085-2086,2106-2107,2109-2110,2119-2123,2128-2129,2141-2145,2170-2171,2174,2631-2632,2662-2664,3472
+tests/ut/attention/test_pcp_main_kv_overlap.py
+  s_e852a7e57a6823::t_1ee7be0a3824b3 13,15,20,22-28,33,36,48-49,62,73,77-78,94,160
+tests/ut/attention/test_qli_metadata.py
+  s_e852a7e57a6823::t_ec06690752a3ab 1-103
+tests/ut/attention/test_quant_flashmla.py
+  s_e852a7e57a6823::t_aab09f1196c276 1-239
+tests/ut/attention/test_quant_flashmla_dcp.py
+  s_e852a7e57a6823::t_48d92e063a229c 1-54
+tests/ut/attention/test_quant_flashmla_writer_workspace.py
+  s_e852a7e57a6823::t_0fa0c000ef2847 1-213
+tests/ut/attention/test_replay_visibility_sharing.py
+  s_e852a7e57a6823::t_d13e7e413377be 1-95
+tests/ut/attention/test_sfa_cp.py
+  s_e852a7e57a6823::t_a1fb7404dfcd4c 95-96,106-108,113,153-154,600-601,641-642,662-664,765-766,769,784-785,1089-1093,1159-1163,1719-1721,2468,2560-2561
+tests/ut/attention/test_sfa_cp_precision.py
+  s_e852a7e57a6823::t_6e94cdedcdf6d8 141-143,299,375,467-469
+tests/ut/attention/test_sfa_dcp_capacity.py
+  s_e852a7e57a6823::t_6b5c83fd9980d3 38,59,69-70,78-83,116,148,175
+tests/ut/attention/test_sfa_dcp_compact.py
+  s_e852a7e57a6823::t_9820b05a89a94d 2-3,5,10-13,15-36,38-42,44-65,68-133,135-136,140,142-145,148-149,151-169,172-174,176-177,180-199,201-228,230-235,237-265
+tests/ut/attention/test_sfa_dcp_utils.py
+  s_e852a7e57a6823::t_0ec72f4a3db8c6 1-99
+tests/ut/attention/test_sfa_kv_offload.py
+  s_e852a7e57a6823::t_eb1e653849208f 34-36,78-80
+tests/ut/attention/test_sfa_nope_forward.py
+  s_e852a7e57a6823::t_1548e2a2eb22f4 14,302,547-551
+tests/ut/attention/test_sfa_nope_metadata.py
+  s_e852a7e57a6823::t_dae8cf8c04d01a 57-58,128-129,150-152
+tests/ut/attention/test_sfa_nope_prolog_cpu.py
+  s_e852a7e57a6823::t_915c5c06236446 1-333
+tests/ut/attention/test_sfa_v1.py
+  s_e852a7e57a6823::t_36ebac4fdaa0e3 719,741-742,1329-1330,1351-1353
+tests/ut/attention/test_step5_fa3.py
+  s_e852a7e57a6823::t_8153af41ef3dd0 1-122
+tests/ut/compilation/test_acl_graph.py
+  s_e852a7e57a6823::t_cf706a5bc25250 28,41,365,506,727,801,1009-1011,1017-1021,1026-1028,1030-1041,1043-1052,1057-1062,1064,1073,1075-1119
+tests/ut/compilation/test_compiler_interface.py
+  s_e852a7e57a6823::t_3acac6d688caad 1-128
+tests/ut/core/test_dyntra_lb_scheduler.py
+  s_e852a7e57a6823::t_1b9243f985db13 682-684,1107-1116
+tests/ut/core/test_kv_cache_config_builder.py
+  s_e852a7e57a6823::t_f1a23d191f0105 4,6-8,18,22,31,39-43,131-158
+tests/ut/core/test_kv_cache_interface.py
+  s_e852a7e57a6823::t_70a16921420a4a 12
+tests/ut/core/test_paired_sfa_cache.py
+  s_e852a7e57a6823::t_9e97a0caaf83f0 12-13,62-66,211-215,217,236-256,288-322
+tests/ut/core/test_qsa_kv_cache_grouping.py
+  s_e852a7e57a6823::t_f7f730296ac3a4 5,12,26-34,37,41-42,46,66-67,71,76,81-82
+tests/ut/core/test_recompute_scheduler.py
+  s_e852a7e57a6823::t_77717c3689699b 412-413
+tests/ut/core/test_scheduler_encoder_inputs.py
+  s_e852a7e57a6823::t_b7e6b6f085b678 1-311
+tests/ut/core/test_score_encoder_cache_scheduler.py
+  s_e852a7e57a6823::t_a6fcba92cd2162 99
+tests/ut/device/test_device_op.py
+  s_e852a7e57a6823::t_61e0b6641af432 8,373-562
+tests/ut/device/test_fla_gdn_prefill.py
+  s_e852a7e57a6823::t_4aad4d03be47e6 1-330
+tests/ut/device/test_hardware_profile.py
+  s_e852a7e57a6823::t_e883b9bddf47f7 17,48,61-63,71,77,79,84,108,118,130,132,138,285-297,345-359
+tests/ut/device/test_paged_mla_cache_read.py
+  s_e852a7e57a6823::t_c556f633e4988f 214-239
+tests/ut/device_allocator/test_sleep_mode_backend.py
+  s_e852a7e57a6823::t_d117e6b8cf91ed 1-75
+tests/ut/distributed/ascend_store/test_ascend_store_connector.py
+  s_e852a7e57a6823::t_9a78d16e247905 26,55,64-92,97-101,103-104,107-108,110-111,113-131,133-151,272,275,280-286,294,386-391,407-413,415,418-458,602,607,649-650,660-683,710-731
+tests/ut/distributed/ascend_store/test_glm53_store.py
+  s_e852a7e57a6823::t_a17af9ec0e0abc 489-490,534-535
+tests/ut/distributed/ascend_store/test_kv_transfer.py
+  s_e852a7e57a6823::t_a87782cf62a455 21,28,428,453,467,476,485,519,524,535,697,710-715,718-748,766-947,1008,1010,1020,1031,1049-1050,1060,1065-1066,1071,1078,1082-1085,1089,1107,1111,1117,1144,1154,1162,1168,1264,1278,1286,1491,1493,1501-1502
+tests/ut/distributed/ascend_store/test_layerwise_cache_layout.py
+  s_e852a7e57a6823::t_3c20f459c82ef5 1-4,9-16,19-20,22-23,28-41,45,47-52,54,58-59,65-68,71-72,75-82,86-93,106,113,115,117,119,123,164,173-175,195-228,230-268,271-284
+tests/ut/distributed/ascend_store/test_mooncake_layerwise.py
+  s_e852a7e57a6823::t_567bed7809ced7 202,263-283
+tests/ut/distributed/ascend_store/test_pool_scheduler.py
+  s_e852a7e57a6823::t_2e5e913c000285 25,48-50,54,193,218-221,223,354-388,1004-1043,1096-1105,1119,1127-1136,1139-1141,1150,1248,1278,1319,1511-1513,1516-1517,1592-1595,1599,1602,1627-1630,1634,1637,1645-1673,1679,1736-1738,1741-1742,2076-2096,2220
+tests/ut/distributed/ascend_store/test_pool_worker.py
+  s_e852a7e57a6823::t_1cc6627baa0fe8 24,287,293,295,373-384,395,397,452,461-469,487,490-491,944,951-953,956,1215-1226,1232,1437,1865-1866,2206,2248,2413,2824-2826,2882,2941,3011,3017-3019,3120-3147,3261,3264,3271,3279,3433,3916-3959,4012-4065
+tests/ut/distributed/ascend_store/test_reuse_publication_fence.py
+  s_e852a7e57a6823::t_c7505ef9a597c3 13-25
+tests/ut/distributed/ascend_store/test_reuse_snapshot_blocks.py
+  s_e852a7e57a6823::t_b9ab6daed45867 35-38,50,56-58,126,132-133,136,145,147-157,168,235,237-238
+tests/ut/distributed/ascend_store/test_reuse_snapshot_identity.py
+  s_e852a7e57a6823::t_a76c838c7433a8 7,11,13-29,31-35
+tests/ut/distributed/eplb/test_state.py
+  s_e852a7e57a6823::t_8b1cc734ed5d29 10,35,231
+tests/ut/distributed/expert_transfer/test_v2_hooks.py
+  s_e852a7e57a6823::t_382f84d04ca910 73-79,93-95
+tests/ut/distributed/kv_transfer/kv_p2p/mooncake/test_kv_sharing.py
+  s_e852a7e57a6823::t_0206a64c6b701c 1-321
+tests/ut/distributed/kv_transfer/kv_p2p/mooncake/test_push_bilateral_dcp.py
+  s_e852a7e57a6823::t_924c349a69a131 346
+tests/ut/distributed/kv_transfer/kv_p2p/mooncake/test_scheduler_integration.py
+  s_e852a7e57a6823::t_e179925c068899 112-113,127
+tests/ut/distributed/kv_transfer/kv_p2p/test_mooncake_connector.py
+  s_e852a7e57a6823::t_f07b418898c3f4 22,1802-1803,1860,1870-1871,5331-5332,5344,5354-5357
+tests/ut/distributed/kv_transfer/sparse_kv_offload/test_sparse_kv_offload_manager.py
+  s_e852a7e57a6823::t_6020afbe4baa5f 6,22-26,154-163,675-1706
+tests/ut/distributed/kv_transfer/test_hisparse_foundation_cpu.py
+  s_e852a7e57a6823::t_dbd95fc624a7ee 6-7,13-16,27,38,83,205-291,476-583
+tests/ut/distributed/kv_transfer/test_hisparse_pcp_cpu.py
+  s_e852a7e57a6823::t_f7e1776bd19050 2-3,5-7,13-22,26-33,35-45,47-79,81-131,133-147,149-150,152-162,164-165,167-265,268-276,278-290,293-384,388-393,395-419,421-431,433-463,465-469
+tests/ut/distributed/test_ec_memcache_connector.py
+  s_e852a7e57a6823::t_9e926902c8906b 7,448,450-452,456-485
+tests/ut/distributed/weight_transfer/test_e2e_weight_transfer_oracle.py
+  s_e852a7e57a6823::t_ae4002d4fd6e5e 27,31,34-35,193-248
+tests/ut/distributed/weight_transfer/test_hccl_engine.py
+  s_e852a7e57a6823::t_c0dd1deadf9496 58,68,72,122,235-236,278-287,329-331,334
+tests/ut/distributed/weight_transfer/test_npu_ipc_engine.py
+  s_e852a7e57a6823::t_7c0b9fd081bd69 210
+tests/ut/examples/test_launch_online_dp.py
+  s_e852a7e57a6823::t_ad7c615ebb81bb 1-303
+tests/ut/graph_dispatch_fixture.py
+  s_e852a7e57a6823::t_831a5b9001a6b5 53
+tests/ut/kv_offload/mooncake_v2/helpers.py
+  s_e852a7e57a6823::t_f07f145141935c 226,229
+tests/ut/kv_offload/mooncake_v2/test_base_scheduler.py
+  s_e852a7e57a6823::t_457ca21fb28c2b 53,56,59-60,91,185-188,274-275,293,295
+tests/ut/kv_offload/mooncake_v2/test_base_worker.py
+  s_e852a7e57a6823::t_44c2751a51e34e 3,25-36,423-568,584-587
+tests/ut/kv_offload/mooncake_v2/test_composite_ready_cpu.py
+  s_e852a7e57a6823::t_0ff19ac4a0e513 4-7,16,35,100-215
+tests/ut/kv_offload/mooncake_v2/test_pull_scheduler.py
+  s_e852a7e57a6823::t_22a16d3b6f629b 3,16-18,36,361-488,955-956,961,964,1003-1030,1960,1964-1971,1982-1987
+tests/ut/kv_offload/mooncake_v2/test_pull_worker.py
+  s_e852a7e57a6823::t_ece6990c8e57df 5,49,76-78,1071,1073,1081-1082,1090-1102,1115,1129-1138,1292-1297,1455,1457,1462-1464,1472,1475-1487,2539-2729
+tests/ut/kv_offload/mooncake_v2/test_push_scheduler.py
+  s_e852a7e57a6823::t_a01584e5dd4d77 232,237,239,245,248
+tests/ut/kv_offload/mooncake_v2/test_push_sending.py
+  s_e852a7e57a6823::t_7a23e75b23ce72 170,265-279,612-615
+tests/ut/kv_offload/mooncake_v2/test_push_worker.py
+  s_e852a7e57a6823::t_bda1242dac412f 7,20-47
+tests/ut/kv_offload/mooncake_v2/test_swa_handoff.py
+  s_e852a7e57a6823::t_04fe6dd81a05f9 1-69
+tests/ut/kv_offload/mooncake_v2/test_virtual_pull.py
+  s_e852a7e57a6823::t_84876411aa8f13 1-126
+tests/ut/kv_offload/mooncake_v2/test_virtual_push.py
+  s_e852a7e57a6823::t_93fcb806b314d6 1-125
+tests/ut/kv_offload/test_dspark_pd_context.py
+  s_e852a7e57a6823::t_dce007f55896ed 84,104-114,672-675,677-678
+tests/ut/kv_offload/test_dspark_resident_kv.py
+  s_e852a7e57a6823::t_10b7d59c8d88d9 4,10,15,239,265-267,501-502,506-509,520-540
+tests/ut/kv_offload/test_hybrid_prefix_truncation.py
+  s_e852a7e57a6823::t_0550e25006aa76 59,70,72,74
+tests/ut/kv_offload/test_native_offload_config.py
+  s_e852a7e57a6823::t_ad0d69a2d12978 1-65
+tests/ut/kv_offload/test_pool_worker_pp_layer_count.py
+  s_e852a7e57a6823::t_43ce8e18a0eb53 27-29,32-34,99,187
+tests/ut/kv_offload/test_pool_worker_pp_object_bounds.py
+  s_e852a7e57a6823::t_b271386074a257 5-6,13,15,41-103,136-137,141,146,153,156,167-168,185,187-229
+tests/ut/kv_offload/test_sfa_pd_rd2h_connector.py
+  s_e852a7e57a6823::t_56b95e91f4f8c1 542,1558,1586-1595,1599-1709,1729
+tests/ut/kv_trace/test_kv_trace_runtime.py
+  s_e852a7e57a6823::t_c8350518c59eed 71
+tests/ut/kv_trace/test_kv_trace_state.py
+  s_e852a7e57a6823::t_dd3f91be84a139 11,16-18
+tests/ut/kv_trace/test_kv_trace_v2.py
+  s_e852a7e57a6823::t_2bcf360377918b 18-19,39-54,82-83
+tests/ut/kv_transfer/test_layerwise_multi_cache_spec.py
+  s_e852a7e57a6823::t_85206f38d23ebe 1-2,4,7-8,10,12,16-39,41-52
+tests/ut/model_executor/test_deepseek_v4.py
+  s_e852a7e57a6823::t_ea7fcf27b70338 22
+tests/ut/model_executor/warmup/test_eplb_map_warmup.py
+  s_e852a7e57a6823::t_2cb8be96d1d6c8 1-108
+tests/ut/model_executor/warmup/test_hisparse_representatives.py
+  s_e852a7e57a6823::t_f0239cd4d0e63c 1-45
+tests/ut/model_loader/bigtensorloader/test_bigtensordefaultloader.py
+  s_e852a7e57a6823::t_dc3b044daf369f 1-58
+tests/ut/model_loader/bigtensorloader/test_packed_nz_roundtrip.py
+  s_e852a7e57a6823::t_c2bc83cceb0202 1-497
+tests/ut/model_loader/bigtensorloader/test_snapshot_v3.py
+  s_e852a7e57a6823::t_0b3fe75cc20a50 1-562
+tests/ut/model_loader/netloader/conftest.py
+  s_e852a7e57a6823::t_d00755f1b3efd9 1-23
+tests/ut/model_loader/netloader/test_netloader_elastic.py
+  s_e852a7e57a6823::t_15868a17de0e1d 695,796-833
+tests/ut/model_loader/rfork/conftest.py
+  s_e852a7e57a6823::t_80bf1e9601cc15 65-73,118-123,129
+tests/ut/model_loader/rfork/test_engram_local_loading.py
+  s_e852a7e57a6823::t_23018eb86cbd60 159
+tests/ut/model_loader/rfork/test_lease_release.py
+  s_e852a7e57a6823::t_953ef5e5a2fa18 316,324
+tests/ut/model_loader/rfork/test_registration_cache_isolated.py
+  s_e852a7e57a6823::t_1c8d65d34761d7 22,33,48-49,64,132,135,215,229,255
+tests/ut/model_loader/rfork/test_restored_lifecycle.py
+  s_e852a7e57a6823::t_c208f9c57d77be 69
+tests/ut/model_loader/rfork/test_transfer_backend.py
+  s_e852a7e57a6823::t_b4cbf8b0b6027d 1086-1087
+tests/ut/models/minimax_m3/test_minimax_dspark_adapter.py
+  s_e852a7e57a6823::t_90e409c9aa3a48 123,135,137
+tests/ut/models/minimax_m3/test_minimax_m3.py
+  s_e852a7e57a6823::t_ac0c174b2dcb9f 23-24,133-136,175-176,178-180,242-243,247,268,272,293
+tests/ut/models/minimax_m3/test_msa_m3.py
+  s_e852a7e57a6823::t_32ec7edafded9a 9,53,58,95-99,104-139,247-252,267-270,273-277,283,669-786,1581,1589,1607-1610,1803-2385,3309,3311,3313-3316,3318-3319,3322-3357,3360,3368
+tests/ut/models/qwen4_exp/test_pcp_ple_construction.py
+  s_e852a7e57a6823::t_3531040fdf525b 1-60
+tests/ut/models/qwen4_exp/test_ple_quant.py
+  s_e852a7e57a6823::t_25581c34b7605c 230-233,236,239,241,245-246,259-265,278-281,285,287,289,306-307,309,313,315,322-323,353-357,360,363
+tests/ut/models/qwen4_exp/test_qsa_layerwise_hooks.py
+  s_e852a7e57a6823::t_54f8907c27577a 41
+tests/ut/models/qwen4_exp/test_qsa_upstream_abi.py
+  s_e852a7e57a6823::t_7ed5e64d9bfa5b 4,7,9-12,14,16-32,40-103,162-191,212-221,235,268-276,278,307-585
+tests/ut/models/test_a5_async_plans.py
+  s_e852a7e57a6823::t_c79fe88e2be453 1-78
+tests/ut/models/test_deepseek_v41_cache.py
+  s_e852a7e57a6823::t_3e210432ad9ac4 22,46,73,218,223,508,1046-1047
+tests/ut/models/test_deepseek_v41_decoder_replay.py
+  s_e852a7e57a6823::t_defa75483e5b82 12,18-20,25,35,46-49,124,165-166,244,253,266
+tests/ut/models/test_deepseek_v41_decoder_replay_state.py
+  s_e852a7e57a6823::t_2cc3bd98fd177c 5,82-154,256-260,266-267,288-289,294,297,446,457,467,493-494,499
+tests/ut/models/test_deepseek_v41_dspark.py
+  s_e852a7e57a6823::t_881621605b9c61 77-79,107
+tests/ut/models/test_deepseek_v41_hyper_connection.py
+  s_e852a7e57a6823::t_b18e12627cef32 89,101,125
+tests/ut/models/test_deepseek_v41_mtp_buffer.py
+  s_e852a7e57a6823::t_cd238b3998f359 1-53
+tests/ut/models/test_deepseek_v41_pp_cache.py
+  s_e852a7e57a6823::t_1e219d857a150d 1-582
+tests/ut/models/test_deepseek_v41_routing_ids.py
+  s_e852a7e57a6823::t_7fa3dd7d7ce1e6 1-318
+tests/ut/models/test_deepseek_v4_moe.py
+  s_e852a7e57a6823::t_41999df41b56eb 18,40-64,109,175,267
+tests/ut/models/test_deepseek_v4_vision.py
+  s_e852a7e57a6823::t_766af5c42bc965 41,52,55-56,60-76,79,82-83,85,87-90
+tests/ut/models/test_deepseek_v4_vision_preprocess.py
+  s_e852a7e57a6823::t_2eecd8ab8a71e5 4-5,11-14,28-29,237-322
+tests/ut/models/test_engram.py
+  s_e852a7e57a6823::t_793e76f9db97b2 23,33-47
+tests/ut/models/test_engram_multistream.py
+  s_e852a7e57a6823::t_0a32c714e29b56 11,56-58,79-115,338
+tests/ut/models/test_engram_shared_pool.py
+  s_e852a7e57a6823::t_3e3d431132bd4d 429,482,486
+tests/ut/models/test_engram_unified_dispatch.py
+  s_e852a7e57a6823::t_37f57eaf7532cc 67-70
+tests/ut/models/test_engram_v2_model_state.py
+  s_e852a7e57a6823::t_9b7c7276db82f9 59-61,270,297,621
+tests/ut/models/test_glm5_dspark_flashmla.py
+  s_e852a7e57a6823::t_e4a0953b5b8383 59-75
+tests/ut/models/test_glm5next_cache_config.py
+  s_e852a7e57a6823::t_d4fc2602c9be8a 148-150,152,204-206,367-368,372,392
+tests/ut/models/test_glm5next_embedding_padding.py
+  s_e852a7e57a6823::t_4b4f191462d025 1-125
+tests/ut/models/test_glm5next_int8_kpool.py
+  s_e852a7e57a6823::t_cd657773f48219 1-93
+tests/ut/models/test_glm5next_kda_dispatch.py
+  s_e852a7e57a6823::t_ca9bae445f5ad2 88,91-106,109-110,120,162-173,175-177,179,190,204-205,209,212,216-271
+tests/ut/models/test_glm5next_kda_pcp.py
+  s_e852a7e57a6823::t_12f4885b19767c 170
+tests/ut/models/test_glm5next_kpool_model_backend.py
+  s_e852a7e57a6823::t_71637671fc8eec 43-44,286,313-315,443,687
+tests/ut/models/test_glm5next_kv_cache.py
+  s_e852a7e57a6823::t_1a858131dbfd8d 13,121,226-227,230-231,236,249-250,252,274-275,292,345,364,415,459,465,469,482,535-641,650,698,779
+tests/ut/models/test_glm5next_mtp_embedding.py
+  s_e852a7e57a6823::t_c66a25fdf52419 18-21
+tests/ut/models/test_glm5next_pcp_metadata.py
+  s_e852a7e57a6823::t_6d1123fb55a30d 1-128
+tests/ut/models/test_glm5next_pp.py
+  s_e852a7e57a6823::t_770feb11ba27d8 17-19,21-22,43,75-141,219-264
+tests/ut/models/test_glm5next_recoverssm_config.py
+  s_e852a7e57a6823::t_9fbe6e4ef0cd82 6,148-173
+tests/ut/models/test_kimi_k3_adapter.py
+  s_e852a7e57a6823::t_b48372cac117b2 333-347
+tests/ut/models/test_kimi_k3_pp_sp.py
+  s_e852a7e57a6823::t_837c29f6310723 22-28,88-91,93-111,233-234,256-258,378-379,385-388,391-393,395,426,430-431,433,479,488-491,513-520
+tests/ut/models/test_kimi_recoverssm_metadata.py
+  s_e852a7e57a6823::t_2e24ffac681146 13,53,76,78,82,84,105
+tests/ut/models/test_qwen4_exp_cache_config.py
+  s_e852a7e57a6823::t_6a8b92c12c6141 9,21,337-341,364,547,549-550,597,618,641,755,831,837-838
+tests/ut/models/test_qwen4_exp_soc_gating.py
+  s_e852a7e57a6823::t_c854f4ec5830fb 78-87
+tests/ut/models/test_qwen4_exp_source_regression.py
+  s_e852a7e57a6823::t_d9ad7e9a42cc36 79
+tests/ut/models/test_qwen4_exp_spec_cpu_length_sync.py
+  s_e852a7e57a6823::t_83c9301d4400b6 9,49-68
+tests/ut/models/test_qwen_gdn_recoverssm_config.py
+  s_e852a7e57a6823::t_e532543f4d27ac 1-344
+tests/ut/models/test_qwen_gdn_recoverssm_metadata.py
+  s_e852a7e57a6823::t_7289cc53c1c4ed 1-181
+tests/ut/models/test_step5_cache_config.py
+  s_e852a7e57a6823::t_078ff2e0280093 16,143,146-148,329-330,338
+tests/ut/models/test_step5_kv_cache_binding.py
+  s_e852a7e57a6823::t_70a5d347ab49b0 135
+tests/ut/models/test_step5_model.py
+  s_e852a7e57a6823::t_3da9ef40f073f9 217
+tests/ut/ops/test_aurora_tiling_keys.py
+  s_e852a7e57a6823::t_bfe9142b66fccc 227-228,235,241,247-248,250,253
+tests/ut/ops/test_cann_keypool_adapters.py
+  s_e852a7e57a6823::t_29bb679b406ae4 133-135
+tests/ut/ops/test_dcp_a2a_combine.py
+  s_e852a7e57a6823::t_e2bcda47c78ea9 7,9,39-220
+tests/ut/ops/test_fla_lazy_imports.py
+  s_e852a7e57a6823::t_977924e432b491 129-131,139-141,143-144
+tests/ut/ops/test_fused_moe.py
+  s_e852a7e57a6823::t_b7e87c6ea036dc 294-326,718,762-763,766,891,940,3147,3152-3153,3418
+tests/ut/ops/test_gdn.py
+  s_e852a7e57a6823::t_670fba024cc03e 29
+tests/ut/ops/test_gdn_attn_builder.py
+  s_e852a7e57a6823::t_0cfc7011469f25 5,9,19,23-26,33-38,226,236-353,504,528,534
+tests/ut/ops/test_gdn_chunk32_prebuilt.py
+  s_e852a7e57a6823::t_b41a7430c5112d 1-298
+tests/ut/ops/test_gdn_chunk_meta.py
+  s_e852a7e57a6823::t_4ed5610b318d75 157,168-170,242-245
+tests/ut/ops/test_gdn_decode_qkv.py
+  s_e852a7e57a6823::t_bc4c455dc01eeb 7
+tests/ut/ops/test_gdn_fla_compat.py
+  s_e852a7e57a6823::t_d8a328355279ad 1-54
+tests/ut/ops/test_gdn_layerwise_kv.py
+  s_e852a7e57a6823::t_b30a1b642d3b5f 27,32,112-135,226,228,231-240,316,318,321-331,392,394,397-399,402,407-412,418-419
+tests/ut/ops/test_gdn_layout.py
+  s_e852a7e57a6823::t_aa065f6f727c28 2,9,11-12,16-17,28-33,38-40,51-55,66,82-95,97,107-108
+tests/ut/ops/test_gdn_mixed_batch.py
+  s_e852a7e57a6823::t_47772f92f5c791 3-5,14,16,20,27-151,305,309,313,316,319,321,327,330,332,336,339,412-413,415-417,427,429-430,472-498,507,509,512-513,515,517-520,524-526,580-581,583,586,588,591-592,594,598,601,659-660,662,665-669,671,677
+tests/ut/ops/test_gdn_recurrent_state_indices.py
+  s_e852a7e57a6823::t_da87970749116c 6
+tests/ut/ops/test_gdn_spec_recurrent_dispatch.py
+  s_e852a7e57a6823::t_7d699678069405 10-11,66,68,71-75
+tests/ut/ops/test_gdn_window_guard.py
+  s_e852a7e57a6823::t_e4cd3248124893 4,28,61,79
+tests/ut/ops/test_kimi_kda.py
+  s_e852a7e57a6823::t_5ef4f59aca6c3c 14-15,30,44
+tests/ut/ops/test_kimi_kda_pcp.py
+  s_e852a7e57a6823::t_089eb56756e5a4 11-15,17-18,24-25,72-73,95,108,149-150,168,179,190-191,217,223-226,228,230,239-242,249-250,264-272,274-277,288-289,296-297,305,307,321-322,324
+tests/ut/ops/test_kimi_kda_pcp_context.py
+  s_e852a7e57a6823::t_4bd43be7634d50 16-18,29,32,44-49,58-63,66
+tests/ut/ops/test_kimi_kda_recoverssm.py
+  s_e852a7e57a6823::t_fc3ca008ce8700 6,109-112,119-121
+tests/ut/ops/test_layernorm.py
+  s_e852a7e57a6823::t_139e5116bdf4c3 83-110
+tests/ut/ops/test_linear.py
+  s_e852a7e57a6823::t_6331219c22fb19 192-225,277-280
+tests/ut/ops/test_megamoe_shared_expert_int8.py
+  s_e852a7e57a6823::t_1a6b257c845ede 1-259
+tests/ut/ops/test_mla.py
+  s_e852a7e57a6823::t_25c7b0b76ee1b3 14,135,155-156,158-160,187,189
+tests/ut/ops/test_mla_weight_processing.py
+  s_e852a7e57a6823::t_a4b8d00d6063fe 17-18,78,85,99-103,124
+tests/ut/ops/test_mmrs.py
+  s_e852a7e57a6823::t_7d7726410a7666 1-387
+tests/ut/ops/test_moe_gating_map_router.py
+  s_e852a7e57a6823::t_18d66c4dfd3f4a 1-165
+tests/ut/ops/test_moe_mlp.py
+  s_e852a7e57a6823::t_3fa9d4b437098a 606-607,609-610,613-614
+tests/ut/ops/test_moe_runtime_args.py
+  s_e852a7e57a6823::t_27643f4f849517 33,89-130
+tests/ut/ops/test_packaged_attention.py
+  s_e852a7e57a6823::t_63e6c62da1e63c 6-9,115-150
+tests/ut/ops/test_qwen4_exp_hc.py
+  s_e852a7e57a6823::t_726e85d31518ac 1-132
+tests/ut/ops/test_routing_input_ids_compile.py
+  s_e852a7e57a6823::t_c3302e68352fd8 1-78
+tests/ut/ops/test_routing_input_ids_distributed.py
+  s_e852a7e57a6823::t_7c68da7ae470af 1-137
+tests/ut/ops/test_token_dispatcher.py
+  s_e852a7e57a6823::t_88d3d045411f87 1063-1066,1116-1119,1125-1274
+tests/ut/ops/test_vocab_parallel_embedding.py
+  s_e852a7e57a6823::t_9ed5d57f7d4699 340-346,449-509,522-527,529,535-536,542-555,561-562,567-579,587-588,600-601,608-609,631-632,636,639-641,651,714-715,725,770-771,810-845
+tests/ut/patch/platform/test_packed_kv_cache_compat.py
+  s_e852a7e57a6823::t_dc43732a4e515b 5,7-9,13-16,18-19,21-24,26,28-29
+tests/ut/patch/platform/test_patch_balance_schedule.py
+  s_e852a7e57a6823::t_8bec9a011dc1a0 76,825-864,1050
+tests/ut/patch/platform/test_patch_engram_config.py
+  s_e852a7e57a6823::t_5178ffe5228587 96
+tests/ut/patch/platform/test_patch_fused_moe.py
+  s_e852a7e57a6823::t_127efa23eb765d 257,281,306-344
+tests/ut/patch/platform/test_patch_kv_cache_coordinator.py
+  s_e852a7e57a6823::t_a08087ff5771fe 14-15,36,257,265-266,269-270,272-305,335-337,444-456
+tests/ut/patch/platform/test_patch_pp_mtp.py
+  s_e852a7e57a6823::t_edd11578bbd05f 234-235
+tests/ut/patch/platform/test_patch_speculative_config_dspark.py
+  s_e852a7e57a6823::t_6dcb8af54e39cb 119,152-153,172,197-198,206-207,210-211,216,268-269,274,281,285,311-312
+tests/ut/patch/platform/test_patch_use_v2_model_runner.py
+  s_e852a7e57a6823::t_ffa0dc49fee11e 38
+tests/ut/patch/platform/test_prefix_cache_cp_patches.py
+  s_e852a7e57a6823::t_7b6cf9cd4b0660 10,36-43,981,1086,1090,1092,1102-1103,1111,1137,1196,1198-1200,1202-1205,1208,1238-1300,1673,1722,1726,1743
+tests/ut/patch/worker/test_deepseek_pp_embedding.py
+  s_e852a7e57a6823::t_81b578dfab13c1 10,17,26-27,29-30,76-86,114-116
+tests/ut/patch/worker/test_patch_bind_kv_cache.py
+  s_e852a7e57a6823::t_dc66676607d7b7 78,86,89,95
+tests/ut/patch/worker/test_patch_deepseek_v2.py
+  s_e852a7e57a6823::t_8dc36026e4b5c0 40,45,213,215-217,219
+tests/ut/patch/worker/test_patch_dspark_eplb.py
+  s_e852a7e57a6823::t_ce033168dca37d 16-25,56,58
+tests/ut/patch/worker/test_patch_qwen3_5_mtp.py
+  s_e852a7e57a6823::t_060bf71d83ef67 27-28
+tests/ut/patch/worker/test_patch_v2_gumbel.py
+  s_e852a7e57a6823::t_e0f78fd6b23fa5 55-58,60-62,93-95
+tests/ut/proxy/test_load_balance_proxy_layerwise_server.py
+  s_e852a7e57a6823::t_fde9e687a38ca4 1-170
+tests/ut/proxy/test_load_balance_proxy_server.py
+  s_e852a7e57a6823::t_f6d753dc91cd72 571-660
+tests/ut/proxy/test_sse_frame_parser.py
+  s_e852a7e57a6823::t_c43904efe9b2bd 1-142
+tests/ut/quantization/configs/test_compressed_tensors_config.py
+  s_e852a7e57a6823::t_49067b62db1475 140-196
+tests/ut/quantization/methods/kv_cache/turboquant/test_capacity.py
+  s_e852a7e57a6823::t_4a335eb24be7f1 14,23,170,172,211-213
+tests/ut/quantization/methods/w4a8/test_w4a8_mxfp4.py
+  s_e852a7e57a6823::t_7faed12cfe9440 231-260,368-370,388,391-436
+tests/ut/quantization/methods/w8a8/test_swiglu_mx_quant.py
+  s_e852a7e57a6823::t_a1c2dec9909393 126,141,157
+tests/ut/quantization/test_utils.py
+  s_e852a7e57a6823::t_54e61b8071189c 240-299
+tests/ut/spec_decode/test_dflash2_v2.py
+  s_e852a7e57a6823::t_7d71367a1873c2 30,32,36,38,107-112,171-175,183-189,521,526-535,550-555,563,583-591,614-618,637-642
+tests/ut/spec_decode/test_dflash_model_loading.py
+  s_e852a7e57a6823::t_006b4edad66296 45-50
+tests/ut/spec_decode/test_dflash_pcp.py
+  s_e852a7e57a6823::t_b5c700cab7d7ec 28-30,33,199,227-228,234-235,250-325
+tests/ut/spec_decode/test_draft_metadata_alignment.py
+  s_e852a7e57a6823::t_958c698aadc570 1-188
+tests/ut/spec_decode/test_dspark_graph_contract.py
+  s_e852a7e57a6823::t_5dc3554115ea06 19,21,51,97-105,116,138-142,170-177,179,184-187
+tests/ut/spec_decode/test_dspark_pcp_dcp_config.py
+  s_e852a7e57a6823::t_a431bfed9e6bb9 1-151
+tests/ut/spec_decode/test_dspark_pcp_dp_sync.py
+  s_e852a7e57a6823::t_5520f5106f9f89 40,46-48,76,111-112,121-122
+tests/ut/spec_decode/test_dspark_speculator.py
+  s_e852a7e57a6823::t_0679878ac05ba3 342,348,351-357
+tests/ut/spec_decode/test_dspark_valid_kv_lengths.py
+  s_e852a7e57a6823::t_8984ca5a6783ed 17,24,34,36,38,48-50,59-61,74-79,83-85,92-97,102-103,126-128
+tests/ut/spec_decode/test_mla_dspark.py
+  s_e852a7e57a6823::t_352fa925cf7a9b 29-40,46,78-85,200,205-218,291-293,298,369,392-394,404,415,495
+tests/ut/spec_decode/test_multi_module_mtp_speculator.py
+  s_e852a7e57a6823::t_fa7c9c1a6482c5 41,59-61
+tests/ut/test_ascend_config.py
+  s_e852a7e57a6823::t_07375c9f692b9b 1974-2019,2087-2089,2098
+tests/ut/test_ascend_forward_context.py
+  s_e852a7e57a6823::t_8ca8b546dcbe24 24,71,346-390,768-769,792-796,811-838
+tests/ut/test_compressed_prefix_cache.py
+  s_e852a7e57a6823::t_2e224fc6220a4e 12
+tests/ut/test_minimax_m3_kv_block_size.py
+  s_e852a7e57a6823::t_83a4c2af58447f 246-249
+tests/ut/test_platform.py
+  s_e852a7e57a6823::t_43910a5b865004 1,3-4,26-28,36,211,219,222-223,228,231-232,363-470,485-486,1052,1088,1122-1124,1127,1137-1144,2885-3018
+tests/ut/test_utils.py
+  s_e852a7e57a6823::t_84b7790f3aa38c 34-52,55,60,68
+tests/ut/worker/conftest.py
+  s_e852a7e57a6823::t_f32bd3f103fa4a 10-11,19
+tests/ut/worker/test_adaptive_verification.py
+  s_e852a7e57a6823::t_8854e265ff0a47 3,18,28,142-149,157,163,177-181,221,301,324
+tests/ut/worker/test_attn_utils_v2.py
+  s_e852a7e57a6823::t_56adaa46dd3dfe 19,27,50-52,70-71,81-90,148,200,266-267,381-387,700-702,1032,1046-1049,1053,1055-1056,1064-1068,1081,1084-1085,1089-1094,1097-1098,1100,1102-1111,1151,1175,1192,1214-1215,1222,1233-1240,1243-1245,1255,1257,1293-1301,1316-1322,1326-1416,1693,2058-2067,2257,2306,2311,2349-2350,2555,2561-2563,2701,2824,3533,3578-3822
+tests/ut/worker/test_dcp_speculator_metadata_v2.py
+  s_e852a7e57a6823::t_a8a431494cec57 7,16,21,24,27-28,56,58-60,97,122-124,159-172,230-232,234,239,382-385,417-423,433-442,447,451-521,529,545
+tests/ut/worker/test_full_sliding_kv_cache.py
+  s_e852a7e57a6823::t_3c5d6349eea04f 180
+tests/ut/worker/test_glm5next_pooled_cache.py
+  s_e852a7e57a6823::t_e50d5328078646 246-250,280-282
+tests/ut/worker/test_glm_dsa_layerwise_cache.py
+  s_e852a7e57a6823::t_0cf582e4c26ae0 1-238
+tests/ut/worker/test_kv_cache_allocation_scope.py
+  s_e852a7e57a6823::t_cfc50b2683ac1c 49,74-77,81
+tests/ut/worker/test_layerwise_kv_allocation.py
+  s_e852a7e57a6823::t_34acf7731ad557 8,12,53-57,59-62,64,66,70-79,84-85
+tests/ut/worker/test_minimax_m3_kv_cache.py
+  s_e852a7e57a6823::t_66eb1fa284e946 35-39
+tests/ut/worker/test_mla_dcp_metadata_v2.py
+  s_e852a7e57a6823::t_1ca5a97aa4dfe8 10,64-73
+tests/ut/worker/test_model_runner_v2.py
+  s_e852a7e57a6823::t_200b527a5e0062 23-25,41-43,87,526,976-1068,1532,1549,1572,1623,2781,2787-2789,2818
+tests/ut/worker/test_model_runner_v2_kv_cache.py
+  s_e852a7e57a6823::t_18897d5f7d178b 4,37,41-56,60-67,71,78,85-87,89,91,95,139-142
+tests/ut/worker/test_model_runner_v2_layerwise_reuse.py
+  s_e852a7e57a6823::t_1ef75dbcea1160 84-87,99,101,104,106-108
+tests/ut/worker/test_model_runner_v2_mamba.py
+  s_e852a7e57a6823::t_ceabd1b9ebe302 121,207,234,238-245,247-255,297-299,530,591-592,604-610,612,629,633,642-644,713-715,723,727-728,782-783,927,934,1010,1231-1233
+tests/ut/worker/test_mtp_pcp_speculator_v2.py
+  s_e852a7e57a6823::t_d65acd908dfc44 6-7,33,45-54,242-278,318,326,480-484,580-581,597
+tests/ut/worker/test_pcp_manager_v2.py
+  s_e852a7e57a6823::t_326e951d2db53b 29,36,39,46,125,177-187,203,209-210,274-291,316,321-322,326,329-444,847,872,935,939,950,1030,1122,1493,1583-1590,1703-1746,2038-2089
+tests/ut/worker/test_pcp_profile_budget.py
+  s_e852a7e57a6823::t_fd6dcd0a56e8ac 19,29,39,41-47,50-51,90-92,98
+tests/ut/worker/test_sleep_parameter_retention.py
+  s_e852a7e57a6823::t_a25546236664aa 16-20,25,27,29-31,142,164
+tests/ut/worker/test_spec_pp_cpu_counts.py
+  s_e852a7e57a6823::t_994b77ebb88df3 10-11,43,259-346
+tests/ut/worker/test_turboquant_v2.py
+  s_e852a7e57a6823::t_a873be84954772 107,118,122,129,133-137,140-142,171,176-180,185,193,200,213,230,238-241,245-246,251,253,281-290
+tests/ut/worker/test_worker_inheritance.py
+  s_e852a7e57a6823::t_e553480945a752 7-8,57-67,70-118,121-151,182,184-192,227-228,268,396-399,402-415,417-426,428-430,432-441
+tests/ut/worker/test_worker_v1.py
+  s_e852a7e57a6823::t_2bf96f7c34a1b5 3,23,74-88,478,493,498,505,537,539,543,554,573-574,578,626,662,673,2180,2183-2192,2195,2200-2207,2246,2248,2251-2252,2262-2284,2291-2295,2299-2300,2302-2303,2305,2308-2309,2311-2313,2316-2333,2339-2343,2345-2349,2352-2353,2355-2360,2363-2364,2367-2393
+tests/ut/worker/test_worker_v2.py
+  s_e852a7e57a6823::t_15c8e67ed7bfc1 307
+tests/ut/worker/test_worker_weight_checker.py
+  s_e852a7e57a6823::t_8e4bb6e9b7a10c 6-9,19,38,71
+tests/ut/worker/v2/test_aclgraph.py
+  s_e852a7e57a6823::t_cde6e83d01b66f 26,470,472-473,483,487,508,514-552
+tests/ut/worker/v2/test_embedding_tp_dummy_inputs.py
+  s_e852a7e57a6823::t_8133afbf78cb22 1-222
+tests/ut/worker/v2/test_lmhead_tp_utils.py
+  s_e852a7e57a6823::t_dce9c43f75e9ae 273-302
+tests/ut/worker/v2/test_pcp_multimodal_embedding_padding.py
+  s_e852a7e57a6823::t_036cab84dd27a5 4,7,55-95
+tests/ut/worker/v2/test_sparse_kv_offload_metadata.py
+  s_e852a7e57a6823::t_c9e1e8935c7484 15,18,50,53-63,130,140-143,289-330
+tests/ut/worker/v2/test_speculator.py
+  s_e852a7e57a6823::t_1174cfa88a977c 14,21,133-140,142,148-149,180-181,185,188,196,201-202,536-541,550-551,559-562,572-573,577-606,617-618,722,748,760,784,865-867,900,914,916
+tests/ut/worker/v2/test_standalone_ar_speculator.py
+  s_e852a7e57a6823::t_1b051589277861 25,37
+tests/ut/worker/v2/test_states.py
+  s_e852a7e57a6823::t_eae10dadcbddb0 15-16,33,35
+tests/ut/worker/v2/test_v2_block_table.py
+  s_e852a7e57a6823::t_181ddb2bb7ca92 58,60,71-78
+tools/aisbench.py
+  s_e852a7e57a6823::t_eb4e7b5869628d 289,361
+tools/check_forbidden_imports.py
+  s_e852a7e57a6823::t_20f5ba207effb5 61-62
+vllm_ascend/_310p/attention/gdn_310.py
+  s_e852a7e57a6823::t_9a1bbc313df57e 3,16-17,21-97,100,102,104-153,155-189,192-206,208-221,224-285,287-320,322-330,332-336,338-348,350
+vllm_ascend/_310p/attention/gdn_attn_builder_310.py
+  s_e852a7e57a6823::t_38525fc4d078d6 25
+vllm_ascend/_310p/ops/fla/gdn_310.py
+  s_e852a7e57a6823::t_09a8741bf97df8 16
+vllm_ascend/_310p/worker/v2/model_runner.py
+  s_e852a7e57a6823::t_5c898cfe50ddd9 849,854,863-868
+vllm_ascend/_310p/worker/v2/rope.py
+  s_e852a7e57a6823::t_80475db4ed8ca0 98-102
+vllm_ascend/_310p/worker/v2/spec_decode/mtp_speculator.py
+  s_e852a7e57a6823::t_55956390510c04 277-287
+vllm_ascend/__init__.py
+  s_e852a7e57a6823::t_d46549f7a0b491 99,103
+vllm_ascend/ascend_config.py
+  s_e852a7e57a6823::t_98ad962756742d 953-958,1062,1099-1102,1145-1154,1163-1164,1214-1221
+vllm_ascend/ascend_forward_context.py
+  s_e852a7e57a6823::t_cc6a09b6a89067 267-272,279,348-354
+vllm_ascend/attention/attention_c8_mxfp.py
+  s_e852a7e57a6823::t_bc979064d9b1ed 54,872-875,877-883
+vllm_ascend/attention/attention_v1.py
+  s_e852a7e57a6823::t_1abc9146baf2c4 97-99,565
+vllm_ascend/attention/context_parallel/common_cp.py
+  s_e852a7e57a6823::t_9538dd72bfd7bc 10-16,63
+vllm_ascend/attention/context_parallel/dsa_cp.py
+  s_e852a7e57a6823::t_736662579e61d4 112,537
+vllm_ascend/attention/context_parallel/dsa_v41_cp.py
+  s_e852a7e57a6823::t_c29625895ab535 262
+vllm_ascend/attention/context_parallel/mla_cp.py
+  s_e852a7e57a6823::t_5b5543ed83e5ec 35,38,41-43,45-69,436,496,504-505,517,531-538,548,594-599,602-612,626-627,640-642,655-657,681-687,705,754,864-878,890-900
+vllm_ascend/attention/context_parallel/sfa_cp.py
+  s_e852a7e57a6823::t_acbab9c928e4c7 17,22,129,300-308,359-360,590-592,596-598,601-613,631-632,634,662-668,923
+vllm_ascend/attention/context_parallel/sfa_dcp_utils.py
+  s_e852a7e57a6823::t_b53e2b854e4476 15,25-76
+vllm_ascend/attention/dsa_attn_kv_plan.py
+  s_e852a7e57a6823::t_97eadcae796542 7-8,31-36,218
+vllm_ascend/attention/dsa_v1.py
+  s_e852a7e57a6823::t_e6ce3a03db6d77 637-652
+vllm_ascend/attention/dsa_v41.py
+  s_e852a7e57a6823::t_81e7efb6f0df4a 234,336-340,926-927,1124,1310-1313,1315,1317-1319,1321-1340,1546-1569,1571-1657
+vllm_ascend/attention/flash_attention_v3.py
+  s_e852a7e57a6823::t_0e6069772b7410 10-15,40-51,72-73,105-148,174-177,217-222,340-367,399-400,440-447,451-452
+vllm_ascend/attention/flashmla.py
+  s_e852a7e57a6823::t_384bda8c4cacba 3,5-7,14,20,29,31-33,104-110,115-116,122-147,174-209,251,279-285,312-359,363-365,370-410,417,428,446-455,468-471,473-476,479,484,487-494,498-511,522,540-541,551,575-586,649-651,663-667
+vllm_ascend/attention/gdn.py
+  s_e852a7e57a6823::t_3360e1aef80cd7 41-42,48-51,57,66,146-200,419-420,429-438,447-450,464-466,534-535,537,559-562,575,590,615,639-640,642,645,656,792-814,819-822,824,828,832-847,850-888,948-954,962,988-998,1004,1102,1111
+vllm_ascend/attention/gdn_attn_builder.py
+  s_e852a7e57a6823::t_eef198b3fb7682 35-36,46,143-145,299,301-306,310,312,337-348,371,375,1147-1160,1445,1447,1458
+vllm_ascend/attention/gdn_recoverssm_metadata.py
+  s_e852a7e57a6823::t_178d9215644507 1-232
+vllm_ascend/attention/indexer.py
+  s_e852a7e57a6823::t_684558e53e7691 1,10,18,20,36,40-42,54,91-190,237-239,335-369,443,981-985,1057-1094,1099,1164,1173,1242,1256,1269-1276,1278,1305-1310,1745-1766,1825-1826,1854,1856-1865
+vllm_ascend/attention/indexer_kpool.py
+  s_e852a7e57a6823::t_38ad7ac11e61a1 41,198,202-207,209-213,215-218,297,299-301,307-313,315-316,318,320,488,492-494,498-499,504-506,675,700,704-706,842,876,903-904,907-912,984,995,1068-1072,1074-1076,1116-1119,1138,1168,1172-1178,1181-1183,1186,1196
+vllm_ascend/attention/mla_v1.py
+  s_e852a7e57a6823::t_bd5f0c5ae2bd8b 30,40,45-46,58,68,72-75,175-187,200-205,389,444-445,449,453-461,463-468,880-902,985-1017,1091,1104-1111,1125-1129,1144-1145,1147,1149-1162,1164-1165,1167,1169,1171-1178,1180,1182,1185-1190,1328,1333-1346,1352-1358,1416-1445,1601-1604,1608-1622,1624-1648,1790-1791,1809-1819,1821-1822,1827-1828,1880-1892,2045,2071-2128,2316-2317,2321,2324,2327,2333,2349,2351-2358,2377,2711,2732,2772-2775,3019-3025,3028-3045,3047,3076-3084,3094,3294-3309
+vllm_ascend/attention/recoverssm_gdn.py
+  s_e852a7e57a6823::t_4cec85cb1859df 1-358
+vllm_ascend/attention/recoverssm_metadata.py
+  s_e852a7e57a6823::t_4cb13e58d681cc 1-42
+vllm_ascend/attention/sfa_hisparse.py
+  s_e852a7e57a6823::t_fb5d88fc1f3edb 12,21-32,45-51,53-59,62-63,67-69,73-82,103,133,145,147-152,172-173,177,180-186,188-191,227-228,297-298,301,309,313,325-341,372-383,385,397-418,422-423,431-432,435-466,476,482-483,497-498,717-718
+vllm_ascend/attention/sfa_kv_offload.py
+  s_e852a7e57a6823::t_b6b02b9f4abe2f 355-361,389,601-602,859-932,950-963,1013-1015
+vllm_ascend/attention/sfa_v1.py
+  s_e852a7e57a6823::t_4e78dc6a3c2bdf 13,16,24,51,53,71,97,258,407-440,573-578,580-582,590,802-803,871,931,933-934,1119-1120,1126-1128,1137,1151,1167-1183,1241-1245,1561-1562,1572-1573,1593,1611-1620,1661-1662,1673,1675-1680,1959-1961,2287,2293-2294
+vllm_ascend/attention/utils.py
+  s_e852a7e57a6823::t_0881cad03bc659 146-170,422,501,772
+vllm_ascend/compilation/acl_graph.py
+  s_e852a7e57a6823::t_c374ace0905fae 25
+vllm_ascend/compilation/compiler_interface.py
+  s_e852a7e57a6823::t_e3e201dfc4115f 39,165-182
+vllm_ascend/compilation/updatable_graph.py
+  s_e852a7e57a6823::t_efe818dc6c446f 69
+vllm_ascend/core/dyntra_lb_scheduler.py
+  s_e852a7e57a6823::t_26fcb1bf13972c 36,424,495-505,523,531,665-670,847-849,854-861,864,923,1072-1077,1103-1113,1126,1134,1169,1190-1192
+vllm_ascend/core/kv_cache_config_builder.py
+  s_e852a7e57a6823::t_1e7b375aeba51b 3,7-9,13,20,23-24,26-27,30-31,35,38-46,48,56,62-66,68-69,73-74,80,93-95,99-101,110-113,129,133-140,142-173,176-178,195-217,422-602
+vllm_ascend/core/recompute_scheduler.py
+  s_e852a7e57a6823::t_0020cd3a476e3f 53,224,927-937,950,958,988,1009-1011
+vllm_ascend/core/scheduler_output.py
+  s_e852a7e57a6823::t_f19892c5471346 12,25-27,29
+vllm_ascend/cpu_binding.py
+  s_e852a7e57a6823::t_f0ef7f197382e7 700-701
+vllm_ascend/device/device_op.py
+  s_e852a7e57a6823::t_c2fc5f2c3b2725 29-33,42,61-68,591-592,617,632,1032-1040,1042-1043,1050,1053,1067,1069-1070,1072-1073,1076,1079,1163-1180,1890-1891,1927,1950,1970-1983,1986,1989-1992,1994-2000,2012,2025,2105,2128-2137,2146,2151,2153,2155
+vllm_ascend/device/hardware_profile.py
+  s_e852a7e57a6823::t_53d40c8a2ac70e 5-8,74-79,85-86,102-103,114-115,122-126,161-162,178-180,186-189,250-259,329-331,341-343,396,410,413-414,422,439-441,444-450,455,468,500-505,526,537,549,553,556
+vllm_ascend/device/paged_mla_cache_read.py
+  s_e852a7e57a6823::t_8efd1c9135ecb6 27-50,87
+vllm_ascend/device_allocator/sleep_mode_backend.py
+  s_e852a7e57a6823::t_245b4c0147e77b 1,15,17,19,21,23,25,28-29,31-32,35-37,39-42,44-47,49-51,54-59
+vllm_ascend/distributed/ec_transfer/ec_connector/mooncake/store_backend.py
+  s_e852a7e57a6823::t_c620bbb1c71005 119
+vllm_ascend/distributed/ec_transfer/ec_memcache_connector.py
+  s_e852a7e57a6823::t_2ee6979b8c1da8 179-182
+vllm_ascend/distributed/eplb/eplb_state.py
+  s_e852a7e57a6823::t_4a369d853bcd67 19,318,731
+vllm_ascend/distributed/kv_transfer/ascend_multi_connector.py
+  s_e852a7e57a6823::t_e4a4e018c508fc 111-126
+vllm_ascend/distributed/kv_transfer/kv_p2p/mooncake/base_scheduler.py
+  s_e852a7e57a6823::t_9edfd4ed75f4e3 22,42,457-462,538-545
+vllm_ascend/distributed/kv_transfer/kv_p2p/mooncake/base_worker.py
+  s_e852a7e57a6823::t_1e8abd68f498d5 318-325,523-570,580-582
+vllm_ascend/distributed/kv_transfer/kv_p2p/mooncake/connector.py
+  s_e852a7e57a6823::t_238453dc9c1686 274-276,284-290,301-304
+vllm_ascend/distributed/kv_transfer/kv_p2p/mooncake/metadata.py
+  s_e852a7e57a6823::t_2a955c876bb489 157,168,231,246
+vllm_ascend/distributed/kv_transfer/kv_p2p/mooncake/pull_scheduler.py
+  s_e852a7e57a6823::t_e778e0dfe5b74b 5,58-62,88-91,170-171,255-285,429-438,455,567-569,612-618
+vllm_ascend/distributed/kv_transfer/kv_p2p/mooncake/pull_worker.py
+  s_e852a7e57a6823::t_ddb1722812c7d4 9,58,86-89,127,151-162,196-236,238,240-244,246-262,264-269,271,276-346,651,654,656-658,679-680,691,694,710,715,732,751-753,1507-1510
+vllm_ascend/distributed/kv_transfer/kv_p2p/mooncake/push_scheduler.py
+  s_e852a7e57a6823::t_f2ddf3da7419c6 103-105,150,201-204
+vllm_ascend/distributed/kv_transfer/kv_p2p/mooncake/push_worker.py
+  s_e852a7e57a6823::t_59940cf912fb83 44-46,217-224,229-232,260,288-294,337-340,704-711,762-763,853-870,879,894-896,919-920,988,990-991
+vllm_ascend/distributed/kv_transfer/kv_p2p/mooncake_connector.py
+  s_e852a7e57a6823::t_4945a539e94387 73,1936-1943
+vllm_ascend/distributed/kv_transfer/kv_p2p/mooncake_hybrid_connector.py
+  s_e852a7e57a6823::t_3516a05461817c 66,1464-1471
+vllm_ascend/distributed/kv_transfer/kv_p2p/sfa_pd_rd2h/protocol.py
+  s_e852a7e57a6823::t_824b0a1d014e6c 196-202
+vllm_ascend/distributed/kv_transfer/kv_p2p/sfa_pd_rd2h/scheduler.py
+  s_e852a7e57a6823::t_5caa1732bb157b 302,516-517,534-557,562-567,569-576,579-582
+vllm_ascend/distributed/kv_transfer/kv_p2p/sfa_pd_rd2h/worker.py
+  s_e852a7e57a6823::t_d64ea585bd7297 166-169,268-269,284-289,320,352,420,428-470
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/ascend_store_connector.py
+  s_e852a7e57a6823::t_3a278a3ae1e4e4 1-2,8,87-107,110-122,125,128-137,139-141,144,147,150-151,177-180,193,342-343,347,349-352,523-526,529-530,532-537
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/backend/mooncake_layerwise.py
+  s_e852a7e57a6823::t_00266e612df875 13,72-75
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/in_flight_save_blocks.py
+  s_e852a7e57a6823::t_19737679560121 1-2,36-38
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/kv_transfer.py
+  s_e852a7e57a6823::t_2baa34ec763d14 386,756-841,903,927,975-978,987-991,993-1010,1036-1037,1039-1042,1044,1050
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/cache_planner.py
+  s_e852a7e57a6823::t_e26cbe3eb54e67 1-310
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/kv_transfer.py
+  s_e852a7e57a6823::t_c549da652030b9 971-982,986-987,1055-1056
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/layerwise_cache_layout.py
+  s_e852a7e57a6823::t_eaa7e87c58f672 1-4,7-10,15,25-79,122-190,206-207,211-229,231-267
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/metadata.py
+  s_e852a7e57a6823::t_dfbaf29e68e48b 171-172
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/planes/block_key.py
+  s_e852a7e57a6823::t_93660c96c4c236 115-120
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/planes/gva.py
+  s_e852a7e57a6823::t_236a605b823e55 79,86-89,99,138-139,144-152,160,169,185-207,248,329,351-352,366-374,381-393,395-396,404,432-434,437-449,453,457-472,516-517,521,528,585,591
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_scheduler.py
+  s_e852a7e57a6823::t_027956c3bf761e 15,51-53,125-129
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/layerwise/pool_worker.py
+  s_e852a7e57a6823::t_c8a53a7e0918a8 48,50,65,116-117,188-189,196,198,233,236,251,308,311-316,318,320,322-334,367-369,371-374,383,397-398,401-402,407,411-412,501,609-611,691,772-798,994,1054-1055,1057,1159-1160,1166-1167,1190,1229,1232-1235,1237,1305-1310,1314,1316-1321,1325,1327,1392-1394,1398-1428,1442,1473-1474,1478,1526-1527,1530-1531,1560-1561,1572,1683,1710,1740,1743,1746-1747,1750-1754
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/lookup_key.py
+  s_e852a7e57a6823::t_df27b644477001 16
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/metadata.py
+  s_e852a7e57a6823::t_296f3162fdcb18 23-24
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_scheduler.py
+  s_e852a7e57a6823::t_982e8fc2fccb34 82,90,262,561-562,629
+vllm_ascend/distributed/kv_transfer/kv_pool/ascend_store/pool_worker.py
+  s_e852a7e57a6823::t_bab6bbe82dd1ec 203,373-383,574,578-580,1028-1050,1838,1842
+vllm_ascend/distributed/kv_transfer/kv_pool/kv_offload/native/cpu_npu.py
+  s_e852a7e57a6823::t_7c78f5b14691f2 162-166
+vllm_ascend/distributed/kv_transfer/sparse_kv_offload/copy_sfa_topk_slots.py
+  s_e852a7e57a6823::t_0f485cedd32466 84-87,107,113-114,118-119,162-163,180-181
+vllm_ascend/distributed/kv_transfer/sparse_kv_offload/sparse_kv_offload_manager.py
+  s_e852a7e57a6823::t_313d24e05efc26 51-63,552-559,602,828-850,879-882,936-938,1561-2165,2190-2260
+vllm_ascend/distributed/kv_transfer/utils/utils.py
+  s_e852a7e57a6823::t_8c59ccf9824903 7,15-18,27-33
+vllm_ascend/distributed/weight_transfer/hccl_engine.py
+  s_e852a7e57a6823::t_efdee451ccd3ca 12,158,293-294,296-332
+vllm_ascend/distributed/weight_transfer/npu_ipc_engine.py
+  s_e852a7e57a6823::t_ee540b733b0976 201
+vllm_ascend/ec_manager/score_ec_manager.py
+  s_e852a7e57a6823::t_bbf32f640944ce 8-10
+vllm_ascend/hisparse/cache_ops.py
+  s_e852a7e57a6823::t_f096e04c54879a 261,280,286
+vllm_ascend/hisparse/host_mirror.py
+  s_e852a7e57a6823::t_da4d63ece7cc24 175-176,182-183,253,256-259,268,281
+vllm_ascend/hisparse/host_pool.py
+  s_e852a7e57a6823::t_a32b7ec5a3187e 3,7,16,18-19,24-26,29,33,39,43-58,102-106,110,113,120-156,164-178,180,184,195-197
+vllm_ascend/hisparse/pcp.py
+  s_e852a7e57a6823::t_6265d8db0cf8f0 1-184
+vllm_ascend/kv_trace/kv_trace_runner.py
+  s_e852a7e57a6823::t_287df67e0faab1 24-30
+vllm_ascend/kv_trace/kv_trace_state.py
+  s_e852a7e57a6823::t_78f395041d8f27 41-42
+vllm_ascend/logger.py
+  s_e852a7e57a6823::t_d363e62137261f 295-296,298
+vllm_ascend/model_executor/warmup/kernel_warmup.py
+  s_e852a7e57a6823::t_1366cc21d3e257 165-166
+vllm_ascend/model_loader/bigtensorloader/__init__.py
+  s_e852a7e57a6823::t_bdccbc6ebc7841 1-20
+vllm_ascend/model_loader/bigtensorloader/bigtensordefaultloader.py
+  s_e852a7e57a6823::t_6c2f7723364198 1-42
+vllm_ascend/model_loader/bigtensorloader/bigtensorloader.py
+  s_e852a7e57a6823::t_55354859938a60 1-1206
+vllm_ascend/model_loader/bigtensorloader/config.py
+  s_e852a7e57a6823::t_5c4868d5b27b08 3-10,16-73,75-81,84-92,95-105
+vllm_ascend/model_loader/netloader/executor/elastic_load.py
+  s_e852a7e57a6823::t_b2397a1e5a81bc 25-30,205-221
+vllm_ascend/model_loader/netloader/netloader.py
+  s_e852a7e57a6823::t_a9f06b16699246 92-94,207-218,374-377,387-393,395-396,508-516
+vllm_ascend/model_loader/rfork/rfork_loader.py
+  s_e852a7e57a6823::t_8de8ee6280f444 571-572
+vllm_ascend/model_loader/rfork/tensor_layout.py
+  s_e852a7e57a6823::t_3304ff050486d6 5-23,34-38,45-56,232,256
+vllm_ascend/model_loader/weight_state.py
+  s_e852a7e57a6823::t_50a1b3dc4b5bc9 2-61,64-66,68-70,73-75,78-83,85,88-91,93-100,103-110,113-115,118-129,132-169,171-173,175-176,178-198,200-217,219-220,222-235,237,240-243,245-348,351-358,360-395,397-502
+vllm_ascend/models/__init__.py
+  s_e852a7e57a6823::t_f038fec2c370e7 5-8
+vllm_ascend/models/deepseek_v4/model.py
+  s_e852a7e57a6823::t_71bcc191f06ebf 26-31,41,55-59,306-313,419-426,797-798
+vllm_ascend/models/deepseek_v4/vl_model.py
+  s_e852a7e57a6823::t_fd4771b42f1778 161-167
+vllm_ascend/models/deepseek_v41/cache_config.py
+  s_e852a7e57a6823::t_2493c59636681d 6,218,220-222,235-237,265-291,293,302,304
+vllm_ascend/models/deepseek_v41/decoder_replay_layers.py
+  s_e852a7e57a6823::t_7d37614d03bee2 33-34,42-43,82-86,163-173,175-176,223-237
+vllm_ascend/models/deepseek_v41/decoder_replay_state.py
+  s_e852a7e57a6823::t_6f1fcaae982590 5,28,45,81,270-272,356-360,367-404,416-419,423,425,429,435,447,449-454,472,474-479,486,520-521
+vllm_ascend/models/deepseek_v41/engram/embedding.py
+  s_e852a7e57a6823::t_eecb4f88656cdf 225-227
+vllm_ascend/models/deepseek_v41/engram/hash_state.py
+  s_e852a7e57a6823::t_4308df50bb2946 78-79,81-83
+vllm_ascend/models/deepseek_v41/engram/layer.py
+  s_e852a7e57a6823::t_c0ff953f942976 3-7,15,47-54
+vllm_ascend/models/deepseek_v41/engram/model_state.py
+  s_e852a7e57a6823::t_e9d6736511170b 130-131,242-250
+vllm_ascend/models/deepseek_v41/indexer.py
+  s_e852a7e57a6823::t_a00f3c5fde4afa 282-284,288-303,314,320-321
+vllm_ascend/models/deepseek_v41/mixed_quant_attention.py
+  s_e852a7e57a6823::t_5cf625252405ef 266-270
+vllm_ascend/models/deepseek_v41/model.py
+  s_e852a7e57a6823::t_243d53d738dcc6 3-7,16,32,35-39,67,71,84,90-100,103-104,107,243-250,348-355,518-525,547-583,602,624-625,632-633,663-770,916,1131,1145-1146,1186-1188,1191,1208-1212,1224-1226,1254-1256,1270,1316,1320-1321,1390,1406,1409-1450,1452-1455,1457,1459-1460,1463-1466,1574-1575,1580-1583,1599,1626,1665,1686,1747,1764,1838,1918-1926,1932-1934,1958-1961,1963-1966,1968-1969,2024-2035,2537-2538
+vllm_ascend/models/gemma4_mm.py
+  s_e852a7e57a6823::t_e2b855644940ac 95
+vllm_ascend/models/glm5_dspark.py
+  s_e852a7e57a6823::t_2a067515137556 143,160-171,173-176
+vllm_ascend/models/glm5next/attention.py
+  s_e852a7e57a6823::t_2be8a8d5198d71 53-54,111,114
+vllm_ascend/models/glm5next/cache_config.py
+  s_e852a7e57a6823::t_07f87d2b98b7d3 129
+vllm_ascend/models/glm5next/cache_reuse.py
+  s_e852a7e57a6823::t_aaf79ec822098b 1-32
+vllm_ascend/models/glm5next/kda.py
+  s_e852a7e57a6823::t_88e4570bf33b07 5,33,44,51-117,119-125,128,409,554,599-601,603,606-609,662,666-669,673,677,875,914,920
+vllm_ascend/models/glm5next/kv_cache.py
+  s_e852a7e57a6823::t_1e2cbce35b27a6 93-94,115-116
+vllm_ascend/models/glm5next/model.py
+  s_e852a7e57a6823::t_8d2032cc9994bc 73,599-600,632-633,746-748,770-780,786,793,800,982-987,1147-1149
+vllm_ascend/models/glm5next/recoverssm_metadata.py
+  s_e852a7e57a6823::t_16fdf35920c1c0 3,13,22,39-40,66-72,127-131,151-154,189-203
+vllm_ascend/models/kimi_k3/cache_config.py
+  s_e852a7e57a6823::t_01d520ce8fedc8 7
+vllm_ascend/models/kimi_k3/kimi_k3.py
+  s_e852a7e57a6823::t_3fd59e4f96d880 94,799,949-968,1068-1084,1182-1188,1190,1206,1274,1290-1292,1366,1476
+vllm_ascend/models/kimi_k3/kimi_k3_dspark.py
+  s_e852a7e57a6823::t_3264da145545a1 6,11,17,27,48,76-77,101,166-182,212-213,241,246-251,254-264,270-272,278,280
+vllm_ascend/models/kimi_k3/paired_sfa_cache.py
+  s_e852a7e57a6823::t_f94099721c8738 16
+vllm_ascend/models/kimi_k3/recoverssm_metadata.py
+  s_e852a7e57a6823::t_2d895bb7cfd378 6,10
+vllm_ascend/models/lfm2_vl.py
+  s_e852a7e57a6823::t_88e6a0b6ee68bb 1-137
+vllm_ascend/models/minimax_m3/minimax_m3.py
+  s_e852a7e57a6823::t_6a6cb50e1e7714 119-120,127-130,1041-1053,1121,1206,1213-1220,1267-1268,1274-1276
+vllm_ascend/models/minimax_m3/minimax_m3_dspark.py
+  s_e852a7e57a6823::t_76f9445b4e90ee 259
+vllm_ascend/models/minimax_m3/msa_m3.py
+  s_e852a7e57a6823::t_76ea675b5c8886 64-68,125-162,814-816,865-878,1049,1051-1069,1119-1122,1131-1134,1200-1234
+vllm_ascend/models/minimax_m3/ops/msa_m3_npu.py
+  s_e852a7e57a6823::t_de7942324a9e3e 8,35-39,458-533,551-569,616-636
+vllm_ascend/models/minimax_m3/ops/msa_m3_union.py
+  s_e852a7e57a6823::t_e4dede3ee40be9 1-147
+vllm_ascend/models/qwen3_5_vl.py
+  s_e852a7e57a6823::t_3dc98bc4f58c12 64-68,402-408,417-423
+vllm_ascend/models/qwen3_dflash2.py
+  s_e852a7e57a6823::t_a92861c18a564a 306-307,311,315-316
+vllm_ascend/models/qwen4_exp/cpu_length_sync.py
+  s_e852a7e57a6823::t_501d9b663cc53d 23-24,26-27,33-39
+vllm_ascend/models/qwen4_exp/hc_fused.py
+  s_e852a7e57a6823::t_50c164d53c568c 1-102
+vllm_ascend/models/qwen4_exp/model.py
+  s_e852a7e57a6823::t_c08fc218ddf137 38-39,49,57,62-74,81-92,94-99,109-114,123-137,165-174
+vllm_ascend/models/qwen4_exp/model_state.py
+  s_e852a7e57a6823::t_e1050125627f8f 47-48,59-65,95-112
+vllm_ascend/models/qwen4_exp/mtp.py
+  s_e852a7e57a6823::t_931beaa4b3a2cd 237-244
+vllm_ascend/models/qwen4_exp/ple.py
+  s_e852a7e57a6823::t_e1174aa82544cd 26,28-32,36,302-308,310-312,317-320,328-346
+vllm_ascend/models/qwen4_exp/ple_embedding.py
+  s_e852a7e57a6823::t_9291a70337646c 65,78-79,97-101,103-106,128-129,151,166
+vllm_ascend/models/qwen4_exp/ple_quant.py
+  s_e852a7e57a6823::t_cb3e96b1b671cc 162
+vllm_ascend/models/qwen4_exp/qsa.py
+  s_e852a7e57a6823::t_4542f93fdef919 17,19,22-23,35,39,45,58-70,77-78,82,87-95,102-105,203-231,265-273,291,319-353,356-362,364-368,396-407,460,466-483,498-517,519-530,559,575-577,613-634,653,670-673,710-711,724-793,797-809,844-846,856-863,868-873,876-877,885-898
+vllm_ascend/models/qwen_gdn_recoverssm.py
+  s_e852a7e57a6823::t_9b754dd1731071 1-140
+vllm_ascend/models/step5/model.py
+  s_e852a7e57a6823::t_55af65d85081cf 29-30,36,45-46,49,62-65,90,106-109,113-118,132-197,340-342,483-485,496-502,504-515,518-519,568-572,574-578,580,582-583,585-594,664-694,696-723,731,792-797,823-842,1154-1155,1158-1171,1179,1190,1196
+vllm_ascend/models/step5/sparse_attention.py
+  s_e852a7e57a6823::t_7dd31fc498094c 37-42,359,386,422,472,484,486,523
+vllm_ascend/ops/fused_moe/dataclass/moe_mlp.py
+  s_e852a7e57a6823::t_e019f4ef5eab14 56-57,80-86,116
+vllm_ascend/ops/fused_moe/fused_moe.py
+  s_e852a7e57a6823::t_55d65836a086b8 104
+vllm_ascend/ops/fused_moe/gate_linear.py
+  s_e852a7e57a6823::t_0b32b5e098ca48 52
+vllm_ascend/ops/fused_moe/moe_comm_method.py
+  s_e852a7e57a6823::t_aba3e5f2baf493 554-557,576-578,580
+vllm_ascend/ops/fused_moe/moe_mlp.py
+  s_e852a7e57a6823::t_897eb2c9828410 105-107
+vllm_ascend/ops/fused_moe/moe_utils.py
+  s_e852a7e57a6823::t_3e2ae19ffca7ed 144-168
+vllm_ascend/ops/fused_moe/routed_experts.py
+  s_e852a7e57a6823::t_eb3c376e89e295 110-122
+vllm_ascend/ops/fused_moe/router/fused_topk_router.py
+  s_e852a7e57a6823::t_b60a23a1900385 26,122-149,169-192,201-202,218,227-230,251,270
+vllm_ascend/ops/fused_moe/shared_experts.py
+  s_e852a7e57a6823::t_7361f5eefc1303 175,192-193,195-222,280-285,403-413,415-416,419-436,442-444,448-449,454-457,459-472,501-515,533-544,569-602,651-657
+vllm_ascend/ops/fused_moe/token_dispatcher.py
+  s_e852a7e57a6823::t_5f9811306b19ab 483-485,509-535,646-649,654-655,669-684,697-701,707-708,713-714,719-721,724-727,731-734
+vllm_ascend/ops/head_parallel.py
+  s_e852a7e57a6823::t_efacbd1ed85dd7 3,14,18,23,29,33,40,58,60-66,69,73,76-82,84-86,89,99
+vllm_ascend/ops/kimi_kda.py
+  s_e852a7e57a6823::t_1f0d89cc1fdfdf 24,31,40-45,47-48,58,72-78,102,216-237,263,325-326,338,347,358,372,396,399
+vllm_ascend/ops/kimi_mla.py
+  s_e852a7e57a6823::t_100c2399144188 17-20
+vllm_ascend/ops/layernorm.py
+  s_e852a7e57a6823::t_7ddf7801a06d7d 57-63
+vllm_ascend/ops/linear.py
+  s_e852a7e57a6823::t_7a4c4d95b03a2a 16-20,114-122,286,311-312
+vllm_ascend/ops/mla.py
+  s_e852a7e57a6823::t_5fc77134ed15dd 259,277
+vllm_ascend/ops/mmrs.py
+  s_e852a7e57a6823::t_3bda9390a4a5e7 1-185
+vllm_ascend/ops/packaged_attention.py
+  s_e852a7e57a6823::t_ca56faef7a2b12 619-632,636-638
+vllm_ascend/ops/recurrent_pcp.py
+  s_e852a7e57a6823::t_7089cd11d42803 3,6,13-18,21,24,34-35,38,40-46,53,55,57,82-84,87-88,90-93,99,103-107,112,120-121,123,126-127,129
+vllm_ascend/ops/triton/README.md
+  s_e852a7e57a6823::t_37e084c505f9e6 86,94,156,163,165-166
+vllm_ascend/ops/triton/block_table/compute_slot_mappings.py
+  s_e852a7e57a6823::t_7e4ba71f7bc79e 91-92,95,112
+vllm_ascend/ops/triton/compressor/compressor_triton.py
+  s_e852a7e57a6823::t_7692849aad6499 217,229-231,237,248-251,258,261,348-349,358,366-368,376-378,384,387,576,582,598,799,805,809,822
+vllm_ascend/ops/triton/dcp/dcp_a2a.py
+  s_e852a7e57a6823::t_b169c620d49b0b 8,12,19-22,27-80,513-599
+vllm_ascend/ops/triton/dcp/dcp_a2a_rank_tiled.py
+  s_e852a7e57a6823::t_a4a0d4d617d60b 1-151
+vllm_ascend/ops/triton/dcp/dcp_warmup.py
+  s_e852a7e57a6823::t_235a24b6dc9d0c 11,17,19-20,26-29,48-49,75-76,78,193-195,201-204,216-229,231-248
+vllm_ascend/ops/triton/docs/compressor.md
+  s_e852a7e57a6823::t_a812472afd756a 1-53
+vllm_ascend/ops/triton/docs/compute_slot_mappings.md
+  s_e852a7e57a6823::t_a0cf86ae46ad02 3-88
+vllm_ascend/ops/triton/docs/dcp_a2a_fused.md
+  s_e852a7e57a6823::t_c15f0af02715b2 83
+vllm_ascend/ops/triton/docs/dspark_swa_indices.md
+  s_e852a7e57a6823::t_112d02a814d577 13,16,32,43,45,62-63
+vllm_ascend/ops/triton/docs/eplb.md
+  s_e852a7e57a6823::t_a40093bc57b540 1-72
+vllm_ascend/ops/triton/docs/fused_add_rms_norm_cast.md
+  s_e852a7e57a6823::t_e72ced4c874ff1 1-75
+vllm_ascend/ops/triton/docs/fused_dcp_lse_combine.md
+  s_e852a7e57a6823::t_ad0545d8b36a5e 3,50-60
+vllm_ascend/ops/triton/docs/fused_gdn_gating.md
+  s_e852a7e57a6823::t_88ae72f2297884 7,17
+vllm_ascend/ops/triton/docs/fused_qkvzba_split_reshape.md
+  s_e852a7e57a6823::t_d4304b201c45f5 19,47
+vllm_ascend/ops/triton/docs/glm5_next_cann_keypool.md
+  s_e852a7e57a6823::t_7c8c53b753215e 7-8,11-12,57,59-61,65,82,86,97,102-109
+vllm_ascend/ops/triton/docs/hisparse.md
+  s_e852a7e57a6823::t_626951d6bebc8f 31-64,173,211-212,217-220
+vllm_ascend/ops/triton/docs/kda_recoverssm.md
+  s_e852a7e57a6823::t_6af12833950043 11-14,35-44,211-212,227-229,244
+vllm_ascend/ops/triton/docs/mamba_postprocess.md
+  s_e852a7e57a6823::t_fe5d14c6a90e8e 7-8,13-14,16-18,20,25,29-35,44-46,50,52,56-62,72-73,88-92
+vllm_ascend/ops/triton/docs/ple_lookup_quantized.md
+  s_e852a7e57a6823::t_26dd27abc2e948 16-17,37,52,54,59,75,102
+vllm_ascend/ops/triton/docs/prepare_dflash_inputs.md
+  s_e852a7e57a6823::t_f9b4d2c1dfa1e4 5-7,11-14,24-25,27,29-31,33,46-47,59-60,82-84,95,100,110,121-124,134,138,152-155,165
+vllm_ascend/ops/triton/docs/qwen4_exp_hc_combine_final.md
+  s_e852a7e57a6823::t_b7490479554ad9 1-50
+vllm_ascend/ops/triton/docs/qwen4_exp_hc_gate_mix.md
+  s_e852a7e57a6823::t_f9bcdf910811f0 1-232
+vllm_ascend/ops/triton/docs/qwen4_exp_qsa_dispatch.md
+  s_e852a7e57a6823::t_8d9753b0fded26 50-62
+vllm_ascend/ops/triton/docs/step5_gated_scale.md
+  s_e852a7e57a6823::t_b08db702d870e3 1-142
+vllm_ascend/ops/triton/docs/step5_indexer_qkz_norm_rope.md
+  s_e852a7e57a6823::t_5f6b2998e47cf3 1-164
+vllm_ascend/ops/triton/dspark_swa_indices.py
+  s_e852a7e57a6823::t_a0577a610a4111 48,66,74,76,455
+vllm_ascend/ops/triton/engram_gate_a3.py
+  s_e852a7e57a6823::t_6ee8c759826bfc 1-108
+vllm_ascend/ops/triton/eplb.py
+  s_e852a7e57a6823::t_6857af651e8ff9 4-6,8-9,12-13,15-31,39,44,47,57-147,158,162-165,171-172,190-191,198
+vllm_ascend/ops/triton/fla/chunk.py
+  s_e852a7e57a6823::t_311ca541c0e8a7 158-159,164-167
+vllm_ascend/ops/triton/gdn/gdn_recoverssm_commit.py
+  s_e852a7e57a6823::t_e72cf682331a10 346-369
+vllm_ascend/ops/triton/glm5_next_cann_keypool.py
+  s_e852a7e57a6823::t_4a14b709fdab83 7,21,39-40,64,72-75,78-80,85-92,101,119-120
+vllm_ascend/ops/triton/hisparse.py
+  s_e852a7e57a6823::t_3175a6e2c5593a 8-10,12-13,16-17,24-106
+vllm_ascend/ops/triton/kda/recoverssm.py
+  s_e852a7e57a6823::t_c94572aae89ff8 6,19-20,34-40,45,607-608,1186,1196-1201,1203-1204,1214-1217,1220
+vllm_ascend/ops/triton/mamba/postprocess.py
+  s_e852a7e57a6823::t_f23a799f557a3d 81-82,180,234-235
+vllm_ascend/ops/triton/mamba/precopy.py
+  s_e852a7e57a6823::t_2b9b55e579a3aa 164
+vllm_ascend/ops/triton/qwen4_exp/hc.py
+  s_e852a7e57a6823::t_a6d67f526d64f9 17-20,188-251,268-300,412-552,842
+vllm_ascend/ops/triton/qwen4_exp/ple_lookup_quantized.py
+  s_e852a7e57a6823::t_39f55b407171a9 15,39,52,54,72,75,99-112,120
+vllm_ascend/ops/triton/sample/categorical_sample.py
+  s_e852a7e57a6823::t_cd3040bfaff8c9 429-431
+vllm_ascend/ops/triton/spec_decode/prepare_dflash_inputs.py
+  s_e852a7e57a6823::t_448f89c3830f11 55,61,66,73,81,117,168,214,331,336-339,370-373,401
+vllm_ascend/ops/triton/step5/fused_add_rms_norm.py
+  s_e852a7e57a6823::t_b1020147a54862 1-109
+vllm_ascend/ops/triton/step5/gated_scale.py
+  s_e852a7e57a6823::t_32bbc256dad1c4 1-144
+vllm_ascend/ops/triton/step5/indexer_qkz_norm_rope.py
+  s_e852a7e57a6823::t_b4e317dc7da45c 1-584
+vllm_ascend/ops/vocab_parallel_embedding.py
+  s_e852a7e57a6823::t_0e190e08c272d4 21,88-93,99,145-156,159-162,165-176,179-181,224-226,237-238,418,542-546,551-553,558,561-563,634-636
+vllm_ascend/patch/__init__.py
+  s_e852a7e57a6823::t_a0ee35a5de5231 59,67-79,236-239,244-246,514,584,608-612,614-615,751-754,909,1376-1385,1453-1463,1526-1528,1530-1532,1534-1537,1539-1542,1587,1703-1704,1706-1708
+vllm_ascend/patch/platform/patch_balance_schedule.py
+  s_e852a7e57a6823::t_0ad0c506e87fbe 85,190,256-266,284,292,417-422,567-569,574-581,584,627,771-776,802-812,825,833,860,881-883
+vllm_ascend/patch/platform/patch_fused_moe.py
+  s_e852a7e57a6823::t_e881fc9b141ee1 77-79,147,222-226
+vllm_ascend/patch/platform/patch_kimi_k31_config.py
+  s_e852a7e57a6823::t_69133ab91f18e8 26-27,35-37,59-60
+vllm_ascend/patch/platform/patch_kv_cache_coordinator.py
+  s_e852a7e57a6823::t_79362a07aa73f8 242-244,506
+vllm_ascend/patch/platform/patch_pp_mtp.py
+  s_e852a7e57a6823::t_20344c0f1ef731 171
+vllm_ascend/patch/platform/patch_replayssm_config.py
+  s_e852a7e57a6823::t_19b3983febcb88 15,22-32
+vllm_ascend/patch/platform/patch_speculative_config.py
+  s_e852a7e57a6823::t_43dd084ff61e55 12
+vllm_ascend/patch/platform/patch_structured_output.py
+  s_e852a7e57a6823::t_0abe3cf8c85d3c 138-139,172
+vllm_ascend/patch/worker/__init__.py
+  s_e852a7e57a6823::t_bdbe9662693c66 74,82
+vllm_ascend/patch/worker/patch_attn_utils.py
+  s_e852a7e57a6823::t_2387d835be8950 9,39-88,111-126
+vllm_ascend/patch/worker/patch_block_table.py
+  s_e852a7e57a6823::t_6e580003e9c940 20,24,26-28,32-33,36
+vllm_ascend/patch/worker/patch_deepseek_v2.py
+  s_e852a7e57a6823::t_f728120a8ee1c2 338-340
+vllm_ascend/patch/worker/patch_dspark.py
+  s_e852a7e57a6823::t_da1c3b477aaa59 38-42,47,51,57,62-134,168,180-184
+vllm_ascend/patch/worker/patch_eagle_speculator.py
+  s_e852a7e57a6823::t_03f316d02f2e6b 20-21,23,25-26
+vllm_ascend/patch/worker/patch_idex_310.py
+  s_e852a7e57a6823::t_bc7f44c95bd64e 4,33
+vllm_ascend/patch/worker/patch_model_runner.py
+  s_e852a7e57a6823::t_eab6365e157690 17,104-107,146-147,210-215,223,225,227
+vllm_ascend/patch/worker/patch_model_state.py
+  s_e852a7e57a6823::t_ca8a04e4784026 20,22,28-38,45-48
+vllm_ascend/patch/worker/patch_qwen3_5.py
+  s_e852a7e57a6823::t_8a5fa32b6578c7 28,37,39,42-46,370-387,403-406,409,420
+vllm_ascend/patch/worker/patch_uva.py
+  s_e852a7e57a6823::t_3b20f4e7b44d92 259-265,268
+vllm_ascend/platform.py
+  s_e852a7e57a6823::t_c6534a42c798f2 45,64,106-222,532-536,760-761,774-775,796,1025-1037,1611-1622,1637,1640,1697,1700-1702,1923,1929,1931-1933,1961-1965,1967,2018-2020,2042-2054,2058-2096,2113-2114,2171,2291,2335-2338,2340-2341
+vllm_ascend/quantization/configs/compressed_tensors_config.py
+  s_e852a7e57a6823::t_0b57eb26570f0d 343-350,402-418
+vllm_ascend/quantization/methods/w4a8/w4a8.py
+  s_e852a7e57a6823::t_c73961b2882061 421-422,433-436,455-458
+vllm_ascend/quantization/methods/w4a8/w4a8_mxfp4.py
+  s_e852a7e57a6823::t_b3053353364d9d 249-251,331-339,406-411
+vllm_ascend/quantization/methods/w8a8/w8a8_dynamic.py
+  s_e852a7e57a6823::t_d73804f9774ee6 370-371,379-382,394-400,408-411
+vllm_ascend/quantization/methods/w8a8/w8a8_mxfp8.py
+  s_e852a7e57a6823::t_c916a36c641948 729-730
+vllm_ascend/quantization/utils.py
+  s_e852a7e57a6823::t_960367f8bdb1c0 20,33-35,262,264-278,281,283-298,305,308
+vllm_ascend/utils.py
+  s_e852a7e57a6823::t_b0380616848939 93-95,134-136,981,1015,1111,1668-1693,2007-2009,2012-2016
+vllm_ascend/worker/utils.py
+  s_e852a7e57a6823::t_0492df6d66e6fc 38,52
+vllm_ascend/worker/v2/aclgraph_utils.py
+  s_e852a7e57a6823::t_2230b191a39b76 50,92,104
+vllm_ascend/worker/v2/attn_utils.py
+  s_e852a7e57a6823::t_8643b5f75628dd 31,45,50,63,89,91-92,129,317-343,381,515,532-534,538-539,541-545,595-597,599-600,603,609,997,999-1007,1099,1336,1350-1351,1355,1361-1372,1542-1554,1612-1616,1621,1627,2046-2047
+vllm_ascend/worker/v2/block_table.py
+  s_e852a7e57a6823::t_e2e0d9396285b6 32-33,50-51,59,68-70,74,89-91
+vllm_ascend/worker/v2/model_runner.py
+  s_e852a7e57a6823::t_a42c0bcd9bb4fb 92,96-97,99,102,131,232,396,499-506,511,520-530,591,612,781,995,1030-1035,1156,1169,1229,1272-1277,1352-1365,1408-1410,1698,1703
+vllm_ascend/worker/v2/model_states/default.py
+  s_e852a7e57a6823::t_eac43b9443d71e 48,83-85,97-98,130-135,397-422,477-481,559,567-595,651,667-682
+vllm_ascend/worker/v2/model_states/mamba_hybrid.py
+  s_e852a7e57a6823::t_662ae051f84f8b 42,230,263,330-333,350,354-363,365-366
+vllm_ascend/worker/v2/pcp_manager.py
+  s_e852a7e57a6823::t_a15ded842f9351 20,26,57,65-114,169,230-235,239,659-661,664,666,669,691,693,725,727
+vllm_ascend/worker/v2/pp_transport.py
+  s_e852a7e57a6823::t_8cef6c070a45b6 13,15,59,272-449
+vllm_ascend/worker/v2/spec_decode/dflash/aclgraph.py
+  s_e852a7e57a6823::t_327baa531d49cb 27,38,45
+vllm_ascend/worker/v2/spec_decode/dflash/speculator.py
+  s_e852a7e57a6823::t_76e2962af83aca 19,24,40-45,48-94,98-100,156,158-168,220,252,255-258
+vllm_ascend/worker/v2/spec_decode/dspark/speculator.py
+  s_e852a7e57a6823::t_07af507974a65a 18-19,42,51,56,62,70-72,270-280,285-287,289-299,309-314,400,402,407-417,448,451-455,464
+vllm_ascend/worker/v2/spec_decode/multi_module_mtp/speculator.py
+  s_e852a7e57a6823::t_cf578983fd4b29 29,54-56,74,123,195,200-213,215,223-227,230-235,239-243
+vllm_ascend/worker/v2/spec_decode/pcp_utils.py
+  s_e852a7e57a6823::t_eb5a1c87d10305 8,10,12-38
+vllm_ascend/worker/v2/spec_decode/rejection_sampler_utils.py
+  s_e852a7e57a6823::t_acb355160743e8 356-364,367-372,426-453,479-503,507-534
+vllm_ascend/worker/v2/spec_decode/standalone_ar/speculator.py
+  s_e852a7e57a6823::t_307302ae20b5f0 21-23,54
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/aclgraph.py
+  s_e852a7e57a6823::t_72f7fa8e20fb1d 20,29-30,62,71-87,94,97,244,248,250
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/sparse_kv_offload.py
+  s_e852a7e57a6823::t_3a825a1f548f07 80,86-90
+vllm_ascend/worker/v2/spec_decode/target_dependent_ar/speculator.py
+  s_e852a7e57a6823::t_b3ea79fd438b26 29,50-51,74-77,82-84,132-133,152-156,170-176,201-211,236,242-244,254-256,447,457-459,461-469,522-526,672,726-739,747-748,751,755-771,787-788,800,802,821-827
+vllm_ascend/worker/v2/states.py
+  s_e852a7e57a6823::t_a3fe31d4cb8660 44
+vllm_ascend/worker/worker.py
+  s_e852a7e57a6823::t_0029ebf5bd8dd2 28,71,83,99-102,104,213,216,401-403,425,447,478-481,484-486,505-506,646-649,653-659,666-667,669,941-942,944,963-964,1245,1255,1258-1268,1304,1311-1313,1319-1320,1322,1325,1356
+vllm_ascend/xlite/xlite_worker.py
+  s_e852a7e57a6823::t_e3b31508a63410 28,30-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d37a6ba95e7b6570725f651c6d72417640ef2e98",
+  "prompts": {},
+  "sessions": {
+    "s_e852a7e57a6823": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e8d5-24ee-7ff0-9a6c-c1131c68cd5b",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "miaoruolin <miaoruolin@U-YXCDC6X4-2241.local>"
+    }
+  }
+}
